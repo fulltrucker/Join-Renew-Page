@@ -506,11 +506,11 @@ $url = array(
 					 'ind'    => 244, 
 					 'region' => 'Southwest', 
 					 'name'   => 'Colorado River Area Trail Alliance (CRATA)'),
-	'MBTV'	=> array(
+	'MBT'	=> array(
 					 'fam'    => 240, 
 					 'ind'    => 240, 
-					 'region' => 'Pacific', 
-					 'name'   => 'Mountain Bike Teton Valley (MBTV)'),
+					 'region' => 'Colorado-Wyoming', 
+					 'name'   => 'Mountain Bike the Tetons (MBT)'),
 	'PT'	=> array(
 					 'fam'    => 241, 
 					 'ind'    => 241, 
@@ -1284,7 +1284,7 @@ $state_list = array('AL'=>"Alabama",
 		<option class="42" value="99">Please Select</option>
 		<option class="42" value="<?=$url['BAMBA']['ind']?>"><?=$url['BAMBA']['name']?></option>
 		<option class="42" value="<?=$url['CIMBA']['ind']?>"><?=$url['CIMBA']['name']?></option>
-		<option class="42" value="<?=$url['MBTV']['ind']?>"><?=$url['MBTV']['name']?></option>
+		<option class="42" value="<?=$url['MBT']['ind']?>"><?=$url['MBT']['name']?></option>
 		<option class="42" value="<?=$url['SIMBA']['ind']?>"><?=$url['SIMBA']['name']?></option>
 		<option class="42" value="<?=$url['WRBC']['ind']?>"><?=$url['WRBC']['name']?></option>
 		<option class="42" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
@@ -1292,7 +1292,7 @@ $state_list = array('AL'=>"Alabama",
 		<option class="43" value="99">Please Select</option>
 		<option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Boise Area Mountain Bike Association (BAMBA)'?>">Boise Area Mountain Bike Association (BAMBA)</option>
 		<option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Central Idaho Mountain Bike Association (CIMBA)'?>">Central Idaho Mountain Bike Association (CIMBA)</option>
-		<option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Mountain Bike Teton Valley (MBTV)'?>">Mountain Bike Teton Valley (MBTV)</option>
+		<option class="43" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Mountain Bike the Tetons (MBT)'?>">Mountain Bike the Tetons (MBT)</option>
 		<option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Southern Idaho Mountain Biking Association (SIMBA)'?>">Southern Idaho Mountain Biking Association (SIMBA)</option>
 		<option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Wood River Bicycle Coalition (WRBC)'?>">Wood River Bicycle Coalition (WRBC)</option>
 		<option class="43" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
@@ -1679,12 +1679,12 @@ $state_list = array('AL'=>"Alabama",
 		<option class="37" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
 <!-- Wyoming -->
 		<option class="62" value="99">Please Select</option>
-		<option class="62" value="<?=$url['MBTV']['ind']?>"><?=$url['MBTV']['name']?></option>
+		<option class="62" value="<?=$url['MBT']['ind']?>"><?=$url['MBT']['name']?></option>
 	    <option class="62" value="<?=$url['BMCC']['ind']?>"><?=$url['BMCC']['name']?></option>
 		<option class="62" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
 <!-- Wyoming Retailer -->
 		<option class="63" value="99">Please Select</option>
-		<option class="63" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Mountain Bike Teton Valley (MBTV)'?>">Mountain Bike Teton Valley (MBTV)</option>
+		<option class="63" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Mountain Bike the Tetons (MBT)'?>">Mountain Bike the Tetons (MBT)</option>
 		<option class="63" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Bomber Mountain Cycling Club (BMCC)'?>">Bomber Mountain Cycling Club (BMCC)</option>
 		<option class="63" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
 	</select>
