@@ -675,7 +675,7 @@ $url = array(
 					 'fam'    => 300,
 					 'ind'    => 300,
 					 'region' => 'None',
-					 'name'   => 'Pedal United'),
+					 'name'   => 'Pedal United (PU)'),
 	'MCBC'	=> array(
 					 'fam'    => 301,
 					 'ind'    => 301,
@@ -1429,7 +1429,7 @@ $state_list = array('AL'=>"Alabama",
 <!-- Montana Retailer -->
 		<option class="73" value="99">Please Select</option>
 		<option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=Bitterroot Backcountry Cyclists (BBC)'?>">Bitterroot Backcountry Cyclists (BBC)</option>
-		<option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=Pedal United'?>">Pedal United</option>
+		<option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=Pedal United (PU)'?>">Pedal United (PU)</option>
 		<option class="73" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
 <!-- Nevada -->
 		<option class="40" value="99">Please Select</option>
