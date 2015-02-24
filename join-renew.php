@@ -681,11 +681,6 @@ $url = array(
 					 'ind'    => 300,
 					 'region' => 'None',
 					 'name'   => 'Pedal United (PU)'),
-	'MCBC'	=> array(
-					 'fam'    => 301,
-					 'ind'    => 301,
-					 'region' => 'Northern California',
-					 'name'   => 'Marin County Bicycle Coalition (MCBC)'),
 	'FAST'	=> array(
 					 'fam'    => 302,
 					 'ind'    => 302,
@@ -816,7 +811,7 @@ $state_list = array('AL'=>"Alabama",
 	<tr>		
 		<td class="content" width=696 height=449 valign=middle><div style="font-size:16px; padding:20px 100px 0;">
 		  <p><strong>If you love mountain biking and care about the environment, you belong with IMBA.</strong> That's because supporting IMBA is the most effective way for you to build, maintain and open the trails you love to ride.</p>
-		  <strong>Join those who are passionate enough to support the trails they ride on.</strong>
+		  <strong>Join with thousands of other riders who are passionate enough to support the trails they ride on.</strong>
 <p>
 	<center>
 		<label for="country"><strong>I live in </strong></label>
@@ -1168,7 +1163,6 @@ $state_list = array('AL'=>"Alabama",
 		<option class="16" value="<?=$url['IDYLLWILD']['fam']?>"><?=$url['IDYLLWILD']['name']?></option>
 		<option class="16" value="<?=$url['JMBA']['ind']?>"><?=$url['JMBA']['name']?></option>
 		<option class="16" value="<?=$url['LCTC']['ind']?>"><?=$url['LCTC']['name']?></option>
-		<option class="16" value="<?=$url['MCBC']['ind']?>"><?=$url['MCBC']['name']?></option>
 		<option class="16" value="<?=$morca_ind_url?>">Monterey Off Road Cycling Association (MORCA)</option>
 		<option class="16" value="<?=$url['MSMBA']['ind']?>"><?=$url['MSMBA']['name']?></option>
 		<option class="16" value="<?=$url['MBoSC']['ind']?>"><?=$url['MBoSC']['name']?></option>
@@ -1191,7 +1185,6 @@ $state_list = array('AL'=>"Alabama",
 		<option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Idyllwild Cycling'?>">Idyllwild Cycling</option>
 		<option class="17" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Jefferson Mountain Bike Association (JMBA)'?>">Jefferson Mountain Bike Association (JMBA)</option>
 		<option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Lake County Trails Coalition (LCTC)'?>">Lake County Trails Coalition (LCTC)</option>
-		<option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Marin County Bicycle Coalition (MCBC)'?>">Marin County Bicycle Coalition (MCBC)</option>
 		<option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Monterey Off Road Cycling Association (MORCA)'?>">Monterey Off Road Cycling Association (MORCA)</option>
 		<option class="17" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Mount Shasta Mountain Bike Association (MSMBA)'?>">Mount Shasta Mountain Bike Association (MSMBA)</option>
 		<option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Mountain Bikers of Santa Cruz (MBoSC)'?>">Mountain Bikers of Santa Cruz (MBoSC)</option>
