@@ -810,7 +810,8 @@ $state_list = array('AL'=>"Alabama",
   <div><img src="https://www.imba.com/sites/default/files/SpringMemberDrive_hdr1.jpg" alt="Be A Link In The Chain" title="Be A Link In The Chain" style="max-width:100%;margin:0px;padding:0px;" /></div>
   <div style="padding:7px 17px;">
     <h1 style="font-family:'ConduitITCMediumRegular'; font-size: 34px; text-transform: uppercase; font-weight: normal; line-height: 40px;">If you love mountain biking, you belong with IMBA. </h1>
-    <p style="font-size: 1.2em; line-height: 1.4em;">Joining your local IMBA chapter is the most effective way for you to build and maintain the amazing trails you love to ride. Your membership dues support your local chapters work, and IMBA's efforts nationwide. During the month of March, your membership enters you to win great prizes, like a Scott Genius mountain bike, or a VIP mountain bike trip to the Burning Can Festival at The Oskar Blues REEB Ranch in Brevard, NC! Sign up now and check out the prize details below.</p>
+     <p style="font-size: 1.2em; line-height: 1.4em;">The International Mountain Bicycling Association (IMBA) believes access to sustainable mountain bike trails is critical to recreation and land conservation. Every day, we work to educate trail users for a strong future, because without stewards and advocates of the trails, mountain bike experiences will be limited or lost.</p>
+<p style="font-size: 1.2em; line-height: 1.4em;">Joining your local IMBA chapter is the most effective way for you to build and maintain the amazing trails you love to ride. Your membership dues support your local chapter's work, and IMBA's efforts nationwide. During the month of March, your membership enters you to win great prizes, like a Scott Genius mountain bike, or a VIP mountain bike trip to the Burning Can Festival at The Oskar Blues REEB Ranch in Brevard, NC! Sign up now and check out the prize details below.</p>
     <p style="font-size: 1.2em; line-height: 1.4em;"><strong>Join with thousands of other riders who are passionate enough to support the trails they ride on.</strong></p>
     <div style="text-align: center;">
       <div style="background-color: #8f0002; color: #ffffff; padding: 17px; margin: 0 auto; width: 760px; text-align: left;">
@@ -1144,9 +1145,7 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Alabama -->
                     <option class="12" value="99">Please Select</option>
                     <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Birmingham Urban Mountain Pedalers (BUMP)'?>">Birmingham Urban Mountain Pedalers (BUMP)</option>
-                    <option class="12" value="<?=$url['CAMP']['ind']?>">
-                    <?=$url['CAMP']['name']?>
-                    </option>
+                    <option class="12" value="<?=$url['CAMP']['ind']?>"><?=$url['CAMP']['name']?></option>
                     <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Huntsville'?>">SORBA Huntsville</option>
                     <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
                     <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Northeast Alabama Bicycle Association (NEABA)'?>">Northeast Alabama Bicycle Association (NEABA)</option>
@@ -1169,18 +1168,10 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Alaska Retailer --> 
                     <!-- Arizona -->
                     <option class="30" value="99">Please Select</option>
-                    <option class="30" value="<?=$url['CRATA']['ind']?>">
-                    <?=$url['CRATA']['name']?>
-                    </option>
-                    <option class="30" value="<?=$url['DFMBA']['ind']?>">
-                    <?=$url['DFMBA']['name']?>
-                    </option>
-                    <option class="30" value="<?=$url['PMBA']['ind']?>">
-                    <?=$url['PMBA']['name']?>
-                    </option>
-                    <option class="30" value="<?=$url['SDMB']['ind']?>">
-                    <?=$url['SDMB']['name']?>
-                    </option>
+                    <option class="30" value="<?=$url['CRATA']['ind']?>"><?=$url['CRATA']['name']?></option>
+                    <option class="30" value="<?=$url['DFMBA']['ind']?>"><?=$url['DFMBA']['name']?></option>
+                    <option class="30" value="<?=$url['PMBA']['ind']?>"><?=$url['PMBA']['name']?></option>
+                    <option class="30" value="<?=$url['SDMB']['ind']?>"><?=$url['SDMB']['name']?></option>
                     <option class="30" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Arizona Retailer -->
                     <option class="31" value="99">Please Select</option>
@@ -1191,15 +1182,9 @@ $state_list = array('AL'=>"Alabama",
                     <option class="31" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Arkansas -->
                     <option class="66" value="99">Please Select</option>
-                    <option class="66" value="<?=$url['CATA']['ind']?>">
-                    <?=$url['CATA']['name']?>
-                    </option>
-                    <option class="66" value="<?=$url['FAST']['ind']?>">
-                    <?=$url['FAST']['name']?>
-                    </option>
-                    <option class="66" value="<?=$url['OORC']['ind']?>">
-                    <?=$url['OORC']['name']?>
-                    </option>
+                    <option class="66" value="<?=$url['CATA']['ind']?>"><?=$url['CATA']['name']?></option>
+                    <option class="66" value="<?=$url['FAST']['ind']?>"><?=$url['FAST']['name']?></option>
+                    <option class="66" value="<?=$url['OORC']['ind']?>"><?=$url['OORC']['name']?></option>
                     <option class="66" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Arkansas Retailer -->
                     <option class="67" value="99">Please Select</option>
@@ -1209,59 +1194,25 @@ $state_list = array('AL'=>"Alabama",
                     <option class="67" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- California -->
                     <option class="16" value="99">Please Select</option>
-                    <option class="16" value="<?=$url['BONC']['ind']?>">
-                    <?=$url['BONC']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['CCORC']['ind']?>">
-                    <?=$url['CCORC']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['CCCMB']['ind']?>">
-                    <?=$url['CCCMB']['name']?>
-                    </option>
+                    <option class="16" value="<?=$url['BONC']['ind']?>"><?=$url['BONC']['name']?></option>
+                    <option class="16" value="<?=$url['CCORC']['ind']?>"><?=$url['CCORC']['name']?></option>
+                    <option class="16" value="<?=$url['CCCMB']['ind']?>"><?=$url['CCCMB']['name']?></option>
                     <option class="16" value="<?=$corba_ind_url?>">Concerned Off-Road Bicyclists Association (CORBA)</option>
-                    <option class="16" value="<?=$url['CRATA']['ind']?>">
-                    <?=$url['CRATA']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['FATRAC']['ind']?>">
-                    <?=$url['FATRAC']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['GTH']['ind']?>">
-                    <?=$url['GTH']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['IDYLLWILD']['fam']?>">
-                    <?=$url['IDYLLWILD']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['JMBA']['ind']?>">
-                    <?=$url['JMBA']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['LCTC']['ind']?>">
-                    <?=$url['LCTC']['name']?>
-                    </option>
+                    <option class="16" value="<?=$url['CRATA']['ind']?>"><?=$url['CRATA']['name']?></option>
+                    <option class="16" value="<?=$url['FATRAC']['ind']?>"><?=$url['FATRAC']['name']?></option>
+                    <option class="16" value="<?=$url['GTH']['ind']?>"><?=$url['GTH']['name']?></option>
+                    <option class="16" value="<?=$url['IDYLLWILD']['fam']?>"><?=$url['IDYLLWILD']['name']?></option>
+                    <option class="16" value="<?=$url['JMBA']['ind']?>"><?=$url['JMBA']['name']?></option>
+                    <option class="16" value="<?=$url['LCTC']['ind']?>"><?=$url['LCTC']['name']?></option>
                     <option class="16" value="<?=$morca_ind_url?>">Monterey Off Road Cycling Association (MORCA)</option>
-                    <option class="16" value="<?=$url['MSMBA']['ind']?>">
-                    <?=$url['MSMBA']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['MBoSC']['ind']?>">
-                    <?=$url['MBoSC']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['MWBA']['ind']?>">
-                    <?=$url['MWBA']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['RCMBA']['ind']?>">
-                    <?=$url['RCMBA']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['SDMBA']['ind']?>">
-                    <?=$url['SDMBA']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['SBMTV']['ind']?>">
-                    <?=$url['SBMTV']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['SHARE']['ind']?>">
-                    <?=$url['SHARE']['name']?>
-                    </option>
-                    <option class="16" value="<?=$url['SVMTB']['ind']?>">
-                    <?=$url['SVMTB']['name']?>
-                    </option>
+                    <option class="16" value="<?=$url['MSMBA']['ind']?>"><?=$url['MSMBA']['name']?></option>
+                    <option class="16" value="<?=$url['MBoSC']['ind']?>"><?=$url['MBoSC']['name']?></option>
+                    <option class="16" value="<?=$url['MWBA']['ind']?>"><?=$url['MWBA']['name']?></option>
+                    <option class="16" value="<?=$url['RCMBA']['ind']?>"><?=$url['RCMBA']['name']?></option>
+                    <option class="16" value="<?=$url['SDMBA']['ind']?>"><?=$url['SDMBA']['name']?></option>
+                    <option class="16" value="<?=$url['SBMTV']['ind']?>"><?=$url['SBMTV']['name']?></option>
+                    <option class="16" value="<?=$url['SHARE']['ind']?>"><?=$url['SHARE']['name']?></option>
+                    <option class="16" value="<?=$url['SVMTB']['ind']?>"><?=$url['SVMTB']['name']?></option>
                     <option class="16" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- California Retailer -->
                     <option class="17" value="99">Please Select</option>
@@ -1287,34 +1238,16 @@ $state_list = array('AL'=>"Alabama",
                     <option class="17" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Colorado -->
                     <option class="14" value="99">Please Select</option>
-                    <option class="14" value="<?=$url['BMA']['ind']?>">
-                    <?=$url['BMA']['name']?>
-                    </option>
-                    <option class="14" value="<?=$url['CCW']['ind']?>">
-                    <?=$url['CCW']['name']?>
-                    </option>
+                    <option class="14" value="<?=$url['BMA']['ind']?>"><?=$url['BMA']['name']?></option>
+                    <option class="14" value="<?=$url['CCW']['ind']?>"><?=$url['CCW']['name']?></option>
                     <option class="14" value="<?=$comba_ind_url?>">Colorado Mountain Bike Association (COMBA)</option>
-                    <option class="14" value="<?=$url['GMBA']['ind']?>">
-                    <?=$url['GMBA']['name']?>
-                    </option>
-                    <option class="14" value="<?=$url['MWTA']['ind']?>">
-                    <?=$url['MWTA']['name']?>
-                    </option>
-                    <option class="14" value="<?=$url['RFMBA']['ind']?>">
-                    <?=$url['RFMBA']['name']?>
-                    </option>
-                    <option class="14" value="<?=$url['RCR']['ind']?>">
-                    <?=$url['RCR']['name']?>
-                    </option>
-                    <option class="14" value="<?=$url['SMBA']['ind']?>">
-                    <?=$url['SMBA']['name']?>
-                    </option>
-                    <option class="14" value="<?=$url['SMBC-CO']['ind']?>">
-                    <?=$url['SMBC-CO']['name']?>
-                    </option>
-                    <option class="14" value="<?=$url['SFTS']['ind']?>">
-                    <?=$url['SFTS']['name']?>
-                    </option>
+                    <option class="14" value="<?=$url['GMBA']['ind']?>"><?=$url['GMBA']['name']?></option>
+                    <option class="14" value="<?=$url['MWTA']['ind']?>"><?=$url['MWTA']['name']?></option>
+                    <option class="14" value="<?=$url['RFMBA']['ind']?>"><?=$url['RFMBA']['name']?></option>
+                    <option class="14" value="<?=$url['RCR']['ind']?>"><?=$url['RCR']['name']?></option>
+                    <option class="14" value="<?=$url['SMBA']['ind']?>"><?=$url['SMBA']['name']?></option>
+                    <option class="14" value="<?=$url['SMBC-CO']['ind']?>"><?=$url['SMBC-CO']['name']?></option>
+                    <option class="14" value="<?=$url['SFTS']['ind']?>"><?=$url['SFTS']['name']?></option>
                     <option class="14" value="<?=$vvmba_ind_url?>">Vail Valley Mountain Bike Association (VVMBA)</option>
                     <option class="14" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Colorado Retailer -->
@@ -1341,9 +1274,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="5" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- District of Columbia -->
                     <option class="64" value="99">Please Select</option>
-                    <option class="64" value="<?=$url['MORE']['ind']?>">
-                    <?=$url['MORE']['name']?>
-                    </option>
+                    <option class="64" value="<?=$url['MORE']['ind']?>"><?=$url['MORE']['name']?></option>
                     <option class="64" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- District of Columbia Retailer -->
                     <option class="65" value="99">Please Select</option>
@@ -1375,14 +1306,10 @@ $state_list = array('AL'=>"Alabama",
                     <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Ocmulgee Mountain Biking Association (OMBA Middle Georgia)'?>">Ocmulgee Mountain Biking Association (OMBA Middle Georgia)</option>
                     <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Northeast Georgia SORBA'?>">Northeast Georgia SORBA</option>
                     <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Northwest Georgia SORBA'?>">Northwest Georgia SORBA</option>
-                    <option class="22" value="<?=$url['RAMBO']['ind']?>">
-                    <?=$url['RAMBO']['name']?>
-                    </option>
+                    <option class="22" value="<?=$url['RAMBO']['ind']?>"><?=$url['RAMBO']['name']?></option>
                     <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA West Georgia'?>">SORBA West Georgia</option>
                     <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Woodstock'?>">SORBA Woodstock</option>
-                    <option class="22" value="<?=$url['SEGA']['ind']?>">
-                    <?=$url['SEGA']['name']?>
-                    </option>
+                    <option class="22" value="<?=$url['SEGA']['ind']?>"><?=$url['SEGA']['name']?></option>
                     <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Georgia Retailer -->
                     <option class="23" value="99">Please Select</option>
@@ -1403,12 +1330,8 @@ $state_list = array('AL'=>"Alabama",
                     <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Hawaii -->
                     <option class="48" value="99">Please Select</option>
-                    <option class="48" value="<?=$url['MMBC']['ind']?>">
-                    <?=$url['MMBC']['name']?>
-                    </option>
-                    <option class="48" value="<?=$url['OMTBO']['ind']?>">
-                    <?=$url['OMTBO']['name']?>
-                    </option>
+                    <option class="48" value="<?=$url['MMBC']['ind']?>"><?=$url['MMBC']['name']?></option>
+                    <option class="48" value="<?=$url['OMTBO']['ind']?>"><?=$url['OMTBO']['name']?></option>
                     <option class="48" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Hawaii Retailer -->
                     <option class="49" value="99">Please Select</option>
@@ -1417,21 +1340,11 @@ $state_list = array('AL'=>"Alabama",
                     <option class="49" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Idaho -->
                     <option class="42" value="99">Please Select</option>
-                    <option class="42" value="<?=$url['BAMBA']['ind']?>">
-                    <?=$url['BAMBA']['name']?>
-                    </option>
-                    <option class="42" value="<?=$url['CIMBA']['ind']?>">
-                    <?=$url['CIMBA']['name']?>
-                    </option>
-                    <option class="42" value="<?=$url['MBT']['ind']?>">
-                    <?=$url['MBT']['name']?>
-                    </option>
-                    <option class="42" value="<?=$url['SIMBA']['ind']?>">
-                    <?=$url['SIMBA']['name']?>
-                    </option>
-                    <option class="42" value="<?=$url['WRBC']['ind']?>">
-                    <?=$url['WRBC']['name']?>
-                    </option>
+                    <option class="42" value="<?=$url['BAMBA']['ind']?>"><?=$url['BAMBA']['name']?></option>
+                    <option class="42" value="<?=$url['CIMBA']['ind']?>"><?=$url['CIMBA']['name']?></option>
+                    <option class="42" value="<?=$url['MBT']['ind']?>"><?=$url['MBT']['name']?></option>
+                    <option class="42" value="<?=$url['SIMBA']['ind']?>"><?=$url['SIMBA']['name']?></option>
+                    <option class="42" value="<?=$url['WRBC']['ind']?>"><?=$url['WRBC']['name']?></option>
                     <option class="42" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Idaho Retailer -->
                     <option class="43" value="99">Please Select</option>
@@ -1443,21 +1356,15 @@ $state_list = array('AL'=>"Alabama",
                     <option class="43" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Indiana -->
                     <option class="38" value="99">Please Select</option>
-                    <option class="38" value="<?=$url['EMBA']['ind']?>">
-                    <?=$url['EMBA']['name']?>
-                    </option>
-                    <option class="38" value="<?=$url['HMBA']['ind']?>">
-                    <?=$url['HMBA']['name']?>
-                    </option>
-                    <option class="38" value="<?=$url['NITRO']['ind']?>">
-                    <?=$url['NITRO']['name']?>
-                    </option>
-                    <option class="38" value="<?=$url['NIMBA']['ind']?>">
-                    <?=$url['NIMBA']['name']?>
-                    </option>
+                    <option class="38" value="<?=$url['CORA']['ind']?>"><?=$url['CORA']['name']?></option>
+                    <option class="38" value="<?=$url['EMBA']['ind']?>"><?=$url['EMBA']['name']?></option>
+                    <option class="38" value="<?=$url['HMBA']['ind']?>"><?=$url['HMBA']['name']?></option>
+                    <option class="38" value="<?=$url['NITRO']['ind']?>"><?=$url['NITRO']['name']?></option>
+                    <option class="38" value="<?=$url['NIMBA']['ind']?>"><?=$url['NIMBA']['name']?></option>
                     <option class="38" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Indiana Retailer -->
                     <option class="39" value="99">Please Select</option>
+                    <option class="39" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Cincinnati Off-Road Alliance (CORA)'?>">Cincinnati Off-Road Alliance (CORA)</option>
                     <option class="39" value="<?=$retail_url . '&custom_76=Evansville Mountain Bike Association (EMBA)'?>">Evansville Mountain Bike Association (EMBA)</option>
                     <option class="39" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Hoosier Mountain Bike Association (HMBA)'?>">Hoosier Mountain Bike Association (HMBA)</option>
                     <option class="39" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Northeast Indiana Trail Riders Organization (NITRO)'?>">Northeast Indiana Trail Riders Organization (NITRO)</option>
@@ -1465,12 +1372,8 @@ $state_list = array('AL'=>"Alabama",
                     <option class="39" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Illinois -->
                     <option class="60" value="99">Please Select</option>
-                    <option class="60" value="<?=$url['CILTA']['ind']?>">
-                    <?=$url['CILTA']['name']?>
-                    </option>
-                    <option class="60" value="<?=$url['CAMBr']['ind']?>">
-                    <?=$url['CAMBr']['name']?>
-                    </option>
+                    <option class="60" value="<?=$url['CILTA']['ind']?>"><?=$url['CILTA']['name']?></option>
+                    <option class="60" value="<?=$url['CAMBr']['ind']?>"><?=$url['CAMBr']['name']?></option>
                     <option class="60" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Illinois Retailer -->
                     <option class="61" value="99">Please Select</option>
@@ -1480,9 +1383,7 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Iowa -->
                     <option class="28" value="99">Please Select</option>
                     <option class="28" value="<?=$cita_ind_url?>">Central Iowa Trail Association (CITA)</option>
-                    <option class="28" value="<?=$url['LAMBA']['ind']?>">
-                    <?=$url['LAMBA']['name']?>
-                    </option>
+                    <option class="28" value="<?=$url['LAMBA']['ind']?>"><?=$url['LAMBA']['name']?></option>
                     <option class="28" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Iowa Retailer -->
                     <option class="29" value="99">Please Select</option>
@@ -1491,18 +1392,14 @@ $state_list = array('AL'=>"Alabama",
                     <option class="29" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Kentucky -->
                     <option class="56" value="99">Please Select</option>
-                    <option class="56" value="<?=$url['EMBA']['ind']?>">
-                    <?=$url['EMBA']['name']?>
-                    </option>
-                    <option class="56" value="<?=$url['KyMBA Louisville']['ind']?>">
-                    <?=$url['KyMBA Louisville']['name']?>
-                    </option>
-                    <option class="56" value="<?=$url['SKYMBA']['fam']?>">
-                    <?=$url['SKYMBA']['name']?>
-                    </option>
+                    <option class="56" value="<?=$url['CORA']['ind']?>"><?=$url['CORA']['name']?></option>
+                    <option class="56" value="<?=$url['EMBA']['ind']?>"><?=$url['EMBA']['name']?></option>
+                    <option class="56" value="<?=$url['KyMBA Louisville']['ind']?>"><?=$url['KyMBA Louisville']['name']?></option>
+                    <option class="56" value="<?=$url['SKYMBA']['fam']?>"><?=$url['SKYMBA']['name']?></option>
                     <option class="56" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Kentucky Retailer -->
                     <option class="57" value="99">Please Select</option>
+                    <option class="57" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Cincinnati Off-Road Alliance (CORA)'?>">Cincinnati Off-Road Alliance (CORA)</option>
                     <option class="57" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Evansville Mountain Bike Association (EMBA)'?>">Evansville Mountain Bike Association (EMBA)</option>
                     <option class="57" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Kentucky Mountain Bike Association - Louisville (KyMBA Louisville)'?>">Kentucky Mountain Bike Association - Louisville (KyMBA Louisville)</option>
                     <option class="57" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Southwest Kentucky Mountain Bike Association (SKyMBA)'?>">Southwest Kentucky Mountain Bike Association (SKyMBA)</option>
@@ -1510,15 +1407,9 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Maryland -->
                     <option class="46" value="99">Please Select</option>
                     <option class="46" value="<?=$dts_ind_url?>">Delaware Trail Spinners (DTS)</option>
-                    <option class="46" value="<?=$url['ESIMBA']['ind']?>">
-                    <?=$url['ESIMBA']['name']?>
-                    </option>
-                    <option class="46" value="<?=$url['MORE']['ind']?>">
-                    <?=$url['MORE']['name']?>
-                    </option>
-                    <option class="46" value="<?=$url['SMMB']['ind']?>">
-                    <?=$url['SMMB']['name']?>
-                    </option>
+                    <option class="46" value="<?=$url['ESIMBA']['ind']?>"><?=$url['ESIMBA']['name']?></option>
+                    <option class="46" value="<?=$url['MORE']['ind']?>"><?=$url['MORE']['name']?></option>
+                    <option class="46" value="<?=$url['SMMB']['ind']?>"><?=$url['SMMB']['name']?></option>
                     <option class="46" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Maryland Retailer -->
                     <option class="47" value="99">Please Select</option>
@@ -1530,39 +1421,17 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Michigan -->
                     <option class="32" value="99">Please Select</option>
                     <option class="32" value="<?=$chtc_ind_url?>">Copper Harbor Trails Club (CTHC)</option>
-                    <option class="32" value="<?=$url['CRAMBA']['ind']?>">
-                    <?=$url['CRAMBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['MEMBA']['ind']?>">
-                    <?=$url['MEMBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['MMMBA']['ind']?>">
-                    <?=$url['MMMBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['MCMBA']['ind']?>">
-                    <?=$url['MCMBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['NIMBA']['ind']?>">
-                    <?=$url['NIMBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['NMMBA']['ind']?>">
-                    <?=$url['NMMBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['Poto MBA']['ind']?>">
-                    <?=$url['Poto MBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['RAMBA']['ind']?>">
-                    <?=$url['RAMBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['SWMMBA']['ind']?>">
-                    <?=$url['SWMMBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['TOMMBA']['ind']?>">
-                    <?=$url['TOMMBA']['name']?>
-                    </option>
-                    <option class="32" value="<?=$url['WMMBA']['ind']?>">
-                    <?=$url['WMMBA']['name']?>
-                    </option>
+                    <option class="32" value="<?=$url['CRAMBA']['ind']?>"><?=$url['CRAMBA']['name']?></option>
+                    <option class="32" value="<?=$url['MEMBA']['ind']?>"><?=$url['MEMBA']['name']?></option>
+                    <option class="32" value="<?=$url['MMMBA']['ind']?>"><?=$url['MMMBA']['name']?></option>
+                    <option class="32" value="<?=$url['MCMBA']['ind']?>"><?=$url['MCMBA']['name']?></option>
+                    <option class="32" value="<?=$url['NIMBA']['ind']?>"><?=$url['NIMBA']['name']?></option>
+                    <option class="32" value="<?=$url['NMMBA']['ind']?>"><?=$url['NMMBA']['name']?></option>
+                    <option class="32" value="<?=$url['Poto MBA']['ind']?>"><?=$url['Poto MBA']['name']?></option>
+                    <option class="32" value="<?=$url['RAMBA']['ind']?>"><?=$url['RAMBA']['name']?></option>
+                    <option class="32" value="<?=$url['SWMMBA']['ind']?>"><?=$url['SWMMBA']['name']?></option>
+                    <option class="32" value="<?=$url['TOMMBA']['ind']?>"><?=$url['TOMMBA']['name']?></option>
+                    <option class="32" value="<?=$url['WMMBA']['ind']?>"><?=$url['WMMBA']['name']?></option>
                     <option class="32" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Michigan Retailer -->
                     <option class="33" value="99">Please Select</option>
@@ -1582,37 +1451,17 @@ $state_list = array('AL'=>"Alabama",
                     <option class="33" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Minnesota -->
                     <option class="2" value="99">Please Select</option>
-                    <option class="2" value="<?=$url['CROCT']['ind']?>">
-                    <?=$url['CROCT']['name']?>
-                    </option>
-                    <option class="2" value="<?=$url['CLMTBC']['ind']?>">
-                    <?=$url['CLMTBC']['name']?>
-                    </option>
-                    <option class="2" value="<?=$url['COGGS']['ind']?>">
-                    <?=$url['COGGS']['name']?>
-                    </option>
-                    <option class="2" value="<?=$url['GRIMBA']['ind']?>">
-                    <?=$url['GRIMBA']['name']?>
-                    </option>
-                    <option class="2" value="<?=$url['IROC']['ind']?>">
-                    <?=$url['IROC']['name']?>
-                    </option>
-                    <option class="2" value="<?=$url['MAMB']['ind']?>">
-                    <?=$url['MAMB']['name']?>
-                    </option>
+                    <option class="2" value="<?=$url['CROCT']['ind']?>"><?=$url['CROCT']['name']?></option>
+                    <option class="2" value="<?=$url['CLMTBC']['ind']?>"><?=$url['CLMTBC']['name']?></option>
+                    <option class="2" value="<?=$url['COGGS']['ind']?>"><?=$url['COGGS']['name']?></option>
+                    <option class="2" value="<?=$url['GRIMBA']['ind']?>"><?=$url['GRIMBA']['name']?></option>
+                    <option class="2" value="<?=$url['IROC']['ind']?>"><?=$url['IROC']['name']?></option>
+                    <option class="2" value="<?=$url['MAMB']['ind']?>"><?=$url['MAMB']['name']?></option>
                     <option class="2" value="<?=$morc_ind_url?>">Minnesota Off-Road Cyclists (MORC)</option>
-                    <option class="2" value="<?=$url['RAMBO-MN']['ind']?>">
-                    <?=$url['RAMBO-MN']['name']?>
-                    </option>
-                    <option class="2" value="<?=$url['SCA']['ind']?>">
-                    <?=$url['SCA']['name']?>
-                    </option>
-                    <option class="2" value="<?=$url['WAMB']['ind']?>">
-                    <?=$url['WAMB']['name']?>
-                    </option>
-                    <option class="2" value="<?=$url['WBC']['ind']?>">
-                    <?=$url['WBC']['name']?>
-                    </option>
+                    <option class="2" value="<?=$url['RAMBO-MN']['ind']?>"><?=$url['RAMBO-MN']['name']?></option>
+                    <option class="2" value="<?=$url['SCA']['ind']?>"><?=$url['SCA']['name']?></option>
+                    <option class="2" value="<?=$url['WAMB']['ind']?>"><?=$url['WAMB']['name']?></option>
+                    <option class="2" value="<?=$url['WBC']['ind']?>"><?=$url['WBC']['name']?></option>
                     <option class="2" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Minnesota Retailer -->
                     <option class="3" value="99">Please Select</option>
@@ -1630,9 +1479,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="3" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Missouri -->
                     <option class="70" value="99">Please Select</option>
-                    <option class="70" value="<?=$url['MORC-MO']['ind']?>">
-                    <?=$url['MORC-MO']['name']?>
-                    </option>
+                    <option class="70" value="<?=$url['MORC-MO']['ind']?>"><?=$url['MORC-MO']['name']?></option>
                     <option class="70" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Missouri Retailer -->
                     <option class="71" value="99">Please Select</option>
@@ -1640,12 +1487,8 @@ $state_list = array('AL'=>"Alabama",
                     <option class="71" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Montana -->
                     <option class="72" value="99">Please Select</option>
-                    <option class="72" value="<?=$url['BBC']['ind']?>">
-                    <?=$url['BBC']['name']?>
-                    </option>
-                    <option class="72" value="<?=$url['PU']['ind']?>">
-                    <?=$url['PU']['name']?>
-                    </option>
+                    <option class="72" value="<?=$url['BBC']['ind']?>"><?=$url['BBC']['name']?></option>
+                    <option class="72" value="<?=$url['PU']['ind']?>"><?=$url['PU']['name']?></option>
                     <option class="72" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Montana Retailer -->
                     <option class="73" value="99">Please Select</option>
@@ -1654,9 +1497,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="73" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Nevada -->
                     <option class="40" value="99">Please Select</option>
-                    <option class="40" value="<?=$url['SNMBA']['ind']?>">
-                    <?=$url['SNMBA']['name']?>
-                    </option>
+                    <option class="40" value="<?=$url['SNMBA']['ind']?>"><?=$url['SNMBA']['name']?></option>
                     <option class="40" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Nevada Retailer -->
                     <option class="41" value="99">Please Select</option>
@@ -1664,18 +1505,10 @@ $state_list = array('AL'=>"Alabama",
                     <option class="41" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- New Mexico -->
                     <option class="34" value="99">Please Select</option>
-                    <option class="34" value="<?=$url['DNMA']['ind']?>">
-                    <?=$url['DNMA']['name']?>
-                    </option>
-                    <option class="34" value="<?=$url['FooMTB']['ind']?>">
-                    <?=$url['FooMTB']['name']?>
-                    </option>
-                    <option class="34" value="<?=$url['GT']['ind']?>">
-                    <?=$url['GT']['name']?>
-                    </option>
-                    <option class="34" value="<?=$url['LASA']['ind']?>">
-                    <?=$url['LASA']['name']?>
-                    </option>
+                    <option class="34" value="<?=$url['DNMA']['ind']?>"><?=$url['DNMA']['name']?></option>
+                    <option class="34" value="<?=$url['FooMTB']['ind']?>"><?=$url['FooMTB']['name']?></option>
+                    <option class="34" value="<?=$url['GT']['ind']?>"><?=$url['GT']['name']?></option>
+                    <option class="34" value="<?=$url['LASA']['ind']?>"><?=$url['LASA']['name']?></option>
                     <option class="34" value="<?=$sffts_ind_url?>">Santa Fe Fat Tire Society (SFFTS)</option>
                     <option class="34" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- New Mexico Retailer -->
@@ -1688,24 +1521,12 @@ $state_list = array('AL'=>"Alabama",
                     <option class="35" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- New York -->
                     <option class="44" value="99">Please Select</option>
-                    <option class="44" value="<?=$url['CAMBA-NY']['ind']?>">
-                    <?=$url['CAMBA-NY']['name']?>
-                    </option>
-                    <option class="44" value="<?=$url['Cycle-CNY']['ind']?>">
-                    <?=$url['Cycle-CNY']['name']?>
-                    </option>
-                    <option class="44" value="<?=$url['FCBC']['ind']?>">
-                    <?=$url['FCBC']['name']?>
-                    </option>
-                    <option class="44" value="<?=$url['GROC']['ind']?>">
-                    <?=$url['GROC']['name']?>
-                    </option>
-                    <option class="44" value="<?=$url['NYCMTB']['ind']?>">
-                    <?=$url['NYCMTB']['name']?>
-                    </option>
-                    <option class="44" value="<?=$url['WNYMBA']['ind']?>">
-                    <?=$url['WNYMBA']['name']?>
-                    </option>
+                    <option class="44" value="<?=$url['CAMBA-NY']['ind']?>"><?=$url['CAMBA-NY']['name']?></option>
+                    <option class="44" value="<?=$url['Cycle-CNY']['ind']?>"><?=$url['Cycle-CNY']['name']?></option>
+                    <option class="44" value="<?=$url['FCBC']['ind']?>"><?=$url['FCBC']['name']?></option>
+                    <option class="44" value="<?=$url['GROC']['ind']?>"><?=$url['GROC']['name']?></option>
+                    <option class="44" value="<?=$url['NYCMTB']['ind']?>"><?=$url['NYCMTB']['name']?></option>
+                    <option class="44" value="<?=$url['WNYMBA']['ind']?>"><?=$url['WNYMBA']['name']?></option>
                     <option class="44" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- New York Retailer -->
                     <option class="45" value="99">Please Select</option>
@@ -1719,12 +1540,8 @@ $state_list = array('AL'=>"Alabama",
                     <!-- North Carolina -->
                     <option class="20" value="99">Please Select</option>
                     <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
-                    <option class="20" value="<?=$url['GFTS']['ind']?>">
-                    <?=$url['GFTS']['name']?>
-                    </option>
-                    <option class="20" value="<?=$url['NAS']['ind']?>">
-                    <?=$url['NAS']['name']?>
-                    </option>
+                    <option class="20" value="<?=$url['GFTS']['ind']?>"><?=$url['GFTS']['name']?></option>
+                    <option class="20" value="<?=$url['NAS']['ind']?>"><?=$url['NAS']['name']?></option>
                     <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)'?>">Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)</option>
                     <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Pisgah Area SORBA (PAS)'?>">Pisgah Area SORBA (PAS)</option>
                     <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Triangle Off-Road Cyclists (TORC)'?>">Triangle Off-Road Cyclists (TORC)</option>
@@ -1742,24 +1559,12 @@ $state_list = array('AL'=>"Alabama",
                     <option class="21" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Ohio -->
                     <option class="54" value="99">Please Select</option>
-                    <option class="54" value="<?=$url['AOA']['fam']?>">
-                    <?=$url['AOA']['name']?>
-                    </option>
-                    <option class="54" value="<?=$url['COMBO']['ind']?>">
-                    <?=$url['COMBO']['name']?>
-                    </option>
-                    <option class="54" value="<?=$url['CORA']['ind']?>">
-                    <?=$url['CORA']['name']?>
-                    </option>
-                    <option class="54" value="<?=$url['CAMBA-OH']['ind']?>">
-                    <?=$url['CAMBA-OH']['name']?>
-                    </option>
-                    <option class="54" value="<?=$url['MVMBA']['ind']?>">
-                    <?=$url['MVMBA']['name']?>
-                    </option>
-                    <option class="54" value="<?=$url['RBRTC']['ind']?>">
-                    <?=$url['RBRTC']['name']?>
-                    </option>
+                    <option class="54" value="<?=$url['AOA']['fam']?>"><?=$url['AOA']['name']?></option>
+                    <option class="54" value="<?=$url['COMBO']['ind']?>"><?=$url['COMBO']['name']?></option>
+                    <option class="54" value="<?=$url['CORA']['ind']?>"><?=$url['CORA']['name']?></option>
+                    <option class="54" value="<?=$url['CAMBA-OH']['ind']?>"><?=$url['CAMBA-OH']['name']?></option>
+                    <option class="54" value="<?=$url['MVMBA']['ind']?>"><?=$url['MVMBA']['name']?></option>
+                    <option class="54" value="<?=$url['RBRTC']['ind']?>"><?=$url['RBRTC']['name']?></option>
                     <option class="54" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Ohio Retailer -->
                     <option class="55" value="99">Please Select</option>
@@ -1772,9 +1577,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="55" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Oklahoma -->
                     <option class="74" value="99">Please Select</option>
-                    <option class="74" value="<?=$url['OEF']['ind']?>">
-                    <?=$url['OEF']['name']?>
-                    </option>
+                    <option class="74" value="<?=$url['OEF']['ind']?>"><?=$url['OEF']['name']?></option>
                     <option class="74" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Oklahoma Retailer -->
                     <option class="75" value="99">Please Select</option>
@@ -1782,24 +1585,14 @@ $state_list = array('AL'=>"Alabama",
                     <option class="75" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Oregon -->
                     <option class="6" value="99">Please Select</option>
-                    <option class="6" value="<?=$url['BMSTC']['ind']?>">
-                    <?=$url['BMSTC']['name']?>
-                    </option>
+                    <option class="6" value="<?=$url['BMSTC']['ind']?>"><?=$url['BMSTC']['name']?></option>
                     <option class="6" value="<?=$dod_ind_url?>">Disciples of Dirt (DOD)</option>
                     <option class="6" value="<?=$goats_ind_url?>">Greater Oakridge Area Trail Stewards (GOATS)</option>
-                    <option class="6" value="<?=$url['HRATS']['ind']?>">
-                    <?=$url['HRATS']['name']?>
-                    </option>
+                    <option class="6" value="<?=$url['HRATS']['ind']?>"><?=$url['HRATS']['name']?></option>
                     <option class="6" value="<?=$nwta_ind_url?>">Northwest Trail Alliance (NWTA)</option>
-                    <option class="6" value="<?=$url['RVMBA']['ind']?>">
-                    <?=$url['RVMBA']['name']?>
-                    </option>
-                    <option class="6" value="<?=$url['SATA']['ind']?>">
-                    <?=$url['SATA']['name']?>
-                    </option>
-                    <option class="6" value="<?=$url['Team Dirt']['ind']?>">
-                    <?=$url['Team Dirt']['name']?>
-                    </option>
+                    <option class="6" value="<?=$url['RVMBA']['ind']?>"><?=$url['RVMBA']['name']?></option>
+                    <option class="6" value="<?=$url['SATA']['ind']?>"><?=$url['SATA']['name']?></option>
+                    <option class="6" value="<?=$url['Team Dirt']['ind']?>"><?=$url['Team Dirt']['name']?></option>
                     <option class="6" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Oregon Retailer -->
                     <option class="7" value="99">Please Select</option>
@@ -1814,31 +1607,15 @@ $state_list = array('AL'=>"Alabama",
                     <option class="7" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Pennsylvania -->
                     <option class="50" value="99">Please Select</option>
-                    <option class="50" value="<?=$url['AMP']['ind']?>">
-                    <?=$url['AMP']['name']?>
-                    </option>
-                    <option class="50" value="<?=$url['BEMBA']['ind']?>">
-                    <?=$url['BEMBA']['name']?>
-                    </option>
-                    <option class="50" value="<?=$url['BAMBA-PA']['fam']?>">
-                    <?=$url['BAMBA-PA']['name']?>
-                    </option>
+                    <option class="50" value="<?=$url['AMP']['ind']?>"><?=$url['AMP']['name']?></option>
+                    <option class="50" value="<?=$url['BEMBA']['ind']?>"><?=$url['BEMBA']['name']?></option>
+                    <option class="50" value="<?=$url['BAMBA-PA']['fam']?>"><?=$url['BAMBA-PA']['name']?></option>
                     <option class="50" value="<?=$dts_ind_url?>">Delaware Trail Spinners (DTS)</option>
-                    <option class="50" value="<?=$url['NAMBA']['ind']?>">
-                    <?=$url['NAMBA']['name']?>
-                    </option>
-                    <option class="50" value="<?=$url['PT']['ind']?>">
-                    <?=$url['PT']['name']?>
-                    </option>
-                    <option class="50" value="<?=$url['SEPTR']['ind']?>">
-                    <?=$url['SEPTR']['name']?>
-                    </option>
-                    <option class="50" value="<?=$url['SAMBA']['fam']?>">
-                    <?=$url['SAMBA']['name']?>
-                    </option>
-                    <option class="50" value="<?=$url['SVVC']['ind']?>">
-                    <?=$url['SVVC']['name']?>
-                    </option>
+                    <option class="50" value="<?=$url['NAMBA']['ind']?>"><?=$url['NAMBA']['name']?></option>
+                    <option class="50" value="<?=$url['PT']['ind']?>"><?=$url['PT']['name']?></option>
+                    <option class="50" value="<?=$url['SEPTR']['ind']?>"><?=$url['SEPTR']['name']?></option>
+                    <option class="50" value="<?=$url['SAMBA']['fam']?>"><?=$url['SAMBA']['name']?></option>
+                    <option class="50" value="<?=$url['SVVC']['ind']?>"><?=$url['SVVC']['name']?></option>
                     <option class="50" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Pennsylvania Retailer -->
                     <option class="51" value="99">Please Select</option>
@@ -1882,9 +1659,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Texas -->
                     <option class="68" value="99">Please Select</option>
-                    <option class="68" value="<?=$url['BMBA']['ind']?>">
-                    <?=$url['BMBA']['name']?>
-                    </option>
+                    <option class="68" value="<?=$url['BMBA']['ind']?>"><?=$url['BMBA']['name']?></option>
                     <option class="68" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Texas Retailer -->
                     <option class="69" value="99">Please Select</option>
@@ -1892,12 +1667,8 @@ $state_list = array('AL'=>"Alabama",
                     <option class="69" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Utah -->
                     <option class="52" value="99">Please Select</option>
-                    <option class="52" value="<?=$url['DMBTA']['ind']?>">
-                    <?=$url['DMBTA']['name']?>
-                    </option>
-                    <option class="52" value="<?=$url['MMBA']['ind']?>">
-                    <?=$url['MMBA']['name']?>
-                    </option>
+                    <option class="52" value="<?=$url['DMBTA']['ind']?>"><?=$url['DMBTA']['name']?></option>
+                    <option class="52" value="<?=$url['MMBA']['ind']?>"><?=$url['MMBA']['name']?></option>
                     <option class="52" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Utah Retailer -->
                     <option class="53" value="99">Please Select</option>
@@ -1907,21 +1678,11 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Virginia -->
                     <option class="26" value="99">Please Select</option>
                     <option class="26" value="<?=$cambc_ind_url?>">Charlottesville Area Mountain Bike Club (CAMBC)</option>
-                    <option class="26" value="<?=$url['FATMUG']['ind']?>">
-                    <?=$url['FATMUG']['name']?>
-                    </option>
-                    <option class="26" value="<?=$url['GLOC']['ind']?>">
-                    <?=$url['GLOC']['name']?>
-                    </option>
-                    <option class="26" value="<?=$url['MORE']['ind']?>">
-                    <?=$url['MORE']['name']?>
-                    </option>
-                    <option class="26" value="<?=$url['RA-MORE']['ind']?>">
-                    <?=$url['RA-MORE']['name']?>
-                    </option>
-                    <option class="26" value="<?=$url['RIMBA']['ind']?>">
-                    <?=$url['RIMBA']['name']?>
-                    </option>
+                    <option class="26" value="<?=$url['FATMUG']['ind']?>"><?=$url['FATMUG']['name']?></option>
+                    <option class="26" value="<?=$url['GLOC']['ind']?>"><?=$url['GLOC']['name']?></option>
+                    <option class="26" value="<?=$url['MORE']['ind']?>"><?=$url['MORE']['name']?></option>
+                    <option class="26" value="<?=$url['RA-MORE']['ind']?>"><?=$url['RA-MORE']['name']?></option>
+                    <option class="26" value="<?=$url['RIMBA']['ind']?>"><?=$url['RIMBA']['name']?></option>
                     <option class="26" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Virginia Retailer -->
                     <option class="27" value="99">Please Select</option>
@@ -1934,12 +1695,8 @@ $state_list = array('AL'=>"Alabama",
                     <option class="27" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Washington -->
                     <option class="8" value="99">Please Select</option>
-                    <option class="8" value="<?=$url['FTR']['ind']?>">
-                    <?=$url['FTR']['name']?>
-                    </option>
-                    <option class="8" value="<?=$url['HRATS']['ind']?>">
-                    <?=$url['HRATS']['name']?>
-                    </option>
+                    <option class="8" value="<?=$url['FTR']['ind']?>"><?=$url['FTR']['name']?></option>
+                    <option class="8" value="<?=$url['HRATS']['ind']?>"><?=$url['HRATS']['name']?></option>
                     <option class="8" value="<?=$nwta_ind_url?>">Northwest Trail Alliance (NWTA)</option>
                     <option class="8" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Washington Retailer -->
@@ -1950,12 +1707,8 @@ $state_list = array('AL'=>"Alabama",
                     <option class="9" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- West Virginia -->
                     <option class="58" value="99">Please Select</option>
-                    <option class="58" value="<?=$url['NRBU']['ind']?>">
-                    <?=$url['NRBU']['name']?>
-                    </option>
-                    <option class="58" value="<?=$url['PT']['ind']?>">
-                    <?=$url['PT']['name']?>
-                    </option>
+                    <option class="58" value="<?=$url['NRBU']['ind']?>"><?=$url['NRBU']['name']?></option>
+                    <option class="58" value="<?=$url['PT']['ind']?>"><?=$url['PT']['name']?></option>
                     <option class="58" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- West Virginia Retailer -->
                     <option class="59" value="99">Please Select</option>
@@ -1964,36 +1717,16 @@ $state_list = array('AL'=>"Alabama",
                     <option class="59" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Wisconsin -->
                     <option class="36" value="99">Please Select</option>
-                    <option class="36" value="<?=$url['CORP']['ind']?>">
-                    <?=$url['CORP']['name']?>
-                    </option>
-                    <option class="36" value="<?=$url['CWOCC']['ind']?>">
-                    <?=$url['CWOCC']['name']?>
-                    </option>
-                    <option class="36" value="<?=$url['CAMBA']['ind']?>">
-                    <?=$url['CAMBA']['name']?>
-                    </option>
-                    <option class="36" value="<?=$url['CORBA-WI']['ind']?>">
-                    <?=$url['CORBA-WI']['name']?>
-                    </option>
-                    <option class="36" value="<?=$url['KORC']['ind']?>">
-                    <?=$url['KORC']['name']?>
-                    </option>
-                    <option class="36" value="<?=$url['Metro']['ind']?>">
-                    <?=$url['Metro']['name']?>
-                    </option>
-                    <option class="36" value="<?=$url['NEWT']['ind']?>">
-                    <?=$url['NEWT']['name']?>
-                    </option>
-                    <option class="36" value="<?=$url['SKMCI']['ind']?>">
-                    <?=$url['SKMCI']['name']?>
-                    </option>
-                    <option class="36" value="<?=$url['WAMB']['ind']?>">
-                    <?=$url['WAMB']['name']?>
-                    </option>
-                    <option class="36" value="<?=$url['WBC']['ind']?>">
-                    <?=$url['WBC']['name']?>
-                    </option>
+                    <option class="36" value="<?=$url['CORP']['ind']?>"><?=$url['CORP']['name']?></option>
+                    <option class="36" value="<?=$url['CWOCC']['ind']?>"><?=$url['CWOCC']['name']?></option>
+                    <option class="36" value="<?=$url['CAMBA']['ind']?>"><?=$url['CAMBA']['name']?></option>
+                    <option class="36" value="<?=$url['CORBA-WI']['ind']?>"><?=$url['CORBA-WI']['name']?></option>
+                    <option class="36" value="<?=$url['KORC']['ind']?>"><?=$url['KORC']['name']?></option>
+                    <option class="36" value="<?=$url['Metro']['ind']?>"><?=$url['Metro']['name']?></option>
+                    <option class="36" value="<?=$url['NEWT']['ind']?>"><?=$url['NEWT']['name']?></option>
+                    <option class="36" value="<?=$url['SKMCI']['ind']?>"><?=$url['SKMCI']['name']?></option>
+                    <option class="36" value="<?=$url['WAMB']['ind']?>"><?=$url['WAMB']['name']?></option>
+                    <option class="36" value="<?=$url['WBC']['ind']?>"><?=$url['WBC']['name']?></option>
                     <option class="36" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Wisconsin Retailer -->
                     <option class="37" value="99">Please Select</option>
@@ -2010,12 +1743,8 @@ $state_list = array('AL'=>"Alabama",
                     <option class="37" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Wyoming -->
                     <option class="62" value="99">Please Select</option>
-                    <option class="62" value="<?=$url['MBT']['ind']?>">
-                    <?=$url['MBT']['name']?>
-                    </option>
-                    <option class="62" value="<?=$url['BMCC']['ind']?>">
-                    <?=$url['BMCC']['name']?>
-                    </option>
+                    <option class="62" value="<?=$url['MBT']['ind']?>"><?=$url['MBT']['name']?></option>
+                    <option class="62" value="<?=$url['BMCC']['ind']?>"><?=$url['BMCC']['name']?></option>
                     <option class="62" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Wyoming Retailer -->
                     <option class="63" value="99">Please Select</option>
