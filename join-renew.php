@@ -1176,7 +1176,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="30" value="<?=$url['DFMBA']['ind']?>"><?=$url['DFMBA']['name']?></option>
                     <option class="30" value="<?=$url['PMBA']['ind']?>"><?=$url['PMBA']['name']?></option>
                     <option class="30" value="<?=$url['SDMB']['ind']?>"><?=$url['SDMB']['name']?></option>
-					<option class="xx" value="<?=$url['VVCC']['ind']?>"><?=$url['VVCC']['name']?></option>
+					<option class="30" value="<?=$url['VVCC']['ind']?>"><?=$url['VVCC']['name']?></option>
                     <option class="30" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Arizona Retailer -->
                     <option class="31" value="99">Please Select</option>
@@ -1184,7 +1184,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="31" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Desert Foothills Mountain Bike Association (DFMBA)'?>">Desert Foothills Mountain Bike Association (DFMBA)</option>
                     <option class="31" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Prescott Mountain Bike Alliance (PMBA)'?>">Prescott Mountain Bike Alliance (PMBA)</option>
                     <option class="31" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Sonoran Desert Mountain Bicyclists (SDMB)'?>">Sonoran Desert Mountain Bicyclists (SDMB)</option>
-                    <option class="xx" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Verde Valley Cyclists Coalition (VVCC)'?>">Verde Valley Cyclists Coalition (VVCC)</option>
+                    <option class="31" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Verde Valley Cyclists Coalition (VVCC)'?>">Verde Valley Cyclists Coalition (VVCC)</option>
                     <option class="31" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Arkansas -->
                     <option class="66" value="99">Please Select</option>
