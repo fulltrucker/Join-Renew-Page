@@ -1190,12 +1190,14 @@ $state_list = array('AL'=>"Alabama",
                     <option class="66" value="99">Please Select</option>
                     <option class="66" value="<?=$url['CATA']['ind']?>"><?=$url['CATA']['name']?></option>
                     <option class="66" value="<?=$url['FAST']['ind']?>"><?=$url['FAST']['name']?></option>
+                    <option class="66" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
                     <option class="66" value="<?=$url['OORC']['ind']?>"><?=$url['OORC']['name']?></option>
                     <option class="66" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Arkansas Retailer -->
                     <option class="67" value="99">Please Select</option>
                     <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Central Arkansas Trail Alliance (CATA)'?>">Central Arkansas Trail Alliance (CATA)</option>
                     <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Friends At Slaughter Pen Trail (FAST)'?>">Friends At Slaughter Pen Trail (FAST)</option>
+                    <option class="67" value="<?=$retail_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
                     <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Ozark Off Road Cyclists (OORC)'?>">Ozark Off Road Cyclists (OORC)</option>
                     <option class="67" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- California -->
@@ -1682,6 +1684,7 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Tennessee -->
                     <option class="0" value="99">Please Select</option>
                     <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Appalachian Mountain Bike Club (AMBC SORBA)'?>">Appalachian Mountain Bike Club (AMBC SORBA)</option>
+                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
                     <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Chattanooga (CASA)'?>">SORBA Chattanooga (CASA)</option>
                     <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Middle Tennessee'?>">SORBA Middle Tennessee</option>
                     <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Tri-Cities'?>">SORBA Tri-Cities</option>
@@ -1689,6 +1692,7 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Tennessee Retailer -->
                     <option class="90" value="99">Please Select</option>
                     <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Appalachian Mountain Bike Club (AMBC SORBA)'?>">Appalachian Mountain Bike Club (AMBC SORBA)</option>
+                    <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
                     <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Chattanooga (CASA)'?>">SORBA Chattanooga (CASA)</option>
                     <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Middle Tennessee'?>">SORBA Middle Tennessee</option>
                     <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Tri-Cities'?>">SORBA Tri-Cities</option>
