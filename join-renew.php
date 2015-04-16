@@ -836,7 +836,7 @@ $state_list = array('AL'=>"Alabama",
   <div style="padding:7px 17px;">
     <h1 style="font-family:'ConduitITCMediumRegular'; font-size: 34px; text-transform: uppercase; font-weight: normal; line-height: 40px;">If you love mountain biking, you belong with IMBA. </h1>
      <p style="font-size: 1.2em; line-height: 1.4em;">The International Mountain Bicycling Association (IMBA) believes access to sustainable mountain bike trails is critical to recreation and land conservation. Every day, we work to educate trail users for a strong future, because without stewards and advocates of the trails, mountain bike experiences will be limited or lost.</p>
-<p style="font-size: 1.2em; line-height: 1.4em;">Joining your local IMBA chapter is the most effective way for you to build and maintain the amazing trails you love to ride. Your membership dues support your local chapter's work, and IMBA's efforts nationwide. During the month of March, your membership enters you to win great prizes, like a Scott Genius mountain bike, or a VIP mountain bike trip to the Burning Can Festival at The Oskar Blues REEB Ranch in Brevard, NC! Sign up now and check out the prize details below.</p>
+<p style="font-size: 1.2em; line-height: 1.4em;">Joining your local IMBA chapter is the most effective way for you to build and maintain the amazing trails you love to ride. Your membership dues support your local chapter's work, and IMBA's efforts nationwide. During the months of April and May, your membership enters you to win great prizes, like a Specialized mountain bike or a Western Spirit mountain bike trip! Sign up now and check out the prize details below.</p>
     <p style="font-size: 1.2em; line-height: 1.4em;"><strong>Join with thousands of other riders who are passionate enough to support the trails they ride on.</strong></p>
     <div style="text-align: center;">
       <div style="background-color: #8f0002; color: #ffffff; padding: 17px; margin: 0 auto; width: 760px; text-align: left;">
@@ -1154,7 +1154,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
                     <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Northeast Alabama Bicycle Association (NEABA)'?>">Northeast Alabama Bicycle Association (NEABA)</option>
                     <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Southeast Alabama Mountain Bikers (SAM-SORBA)'?>">Southeast Alabama Mountain Bikers (SAM-SORBA)</option>
+                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Southeast Alabama Mountainbikers (SAM-SORBA)'?>">Southeast Alabama Mountainbikers (SAM-SORBA)</option>
                     <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=West Alabama Mountain Biking Association (WAMBA)'?>">West Alabama Mountain Biking Association (WAMBA)</option>
                     <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Alabama Retailer -->
@@ -1165,7 +1165,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
                     <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Northeast Alabama Bicycle Association (NEABA)'?>">Northeast Alabama Bicycle Association (NEABA)</option>
                     <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
-                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Southeast Alabama Mountain Bikers (SAM-SORBA)'?>">Southeast Alabama Mountain Bikers (SAM-SORBA)</option>
+                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Southeast Alabama Mountainbikers (SAM-SORBA)'?>">Southeast Alabama Mountainbikers (SAM-SORBA)</option>
                     <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=West Alabama Mountain Biking Association (WAMBA)'?>">West Alabama Mountain Biking Association (WAMBA)</option>
                     <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Alaska --> 
@@ -1804,21 +1804,22 @@ $state_list = array('AL'=>"Alabama",
     <div style="text-align: center;">
       <div style="width:800px;padding:0px;margin:0px auto;">
         <div style="width:300px;padding:10px 50px;float:left;text-align:left;">
-          <p><a href="https://www.imba.com/sites/default/files/Scott-Genius-750_large.jpg" rel="lightbox"><img src="https://www.imba.com/sites/default/files/scott_genius_750_round.png" alt="Scott Genius 750" title="Scott Genius 750" width="300" height="300" /></a></p>
-          <h3 style="font-family:'ConduitITCMediumRegular'; font-size: 18px; text-transform: uppercase; font-weight: normal; line-height: 22px;">Scott Genius 750 Mountain Bike</h3>
-          <p>Boasting a super light 6061 custom butted alloy  frame the SCOTT Genius 750 is the ultimate trail  bike. It comes fully equipped with a Rock Shox Monarch RL Air  shock and a Rock Shox Sektor TK Solo Air fork with Lockout, and  performance selected Syncros components.  Winner chooses size.</p>
+          <p><a href="https://www.imba.com/sites/default/files/specialized_enduro650b_large.jpg" rel="lightbox"><img src="https://www.imba.com/sites/default/files/specialized_enduro650b_round_trans.png" alt="Specialized Enduro Comp 650B Mountain Bike" title="Specialized Enduro Comp 650B Mountain Bike" width="300" height="300" /></a></p>
+          <h3 style="font-family:'ConduitITCMediumRegular'; font-size: 18px; text-transform: uppercase; font-weight: normal; line-height: 22px;">Specialized Enduro Comp 650B Mountain Bike</h3>
+          <p>Built to shred, the Enduro features an M5 alloy frame, 650b wheels, 165mm of travel, custom FOX Float CTD Evolution shock with AUTOSAG, and a RockShox Pike RC 160mm-travel fork w/ 15mm axle tuned to charge technical terrain. Winner chooses size based on availability.
+For more details visit the <a href="http://www.specialized.com/us/en/bikes/mountain/enduro/enduro-comp-650b" title="Specialized Enduro Comp 650B Mountain Bike" target="_blank">Specialized</a> website.</p>
         </div>
         <div style="width:300px;padding:10px 50px;float:left;text-align:left;">
-          <p><a href="https://www.imba.com/sites/default/files/Burning-Can-2015-Tease.jpg" rel="lightbox"><img src="https://www.imba.com/sites/default/files/burning_can_round_trans.png" alt="Burning Can Beer Fest" title="Burning Can Beer Fest" width="300" height="300" /></a></p>
-          <h3 style="font-family:'ConduitITCMediumRegular'; font-size: 18px; text-transform: uppercase; font-weight: normal; line-height: 22px;">VIP Mountain Biking Trip for Two</h3>
-          <p>A dream mountain bike trip for two to the Oskar Blues REEB Ranch in North Carolina for Burning Can Beer Fest. More details at <a href="http://www.burningcanbrevard.com/">www.burningcanbrevard.com</a></p>
-          <p><a href="http://www.bikefarmpisgah.com/" target="_blank"><img src="https://www.imba.com/sites/default/files/The_Bike_Farm_Horz_Trans.png" alt="The Bike Farm" title="The Bike Farm" width="200" border="0" /></a></p>
+          <p><a href="https://www.imba.com/sites/default/files/western_spirit_cycling_adventures_large.jpg" rel="lightbox"><img src="https://www.imba.com/sites/default/files/wsc_trip_round_trans.png" alt="Western Spirit Cycling Adventures" title="Western Spirit Cycling Adventures" width="300" height="300" /></a></p>
+          <h3 style="font-family:'ConduitITCMediumRegular'; font-size: 18px; text-transform: uppercase; font-weight: normal; line-height: 22px;">Western Spirit Cycling Adventures Mountain Bike Trip</h3>
+          <p>Winner chooses a Western Spirit Cycling Adventures mountain bike trip. Enjoy adventures through the backcountry and national parks on a mixture of surfaces, including dirt roads, jeep roads and singletrack trails.  You will camp in specially selected locations and have meals cooked by Western Spirit's amazing guides.</p>
+          <p><a href="http://westernspirit.com/" target="_blank"><img src="https://www.imba.com/sites/default/files/western_spirit_cycling_adventures_logo.png" alt="Western Spirit Cycling" title="Western Spirit Cycling" width="200" border="0" /></a></p>
         </div>
         <div style="clear: both;"></div>
       </div>
     </div>
     <p>&nbsp;</p>
-    <p><strong>Total approximate retail value:&nbsp;</strong>Scott Genius 750 mountain bike: $2,500.&nbsp;Oskar Blues Burning Can Festival trip: Approx $1,000* <em><strong>Transport to and from Brevard, N.C., is NOT included.</strong></em> No purchase necessary. Open to US residents at least 21 years-old on March 1, 2015. Void where prohibited and in Florida, New York, Rhode Island. <a title="Spring Membership Drive Official Rules" href="https://www.imba.com/imba-spring-registrationmembership-drive-2015-official-rules">Click here for official contest rules</a>.</p>
+    <p>No purchase necessary. Open to US residents at least 21 years-old on <span data-term="goog_223344128" tabindex="0">April 1, 2015</span>. Void where prohibited and in Florida, New York, Rhode Island. <a href="https://www.imba.com/imba-spring-registrationmembership-drive-2015-official-rules" target="_blank">Click here for official contest rules.</a> Total approximate retail value: Specialized Enduro Comp 650B bike: $3,500. Exact bicycle size and model is subject to inventory at time winner is announced. Western Spirit Cycling Adventures trip: Up to $1,465* Transport to and from trip departure location is NOT included. For more details visit <a href="http://westernspirit.com/" target="_blank">Western Spirit Cycling Adventures</a>.</p>
     <p>&nbsp;</p>
   </div>
   <div><img src="https://www.imba.com/sites/default/files/SpringMemberDrive_hdr2.jpg" alt="Be A Link In The Chain" title="Be A Link In The Chain" style="max-width:100%;margin:0px;padding:0px;" /></div>
