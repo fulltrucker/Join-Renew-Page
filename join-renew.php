@@ -865,7 +865,6 @@ $state_list = array('AL'=>"Alabama",
                     <option class="0" value="<?=$club_url?>">Club/Organization</option>
                     <option class="0" value="<?=$corp_url?>">Corporate Sponsor</option>
                     <option class="0" value="<?=$patroller_url?>">NMBP Patroller</option>
-                    <option class="0" value="<?=$pgroup_url?>">NMBP Patrol Group</option>
                     <!-- International > Type? -->
                     <option class="1" value="99">Please Select</option>
             ;
@@ -873,7 +872,6 @@ $state_list = array('AL'=>"Alabama",
                     <option class="1" value="<?=$retail_url?>">Retailer</option>
                     <option class="1" value="<?=$club_url?>">Club/Organization</option>
                     <option class="1" value="<?=$corp_url?>">Corporate Sponsor</option>
-                    <option class="1" value="<?=$pgroup_url?>">Patrol Group</option>
                   </select></td>
               </tr>
               <tr>
