@@ -1774,7 +1774,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Chippewa Off Road Bike Association (CORBA)'?>">Chippewa Off Road Bike Association (CORBA)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Kinnickinnic Off-Road Cyclists (KORC)'?>">Kinnickinnic Off-Road Cyclists (KORC)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Metro Mountain Bikers, Milwaukee (Metro)'?>">Metro Mountain Bikers, Milwaukee (Metro)</option>
-                    <option class="37" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=North East Wisconsin Trails (NEWT)'?>">North East Wisconsin Trails (NEWT)</option>
+                    <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=North East Wisconsin Trails (NEWT)'?>">North East Wisconsin Trails (NEWT)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Southern Kettle Moraine Chapter of IMBA (SKMCI)'?>">Southern Kettle Moraine Chapter of IMBA (SKMCI)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Winona Area Mountain Bikers (WAMB)'?>">Winona Area Mountain Bikers (WAMB)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Woolly Bike Club (WBC)'?>">Woolly Bike Club (WBC)</option>
