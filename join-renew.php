@@ -831,13 +831,12 @@ $state_list = array('AL'=>"Alabama",
 <script type='text/javascript' src='/sites/all/themes/longride/js/cascading-dropdowns.js'>
 </script>
 
-<div style="background: url('https://www.imba.com/sites/default/files/civicrm/persist/contribute/image/af2014_body_bg.jpg') repeat scroll 0% 0% transparent;margin:0px;padding:0px;">
+<div style="background: url('https://www.imba.com/sites/default/files/civicrm/persist/contribute/image/af2014_body_bg.jpg');margin:0px;padding:0px;">
   <div><img src="https://www.imba.com/sites/default/files/SpringMemberDrive_hdr1.jpg" alt="Be A Link In The Chain" title="Be A Link In The Chain" style="max-width:100%;margin:0px;padding:0px;" /></div>
   <div style="padding:7px 17px;">
     <h1 style="font-family:'ConduitITCMediumRegular'; font-size: 34px; text-transform: uppercase; font-weight: normal; line-height: 40px;">If you love mountain biking, you belong with IMBA. </h1>
      <p style="font-size: 1.2em; line-height: 1.4em;">The International Mountain Bicycling Association (IMBA) believes access to sustainable mountain bike trails is critical to recreation and land conservation. Every day, we work to educate trail users for a strong future, because without stewards and advocates of the trails, mountain bike experiences will be limited or lost.</p>
-<p style="font-size: 1.2em; line-height: 1.4em;">Joining your local IMBA chapter is the most effective way for you to build and maintain the amazing trails you love to ride. Your membership dues support your local chapter's work, and IMBA's efforts nationwide. During the months of April and May, your membership enters you to win great prizes, like a Specialized mountain bike or a Western Spirit mountain bike trip! Sign up now and check out the prize details below.</p>
-    <p style="font-size: 1.2em; line-height: 1.4em;"><strong>Join with thousands of other riders who are passionate enough to support the trails they ride on.</strong></p>
+<p style="font-size: 1.2em; line-height: 1.4em;">Joining your local IMBA chapter is the most effective way for you to build and maintain the amazing trails you love to ride. Your membership dues support your local chapter's work, and IMBA's efforts nationwide. Join with thousands of other riders who are passionate enough to support the trails they ride on.</p><p style="font-size: 1.2em; line-height: 1.4em;">If you need more info on <strong><a href="https://www.imba.com/near-you" title="IMBA-US Chapters" target="_blank">what chapter is near you check out this map</a></strong>.</p>
     <div style="text-align: center;">
       <div style="background-color: #8f0002; color: #ffffff; padding: 17px; margin: 0 auto; width: 760px; text-align: left;">
         <h2 style="font-family:'ConduitITCMediumRegular'; font-size: 36px; text-transform: uppercase; font-weight: normal; line-height: 56px; margin: 0px;"><img src="https://www.imba.com/sites/default/files/trail-love-logo-black-trans.png" alt="Trail Love" title="Trail Love" width="200" height="201" style="float: left; margin-right: 25px;" />Choose Your Membership:</h2>
@@ -1797,27 +1796,6 @@ $state_list = array('AL'=>"Alabama",
         <div style="clear: both;"></div>
       </div>
     </div>
-    <p style="font-size: 1.2em; line-height: 1.4em;">Not ready to join or renew? You are still eligible, <a href="https://www.imba.com/2015-spring-membership-drive-contest-signup">click here to enter</a>. </p>
-    <h2 style="font-family:'ConduitITCMediumRegular'; font-size: 34px; text-transform: uppercase; font-weight: normal; line-height: 40px;">Check out the prizes:</h2>
-    <div style="text-align: center;">
-      <div style="width:800px;padding:0px;margin:0px auto;">
-        <div style="width:300px;padding:10px 50px;float:left;text-align:left;">
-          <p><a href="https://www.imba.com/sites/default/files/specialized_enduro650b_large.jpg" rel="lightbox"><img src="https://www.imba.com/sites/default/files/specialized_enduro650b_round_trans.png" alt="Specialized Enduro Comp 650B Mountain Bike" title="Specialized Enduro Comp 650B Mountain Bike" width="300" height="300" /></a></p>
-          <h3 style="font-family:'ConduitITCMediumRegular'; font-size: 18px; text-transform: uppercase; font-weight: normal; line-height: 22px;">Specialized Enduro Comp 650B Mountain Bike</h3>
-          <p>Built to shred, the Enduro features an M5 alloy frame, 650b wheels, 165mm of travel, custom FOX Float CTD Evolution shock with AUTOSAG, and a RockShox Pike RC 160mm-travel fork w/ 15mm axle tuned to charge technical terrain. Winner chooses size based on availability.
-For more details visit the <a href="http://www.specialized.com/us/en/bikes/mountain/enduro/enduro-comp-650b" title="Specialized Enduro Comp 650B Mountain Bike" target="_blank">Specialized</a> website.</p>
-        </div>
-        <div style="width:300px;padding:10px 50px;float:left;text-align:left;">
-          <p><a href="https://www.imba.com/sites/default/files/western_spirit_cycling_adventures_large.jpg" rel="lightbox"><img src="https://www.imba.com/sites/default/files/wsc_trip_round_trans.png" alt="Western Spirit Cycling Adventures" title="Western Spirit Cycling Adventures" width="300" height="300" /></a></p>
-          <h3 style="font-family:'ConduitITCMediumRegular'; font-size: 18px; text-transform: uppercase; font-weight: normal; line-height: 22px;">Western Spirit Cycling Adventures Mountain Bike Trip</h3>
-          <p>Winner chooses a Western Spirit Cycling Adventures mountain bike trip. Enjoy adventures through the backcountry and national parks on a mixture of surfaces, including dirt roads, jeep roads and singletrack trails.  You will camp in specially selected locations and have meals cooked by Western Spirit's amazing guides.</p>
-          <p><a href="http://westernspirit.com/" target="_blank"><img src="https://www.imba.com/sites/default/files/western_spirit_cycling_adventures_logo.png" alt="Western Spirit Cycling" title="Western Spirit Cycling" width="200" border="0" /></a></p>
-        </div>
-        <div style="clear: both;"></div>
-      </div>
-    </div>
-    <p>&nbsp;</p>
-    <p>No purchase necessary. Open to US residents at least 21 years-old on <span data-term="goog_223344128" tabindex="0">April 1, 2015</span>. Void where prohibited and in Florida, New York, Rhode Island. <a href="https://www.imba.com/imba-spring-registrationmembership-drive-2015-official-rules" target="_blank">Click here for official contest rules.</a> Total approximate retail value: Specialized Enduro Comp 650B bike: $3,500. Exact bicycle size and model is subject to inventory at time winner is announced. Western Spirit Cycling Adventures trip: Up to $1,465* Transport to and from trip departure location is NOT included. For more details visit <a href="http://westernspirit.com/" target="_blank">Western Spirit Cycling Adventures</a>.</p>
     <p>&nbsp;</p>
   </div>
   <div><img src="https://www.imba.com/sites/default/files/SpringMemberDrive_hdr2.jpg" alt="Be A Link In The Chain" title="Be A Link In The Chain" style="max-width:100%;margin:0px;padding:0px;" /></div>
