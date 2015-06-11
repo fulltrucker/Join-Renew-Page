@@ -171,11 +171,11 @@ $url = array(
 					 'ind'    => 132, 
 					 'region' => 'Mid-Atlantic', 
 					 'name'   => 'Eastern Shore IMBA (ESIMBA)'),
-	'FooMTB'	=> array(
+	'AMBA'	=> array(
 					 'fam'    => 153, 
 					 'ind'    => 154, 
 					 'region' => 'Rockies', 
-					 'name'   => 'FooMTB Trail Partners (FooMTB)'),
+					 'name'   => 'Albuquerque Mountain Bike Association (AMBA)'),
 	'HRATS'	=> array(
 					 'fam'    => 137, 
 					 'ind'    => 138, 
@@ -271,11 +271,6 @@ $url = array(
 					 'ind'    => 162, 
 					 'region' => 'Great Lakes', 
 					 'name'   => 'Miami Valley Mountain Bike Association (MVMBA)'),
-	'SMBC'	=> array(
-					 'fam'    => 157, 
-					 'ind'    => 158, 
-					 'region' => 'Southwest', 
-					 'name'   => 'Sedona Mountain Bike Club (SMBC)'),
 	'SMMB'	=> array(
 					 'fam'    => 167, 
 					 'ind'    => 168, 
@@ -671,11 +666,11 @@ $url = array(
 					 'ind'    => 298,
 					 'region' => 'Midwest',
 					 'name'   => 'Cannon River Offroad Cycling and Trails (CROCT)'),
-	'SMBC-CO'	=> array(
+	'SSS'	=> array(
 					 'fam'    => 299,
 					 'ind'    => 299,
 					 'region' => 'Colorado-Wyoming',
-					 'name'   => 'Silverton Mountain Bike Club (SMBC)'),
+					 'name'   => 'Silverton Singletrack Society (SSS)'),
 	'PU'	=> array(
 					 'fam'    => 300,
 					 'ind'    => 300,
@@ -685,7 +680,7 @@ $url = array(
 					 'fam'    => 302,
 					 'ind'    => 302,
 					 'region' => 'South Central',
-					 'name'   => 'Friends At Slaughter Pen Trail (FAST)'),
+					 'name'   => 'Friends of Arkansas Singletrack (FAST)'),
 	'BMCC'	=> array(
 					 'fam'    => 303,
 					 'ind'    => 303,
@@ -741,6 +736,46 @@ $url = array(
 					 'ind'    => 315,
 					 'region' => 'South Central',
 					 'name'   => 'Trails Have Our Respect (THOR)'),
+	'BBA'	=> array(
+					 'fam'    => 317,
+					 'ind'    => 317,
+					 'region' => 'Mid-Atlantic',
+					 'name'   => 'Blackwater Bicycle Association (BBA)'),
+	'CWTA'	=> array(
+					 'fam'    => 318,
+					 'ind'    => 318,
+					 'region' => 'Colorado-Wyoming',
+					 'name'   => 'Central Wyoming Trails Alliance (CWTA)'),
+	'GEARS'	=> array(
+					 'fam'    => 319,
+					 'ind'    => 319,
+					 'region' => 'Midwest',
+					 'name'   => 'GEARS United'),
+	'KSS'	=> array(
+					 'fam'    => 320,
+					 'ind'    => 320,
+					 'region' => 'South Central',
+					 'name'   => 'Kansas Singletrack Society (KSS)'),
+	'LOCO'	=> array(
+					 'fam'    => 321,
+					 'ind'    => 321,
+					 'region' => 'South Central',
+					 'name'   => 'Louisiana Offroad Cycling Organization (LOCO)'),
+	'NOMAMBO'	=> array(
+					 'fam'    => 322,
+					 'ind'    => 322,
+					 'region' => 'South Central',
+					 'name'   => 'New Orleans Metro Area Mountain Bike Organization (NOMAMBO)'),
+	'SVMBA'	=> array(
+					 'fam'    => 323,
+					 'ind'    => 323,
+					 'region' => 'Mid-Atlantic',
+					 'name'   => 'Southern Virginia Mountain Bike Association (SVMBA)'),
+	'TP'	=> array(
+					 'fam'    => 324,
+					 'ind'    => 324,
+					 'region' => 'Mid-Atlantic',
+					 'name'   => 'Trails Pittsburgh (TP)'),
 );
 
 
@@ -967,40 +1002,46 @@ $state_list = array('AL'=>"Alabama",
 				break;
 			case 'WV':
 				$jump_url = 58;
-				break;	
+				break;
 			case 'IL':
 				$jump_url = 60;
-				break;	
+				break;
 			case 'WY':
 				$jump_url = 62;
-				break;	
+				break;
 			case 'DC':
 				$jump_url = 64;
-				break;	
+				break;
 			case 'AR':
 				$jump_url = 66;
-				break;	
+				break;
 			case 'TX':
 				$jump_url = 68;
-				break;	
+				break;
 			case 'MO':
 				$jump_url = 70;
-				break;	
+				break;
 			case 'MT':
 				$jump_url = 72;
-				break;	
+				break;
 			case 'OK':
 				$jump_url = 74;
-				break;	
+				break;
 			case 'NE':
 				$jump_url = 76;
-				break;	
+				break;
 			case 'MS':
 				$jump_url = 78;
-				break;	
+				break;
 			case 'ME':
 				$jump_url = 80;
-				break;	
+				break;
+			case 'LA':
+				$jump_url = 82;
+				break;
+			case 'KS':
+				$jump_url = 84;
+				break;
 			default:
 				$jump_url = $imba_ind_url;
 		}
@@ -1098,40 +1139,46 @@ $state_list = array('AL'=>"Alabama",
 				break;
 			case 'WV':
 				$jump_url = 59;
-				break;	
+				break;
 			case 'IL':
 				$jump_url = 61;
-				break;	
+				break;
 			case 'WY':
 				$jump_url = 63;
-				break;	
+				break;
 			case 'DC':
 				$jump_url = 65;
-				break;	
+				break;
 			case 'AR':
 				$jump_url = 67;
-				break;	
+				break;
 			case 'TX':
 				$jump_url = 69;
-				break;	
+				break;
 			case 'MO':
 				$jump_url = 71;
-				break;	
+				break;
 			case 'MT':
 				$jump_url = 73;
-				break;	
+				break;
 			case 'OK':
 				$jump_url = 75;
-				break;	
+				break;
 			case 'NE':
 				$jump_url = 77;
-				break;	
+				break;
 			case 'MS':
 				$jump_url = 79;
-				break;	
+				break;
 			case 'ME':
 				$jump_url = 81;
-				break;	
+				break;
+			case 'LA':
+				$jump_url = 83;
+				break;
+			case 'KS':
+				$jump_url = 85;
+				break;
 			default:
 				$jump_url = $retail_url;
 		}
@@ -1193,7 +1240,7 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Arkansas Retailer -->
                     <option class="67" value="99">Please Select</option>
                     <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Central Arkansas Trail Alliance (CATA)'?>">Central Arkansas Trail Alliance (CATA)</option>
-                    <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Friends At Slaughter Pen Trail (FAST)'?>">Friends At Slaughter Pen Trail (FAST)</option>
+                    <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Friends of Arkansas Singletrack (FAST)'?>">Friends of Arkansas Singletrack (FAST)</option>
                     <option class="67" value="<?=$retail_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
                     <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Ozark Off Road Cyclists (OORC)'?>">Ozark Off Road Cyclists (OORC)</option>
                     <option class="67" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
@@ -1255,7 +1302,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="14" value="<?=$url['RFMBA']['ind']?>"><?=$url['RFMBA']['name']?></option>
                     <option class="14" value="<?=$url['RCR']['ind']?>"><?=$url['RCR']['name']?></option>
                     <option class="14" value="<?=$url['SMBA']['ind']?>"><?=$url['SMBA']['name']?></option>
-                    <option class="14" value="<?=$url['SMBC-CO']['ind']?>"><?=$url['SMBC-CO']['name']?></option>
+                    <option class="14" value="<?=$url['SSS']['ind']?>"><?=$url['SSS']['name']?></option>
                     <option class="14" value="<?=$url['SFTS']['ind']?>"><?=$url['SFTS']['name']?></option>
                     <option class="14" value="<?=$vvmba_ind_url?>">Vail Valley Mountain Bike Association (VVMBA)</option>
                     <option class="14" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
@@ -1268,7 +1315,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Medicine Wheel Trail Advocates (MWTA)'?>">Medicine Wheel Trail Advocates (MWTA)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Roaring Fork Mountain Bike Association (RFMBA)'?>">Roaring Fork Mountain Bike Association (RFMBA)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=San Miguel Bike Alliance (SMBA)'?>">San Miguel Bike Alliance (SMBA)</option>
-                    <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Silverton Mountain Bike Club (SMBC)'?>">Silverton Mountain Bike Club (SMBC)</option>
+                    <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Silverton Singletrack Society (SSS)'?>">Silverton Singletrack Society (SSS)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Routt County Riders (RCR)'?>">Routt County Riders (RCR)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Summit Fat Tire Society (SFTS)'?>">Summit Fat Tire Society (SFTS)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Vail Valley Mountain Bike Association (VVMBA)'?>">Vail Valley Mountain Bike Association (VVMBA)</option>
@@ -1393,12 +1440,22 @@ $state_list = array('AL'=>"Alabama",
                     <option class="28" value="99">Please Select</option>
                     <option class="28" value="<?=$cita_ind_url?>">Central Iowa Trail Association (CITA)</option>
                     <option class="28" value="<?=$url['LAMBA']['ind']?>"><?=$url['LAMBA']['name']?></option>
+			    	<option class="28" value="<?=$url['THOR']['ind']?>"><?=$url['THOR']['name']?></option>
                     <option class="28" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Iowa Retailer -->
                     <option class="29" value="99">Please Select</option>
                     <option class="29" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Central Iowa Trail Association (CITA)'?>">Central Iowa Trail Association (CITA)</option>
                     <option class="29" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Linn Area Mountain Bike Association (LAMBA)'?>">Linn Area Mountain Bike Association (LAMBA)</option>
+                    <option class="29" value="<?=$retail_url . '&custom_76=South Central&custom_77=Trails Have Our Respect (THOR)'?>">Trails Have Our Respect (THOR)</option>
                     <option class="29" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
+                    <!-- Kansas -->
+                    <option class="84" value="99">Please Select</option>
+                    <option class="84" value="<?=$url['KSS']['ind']?>"><?=$url['KSS']['name']?></option>
+                    <option class="84" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
+                    <!-- Kansas Retailer -->
+                    <option class="85" value="99">Please Select</option>
+                    <option class="85" value="<?=$retail_url . '&custom_76=South Central&custom_77=Kansas Singletrack Society (KSS)'?>">Kansas Singletrack Society (KSS)</option>
+                    <option class="85" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Kentucky -->
                     <option class="56" value="99">Please Select</option>
                     <option class="56" value="<?=$url['CORA']['ind']?>"><?=$url['CORA']['name']?></option>
@@ -1413,6 +1470,16 @@ $state_list = array('AL'=>"Alabama",
                     <option class="57" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Kentucky Mountain Bike Association - Louisville (KyMBA Louisville)'?>">Kentucky Mountain Bike Association - Louisville (KyMBA Louisville)</option>
                     <option class="57" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Southwest Kentucky Mountain Bike Association (SKyMBA)'?>">Southwest Kentucky Mountain Bike Association (SKyMBA)</option>
                     <option class="57" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
+                    <!-- Louisiana -->
+                    <option class="82" value="99">Please Select</option>
+			    	<option class="82" value="<?=$url['LOCO']['ind']?>"><?=$url['LOCO']['name']?></option>
+			    	<option class="82" value="<?=$url['NOMAMBO']['ind']?>"><?=$url['NOMAMBO']['name']?></option>
+                    <option class="82" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
+                    <!-- Louisiana Retailer -->
+                    <option class="83" value="99">Please Select</option>
+			    	<option class="83" value="<?=$retail_url . '&custom_76=South Central&custom_77=Louisiana Offroad Cycling Organization (LOCO)'?>">Louisiana Offroad Cycling Organization (LOCO)</option>
+					<option class="83" value="<?=$retail_url . '&custom_76=South Central&custom_77=New Orleans Metro Area Mountain Bike Organization (NOMAMBO)'?>">New Orleans Metro Area Mountain Bike Organization (NOMAMBO)</option>
+                    <option class="83" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Maine -->
                     <option class="80" value="99">Please Select</option>
                     <option class="80" value="<?=$url['NMTA-ME']['ind']?>"><?=$url['NMTA-ME']['name']?></option>
@@ -1497,10 +1564,12 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Mississippi -->
                     <option class="78" value="99">Please Select</option>
                     <option class="78" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Tri-County Mountain Bike Association (TCMBA)'?>">Tri-County Mountain Bike Association (TCMBA)</option>
                     <option class="78" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Mississippi Retailer -->
                     <option class="79" value="99">Please Select</option>
                     <option class="79" value="<?=$retail_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="79" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Tri-County Mountain Bike Association (TCMBA)'?>">Tri-County Mountain Bike Association (TCMBA)</option>
                     <option class="79" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Missouri -->
                     <option class="70" value="99">Please Select</option>
@@ -1540,16 +1609,16 @@ $state_list = array('AL'=>"Alabama",
                     <option class="41" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- New Mexico -->
                     <option class="34" value="99">Please Select</option>
+                    <option class="34" value="<?=$url['AMBA']['ind']?>"><?=$url['AMBA']['name']?></option>
                     <option class="34" value="<?=$url['DNMA']['ind']?>"><?=$url['DNMA']['name']?></option>
-                    <option class="34" value="<?=$url['FooMTB']['ind']?>"><?=$url['FooMTB']['name']?></option>
                     <option class="34" value="<?=$url['GT']['ind']?>"><?=$url['GT']['name']?></option>
                     <option class="34" value="<?=$url['LASA']['ind']?>"><?=$url['LASA']['name']?></option>
                     <option class="34" value="<?=$sffts_ind_url?>">Santa Fe Fat Tire Society (SFFTS)</option>
                     <option class="34" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- New Mexico Retailer -->
                     <option class="35" value="99">Please Select</option>
+                    <option class="35" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Albuquerque Mountain Bike Association (AMBA)'?>">Albuquerque Mountain Bike Association (AMBA)</option>
                     <option class="35" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Del Norte MtB Alliance (DNMA)'?>">Del Norte MtB Alliance (DNMA)</option>
-                    <option class="35" value="<?=$retail_url . '&custom_76=Rockies&custom_77=FooMTB Trail Partners (FooMTB)'?>">FooMTB Trail Partners (FooMTB)</option>
                     <option class="35" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Gallup Trails (GT)'?>">Gallup Trails (GT)</option>
                     <option class="35" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Los Alamos Tuff Riders (LATR)'?>">Los Alamos Tuff Riders (LATR)</option>
                     <option class="35" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Santa Fe Fat Tire Society (SFFTS)'?>">Santa Fe Fat Tire Society (SFFTS)</option>
@@ -1651,6 +1720,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="50" value="<?=$url['SEPTR']['ind']?>"><?=$url['SEPTR']['name']?></option>
                     <option class="50" value="<?=$url['SAMBA']['fam']?>"><?=$url['SAMBA']['name']?></option>
                     <option class="50" value="<?=$url['SVVC']['ind']?>"><?=$url['SVVC']['name']?></option>
+			    	<option class="50" value="<?=$url['TP']['ind']?>"><?=$url['TP']['name']?></option>
                     <option class="50" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Pennsylvania Retailer -->
                     <option class="51" value="99">Please Select</option>
@@ -1663,6 +1733,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Southeastern Pennsylvania Trail Riders (SEPTR)'?>">Southeastern Pennsylvania Trail Riders (SEPTR)</option>
                     <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Susquehanna Area Mountain Bike Association (SAMBA)'?>">Susquehanna Area Mountain Bike Association (SAMBA)</option>
                     <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Susquehanna Valley Velo Club (SVVC)'?>">Susquehanna Valley Velo Club (SVVC)</option>
+					<option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Trails Pittsburgh (TP)'?>">Trails Pittsburgh (TP)</option>
                     <option class="51" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- South Carolina -->
                     <option class="24" value="99">Please Select</option>
@@ -1720,6 +1791,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="26" value="<?=$url['MORE']['ind']?>"><?=$url['MORE']['name']?></option>
                     <option class="26" value="<?=$url['RA-MORE']['ind']?>"><?=$url['RA-MORE']['name']?></option>
                     <option class="26" value="<?=$url['RIMBA']['ind']?>"><?=$url['RIMBA']['name']?></option>
+                    <option class="26" value="<?=$url['SVMBA']['ind']?>"><?=$url['SVMBA']['name']?></option>
                     <option class="26" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Virginia Retailer -->
                     <option class="27" value="99">Please Select</option>
@@ -1729,6 +1801,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Mid-Atlantic Off-Road Enthusiasts (MORE)'?>">Mid-Atlantic Off-Road Enthusiasts (MORE)</option>
                     <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=RVA MORE'?>">RVA MORE</option>
                     <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Roanoke IMBA (RIMBA)'?>">Roanoke IMBA (RIMBA)</option>
+                    <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Southern Virginia Mountain Bike Association (SVMBA)'?>">Southern Virginia Mountain Bike Association (SVMBA)</option>
                     <option class="27" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Washington -->
                     <option class="8" value="99">Please Select</option>
@@ -1744,11 +1817,13 @@ $state_list = array('AL'=>"Alabama",
                     <option class="9" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- West Virginia -->
                     <option class="58" value="99">Please Select</option>
+                    <option class="58" value="<?=$url['BBA']['ind']?>"><?=$url['BBA']['name']?></option>
                     <option class="58" value="<?=$url['NRBU']['ind']?>"><?=$url['NRBU']['name']?></option>
                     <option class="58" value="<?=$url['PT']['ind']?>"><?=$url['PT']['name']?></option>
                     <option class="58" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- West Virginia Retailer -->
                     <option class="59" value="99">Please Select</option>
+					<option class="59" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Blackwater Bicycle Association (BBA)'?>">Blackwater Bicycle Association (BBA)</option>
                     <option class="59" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=New River Bicycle Union (NRBU)'?>">New River Bicycle Union (NRBU)</option>
                     <option class="59" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Pocahontas Trails (PT)'?>">Pocahontas Trails (PT)</option>
                     <option class="59" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
@@ -1758,6 +1833,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="36" value="<?=$url['CWOCC']['ind']?>"><?=$url['CWOCC']['name']?></option>
                     <option class="36" value="<?=$url['CAMBA']['ind']?>"><?=$url['CAMBA']['name']?></option>
                     <option class="36" value="<?=$url['CORBA-WI']['ind']?>"><?=$url['CORBA-WI']['name']?></option>
+    				<option class="36" value="<?=$url['GEARS']['ind']?>"><?=$url['GEARS']['name']?></option>
                     <option class="36" value="<?=$url['KORC']['ind']?>"><?=$url['KORC']['name']?></option>
                     <option class="36" value="<?=$url['Metro']['ind']?>"><?=$url['Metro']['name']?></option>
                     <option class="36" value="<?=$url['NEWT']['ind']?>"><?=$url['NEWT']['name']?></option>
@@ -1771,6 +1847,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Central Wisconsin Off-Road Cycling Coalition (CWOCC)'?>">Central Wisconsin Off-Road Cycling Coalition (CWOCC)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Chequamegon Area Mountain Bike Association (CAMBA)'?>">Chequamegon Area Mountain Bike Association (CAMBA)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Chippewa Off Road Bike Association (CORBA)'?>">Chippewa Off Road Bike Association (CORBA)</option>
+					<option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=GEARS United'?>">GEARS United</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Kinnickinnic Off-Road Cyclists (KORC)'?>">Kinnickinnic Off-Road Cyclists (KORC)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Metro Mountain Bikers, Milwaukee (Metro)'?>">Metro Mountain Bikers, Milwaukee (Metro)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=North East Wisconsin Trails (NEWT)'?>">North East Wisconsin Trails (NEWT)</option>
@@ -1780,11 +1857,13 @@ $state_list = array('AL'=>"Alabama",
                     <option class="37" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Wyoming -->
                     <option class="62" value="99">Please Select</option>
+    				<option class="62" value="<?=$url['CWTA']['ind']?>"><?=$url['CWTA']['name']?></option>
                     <option class="62" value="<?=$url['MBT']['ind']?>"><?=$url['MBT']['name']?></option>
                     <option class="62" value="<?=$url['BMCC']['ind']?>"><?=$url['BMCC']['name']?></option>
                     <option class="62" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Wyoming Retailer -->
                     <option class="63" value="99">Please Select</option>
+					<option class="63" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Central Wyoming Trails Alliance (CWTA)'?>">Central Wyoming Trails Alliance (CWTA)</option>
                     <option class="63" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Mountain Bike the Tetons (MBT)'?>">Mountain Bike the Tetons (MBT)</option>
                     <option class="63" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Bomber Mountain Cycling Club (BMCC)'?>">Bomber Mountain Cycling Club (BMCC)</option>
                     <option class="63" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
