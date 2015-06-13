@@ -775,7 +775,7 @@ $url = array(
 					 'fam'    => 324,
 					 'ind'    => 324,
 					 'region' => 'Mid-Atlantic',
-					 'name'   => 'Trails Pittsburgh (TP)'),
+					 'name'   => 'Trail Pittsburgh'),
 );
 
 
@@ -1733,7 +1733,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Southeastern Pennsylvania Trail Riders (SEPTR)'?>">Southeastern Pennsylvania Trail Riders (SEPTR)</option>
                     <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Susquehanna Area Mountain Bike Association (SAMBA)'?>">Susquehanna Area Mountain Bike Association (SAMBA)</option>
                     <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Susquehanna Valley Velo Club (SVVC)'?>">Susquehanna Valley Velo Club (SVVC)</option>
-					<option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Trails Pittsburgh (TP)'?>">Trails Pittsburgh (TP)</option>
+					<option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Trail Pittsburgh'?>">Trail Pittsburgh</option>
                     <option class="51" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- South Carolina -->
                     <option class="24" value="99">Please Select</option>
