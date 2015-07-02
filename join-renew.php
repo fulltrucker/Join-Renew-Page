@@ -605,7 +605,7 @@ $url = array(
 					 'fam'    => 274, 
 					 'ind'    => 274, 
 					 'region' => 'Mid-Atlantic', 
-					 'name'   => 'Central Adirondack Mountain Bike Assocation (CAMBA)'),
+					 'name'   => 'Central Adirondack Mountain Bike Association (CAMBA)'),
 	'MORC-MO'	=> array(
 					 'fam'    => 275, 
 					 'ind'    => 275, 
@@ -1634,7 +1634,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="44" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- New York Retailer -->
                     <option class="45" value="99">Please Select</option>
-                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Central Adirondack Mountain Bike Assocation (CAMBA)'?>">Central Adirondack Mountain Bike Assocation (CAMBA)</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Central Adirondack Mountain Bike Association (CAMBA)'?>">Central Adirondack Mountain Bike Association (CAMBA)</option>
                     <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Cycle-CNY'?>">Cycle-CNY</option>
                     <option class="45" value="<?=$retail_url . '&custom_76=Northeast&custom_77=Fats In The Cats (FCBC)'?>">Fats In The Cats (FCBC)</option>
                     <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Genesee Regional Off-Road Cyclists (GROC)'?>">Genesee Regional Off-Road Cyclists (GROC)</option>
