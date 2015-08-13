@@ -768,7 +768,7 @@ $url = array(
 
 
 foreach ($url as $key => $value) {
-	if ($url[$key]['region'] == "SORBA") {
+	if ($url[$key]['fam'] == "23") {
 		$url[$key]['fam'] = $contribute_url . $url[$key]['fam'] . "&custom_76=" . $url[$key]['region'] . "&custom_77=" . $url[$key]['name'] . $get_string;
 		$url[$key]['ind'] = $contribute_url . $url[$key]['ind'] . "&custom_76=" . $url[$key]['region'] . "&custom_77=" . $url[$key]['name'] . $get_string;
 	} else {
