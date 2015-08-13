@@ -2,35 +2,6 @@
 $get_string = NULL;
 $jump_url   = NULL;
 
-function http_parse_query( $array = NULL, $convention = '%s' ){
-	if( count( $array ) == 0 ){
-		return '';
-	} else {
-		if( function_exists( 'http_build_query' ) ){
-			$query = http_build_query( $array );
-		} else {
-			$query = '';
-			foreach( $array as $key => $value ){
-				if( is_array( $value ) ){
-					$new_convention = sprintf( $convention, $key ) . '[%s]';
-					$query .= http_parse_query( $value, $new_convention );
-				} else {
-					$key = urlencode( $key );
-					$value = urlencode( $value );
-					$query .= sprintf( $convention, $key ) . "=$value&";
-				}
-			}
-		}
-		return $query;
-	}
-}
-
-if (0) {
-//if (!empty($_GET)) {
-	$get_string = http_parse_query($_GET);
-	$get_string = '&' . $get_string;
-}
-
 // set URLs
 $contribute_url = 'https://www.imba.com/civicrm/contribute/transact?reset=1&id=';
 // IMBA
@@ -39,56 +10,68 @@ $promoter_url	= $contribute_url . '7' . $get_string;
 $club_url		= $contribute_url . '8' . $get_string;
 $patroller_url	= $contribute_url . '10' . $get_string;
 $pgroup_url		= $contribute_url . '9' . $get_string;
-$corp_url		= 'http://www.imba.com/membership/corporate';
+$corp_url		= 'https://www.imba.com/membership/corporate';
 $imba_ind_url	= $contribute_url . '1&custom_76=None&custom_77=Unassigned' . $get_string;
 $imba_fam_url	= $contribute_url . '2&custom_76=None&custom_77=Unassigned' . $get_string;
-$team_imba_url	= 'http://www.imba.com/team-imba' . $get_string;
+$team_imba_url	= 'https://www.imba.com/team-imba' . $get_string;
 // SORBA
 $sorba_ind_url	= $contribute_url . '22' . $get_string;
 $sorba_fam_url	= $contribute_url . '23' . $get_string;
-// MORC
-$morc_ind_url	= $contribute_url . '13' . $get_string;
-$morc_fam_url	= $contribute_url . '14' . $get_string;
-// MORCA
-$morca_ind_url	= $contribute_url . '55' . $get_string;
-$morca_fam_url	= $contribute_url . '54' . $get_string;
-// DTS
-$dts_ind_url	= $contribute_url . '17' . $get_string;
-$dts_fam_url	= $contribute_url . '18' . $get_string;
-// NWTA
-$nwta_ind_url	= $contribute_url . '15' . $get_string;
-$nwta_fam_url	= $contribute_url . '16' . $get_string;
-// GOATS
-$goats_ind_url	= $contribute_url . '21' . $get_string;
-$goats_fam_url	= $contribute_url . '19' . $get_string;
-// COMBA
-$comba_ind_url	= $contribute_url . '41' . $get_string;
-$comba_fam_url	= $contribute_url . '42' . $get_string;
-// CORBA
-$corba_ind_url	= $contribute_url . '53' . $get_string;
-$corba_fam_url	= $contribute_url . '52' . $get_string;
-// DOD
-$dod_ind_url	= $contribute_url . '56' . $get_string;
-$dod_fam_url	= $contribute_url . '57' . $get_string;
-// CITA
-$cita_ind_url	= $contribute_url . '78' . $get_string;
-$cita_fam_url	= $contribute_url . '77' . $get_string;
-// Copper Harbor Trails Club (CTHC)
-$chtc_ind_url	= $contribute_url . '79' . $get_string;
-$chtc_fam_url	= $contribute_url . '80' . $get_string;
-// Santa Fe Fat Tire Society (SFFTS)
-$sffts_ind_url	= $contribute_url . '81' . $get_string;
-$sffts_fam_url	= $contribute_url . '82' . $get_string;
-// Vail Valley Mountain Bike Association (VVMBA)
-$vvmba_ind_url	= $contribute_url . '84' . $get_string;
-$vvmba_fam_url	= $contribute_url . '83' . $get_string;
-// Charlottesville Area Mountain Bike Club (CAMBC)
-$cambc_ind_url	= $contribute_url . '85' . $get_string;
-$cambc_fam_url	= $contribute_url . '86' . $get_string;
-// Don't use these anymore ^^^^, use the array below VVVVV
 
-// starting out doing this better, but haven't migrated the above
+// Chapters
 $url = array(
+	'MORC-MN' => array('fam'    => 14, 
+					 'ind'    => 13, 
+					 'region' => 'Midwest', 
+					 'name'   => 'Minnesota Off-Road Cyclists (MORC)'),
+	'MORCA' => array('fam'    => 54, 
+					 'ind'    => 55, 
+					 'region' => 'Northern California', 
+					 'name'   => 'Monterey Off-Road Cyclists Association (MORCA)'),
+	'DTS' => array('fam'    => 18, 
+					 'ind'    => 17, 
+					 'region' => 'Mid-Atlantic', 
+					 'name'   => 'Delaware Trail Spinners (DTS)'),
+	'NWTA' => array('fam'    => 16, 
+					 'ind'    => 15, 
+					 'region' => 'Pacific', 
+					 'name'   => 'Northwest Trail Alliance (NWTA)'),
+	'GOATS' => array('fam'    => 19, 
+					 'ind'    => 21, 
+					 'region' => 'Pacific', 
+					 'name'   => 'Greater Oakridge Area Trail Stewards (GOATS) '),
+	'COMBA' => array('fam'    => 42, 
+					 'ind'    => 41, 
+					 'region' => 'Colorado-Wyoming', 
+					 'name'   => 'Colorado Mountain Bike Association (COMBA)'),
+	'CORBA' => array('fam'    => 52, 
+					 'ind'    => 53, 
+					 'region' => 'Southwest', 
+					 'name'   => 'Concerned Off-Road Bicyclists Association (CORBA)'),
+	'DOD' => array('fam'    => 57, 
+					 'ind'    => 56, 
+					 'region' => 'Pacific', 
+					 'name'   => 'Disciples of Dirt (DOD)'),
+	'CITA' => array('fam'    => 77,
+					 'ind'    => 78,
+					 'region' => 'Midwest',
+					 'name'   => 'Central Iowa Trail Association (CITA)'),
+	'CTHC' => array('fam'    => 80,
+					 'ind'    => 79,
+					 'region' => 'Midwest',
+					 'name'   => 'Copper Harbor Trails Club (CTHC)'),
+	'SFFTS' => array('fam'    => 82,
+					 'ind'    => 81,
+					 'region' => 'Colorado-Wyoming',
+					 'name'   => 'Santa Fe Fat Tire Society (SFFTS)'),
+	'VVMBA' => array('fam'    => 83, 
+					 'ind'    => 84, 
+					 'region' => 'Colorado-Wyoming', 
+					 'name'   => 'Vail Valley Mountain Bike Association (VVMBA)'),
+	'CAMBC' => array('fam'    => 86, 
+					 'ind'    => 85,
+					 'region' => 'Mid-Atlantic', 
+					 'name'   => 'Charlottesville Area Mountain Bike Club (CAMBC)'),
 	'RVMBA' => array('fam'    => 88, 
 					 'ind'    => 89, 
 					 'region' => 'Pacific', 
@@ -143,7 +126,7 @@ $url = array(
 					 'name'   => 'Southeast Georgia SORBA (SEGA SORBA)'),
 	'LASA'  => array('fam'    => 121, 
 					 'ind'    => 122, 
-					 'region' => 'Rockies', 
+					 'region' => 'Colorado-Wyoming', 
 					 'name'   => 'Los Alamos Tuff Riders (LATR)'),
 	'MWBA'  => array('fam'    => 123, 
 					 'ind'    => 124, 
@@ -174,7 +157,7 @@ $url = array(
 	'AMBA'	=> array(
 					 'fam'    => 153, 
 					 'ind'    => 154, 
-					 'region' => 'Rockies', 
+					 'region' => 'Colorado-Wyoming', 
 					 'name'   => 'Albuquerque Mountain Bike Association (AMBA)'),
 	'HRATS'	=> array(
 					 'fam'    => 137, 
@@ -259,7 +242,7 @@ $url = array(
 	'GMBA'	=> array(
 					 'fam'    => 185, 
 					 'ind'    => 186, 
-					 'region' => 'Rockies', 
+					 'region' => 'Colorado-Wyoming', 
 					 'name'   => 'Grand Mountain Bike Alliance (GMBA)'),
 	'JMBA'	=> array(
 					 'fam'    => 165, 
@@ -289,7 +272,7 @@ $url = array(
 	'GT'	=> array(
 					 'fam'    => 181, 
 					 'ind'    => 182, 
-					 'region' => 'Rockies', 
+					 'region' => 'Colorado-Wyoming', 
 					 'name'   => 'Gallup Trails (GT)'),
 	'CORA'	=> array(
 					 'fam'    => 163, 
@@ -409,7 +392,7 @@ $url = array(
 	'RCR'	=> array(
 					 'fam'    => 217, 
 					 'ind'    => 217, 
-					 'region' => 'Rockies', 
+					 'region' => 'Colorado-Wyoming', 
 					 'name'   => 'Routt County Riders (RCR)'),
 	'MSMBA'	=> array(
 					 'fam'    => 213, 
@@ -434,7 +417,7 @@ $url = array(
 	'SFTS'	=> array(
 					 'fam'    => 230, 
 					 'ind'    => 230, 
-					 'region' => 'Rockies', 
+					 'region' => 'Colorado-Wyoming', 
 					 'name'   => 'Summit Fat Tire Society (SFTS)'),
 	'RAMBO-MN'	=> array(
 					 'fam'    => 228, 
@@ -564,7 +547,7 @@ $url = array(
 	'RFMBA'	=> array(
 					 'fam'    => 266, 
 					 'ind'    => 266, 
-					 'region' => 'Rockies', 
+					 'region' => 'Colorado-Wyoming', 
 					 'name'   => 'Roaring Fork Mountain Bike Association (RFMBA)'),
 	'OORC'	=> array(
 					 'fam'    => 267, 
@@ -776,6 +759,11 @@ $url = array(
 					 'ind'    => 324,
 					 'region' => 'Mid-Atlantic',
 					 'name'   => 'Trail Pittsburgh'),
+	'NWNC-MTBA'	=> array(
+					 'fam'    => 325,
+					 'ind'    => 325,
+					 'region' => 'SORBA',
+					 'name'   => 'Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)'),
 );
 
 
@@ -791,24 +779,6 @@ foreach ($url as $key => $value) {
 
 // Canada
 $canada_down_url = 'http://www.imbacanada.com/membership/';
-/*
-$canada_retail_url	= $contribute_url . '29&custom_76=Canada&custom_77=Unassigned' . $get_string;
-$canada_club_url	= $contribute_url . '25&custom_76=Canada&custom_77=Unassigned' . $get_string;
-$canada_corp_url	= $contribute_url . '32&custom_76=Canada&custom_77=Unassigned' . $get_string;
-$canada_ind_url		= $contribute_url . '24&custom_76=Canada&custom_77=Unassigned' . $get_string;
-$canada_fam_url		= $contribute_url . '28&custom_76=Canada&custom_77=Unassigned' . $get_string;
-*/
-// allow for different urls per campaign sub-source (handle s_subsrc redirection)
-/*
-if (!empty($_GET['s_subsrc'])) {
-	switch ($_GET['s_subsrc']) {
-		case 'NPS09':
-			$imba_url   = 'https://secure2.convio.net/imba/site/Donation2?df_id=1680&1680.donation=form1' . $get_string;
-			$sorba_url  = 'https://secure2.convio.net/imba/site/Donation2?df_id=1700&1700.donation=form1' . $get_string;
-			break;
-	}
-}
-*/
 
 // states
 $state_list = array('AL'=>"Alabama",  			
@@ -1249,7 +1219,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="16" value="<?=$url['BONC']['ind']?>"><?=$url['BONC']['name']?></option>
                     <option class="16" value="<?=$url['CCORC']['ind']?>"><?=$url['CCORC']['name']?></option>
                     <option class="16" value="<?=$url['CCCMB']['ind']?>"><?=$url['CCCMB']['name']?></option>
-                    <option class="16" value="<?=$corba_ind_url?>">Concerned Off-Road Bicyclists Association (CORBA)</option>
+                    <option class="16" value="<?=$url['CORBA']['ind']?>"><?=$url['CORBA']['name']?></option>
                     <option class="16" value="<?=$url['CRATA']['ind']?>"><?=$url['CRATA']['name']?></option>
                     <option class="16" value="<?=$url['FATRAC']['ind']?>"><?=$url['FATRAC']['name']?></option>
                     <option class="16" value="<?=$url['GTH']['ind']?>"><?=$url['GTH']['name']?></option>
@@ -1257,7 +1227,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="16" value="<?=$url['IVMTB']['ind']?>"><?=$url['IVMTB']['name']?></option>
                     <option class="16" value="<?=$url['JMBA']['ind']?>"><?=$url['JMBA']['name']?></option>
                     <option class="16" value="<?=$url['LCTC']['ind']?>"><?=$url['LCTC']['name']?></option>
-                    <option class="16" value="<?=$morca_ind_url?>">Monterey Off Road Cycling Association (MORCA)</option>
+                    <option class="16" value="<?=$url['MORCA']['ind']?>"><?=$url['MORCA']['name']?></option>
                     <option class="16" value="<?=$url['MSMBA']['ind']?>"><?=$url['MSMBA']['name']?></option>
                     <option class="16" value="<?=$url['MBoSC']['ind']?>"><?=$url['MBoSC']['name']?></option>
                     <option class="16" value="<?=$url['MWBA']['ind']?>"><?=$url['MWBA']['name']?></option>
@@ -1296,7 +1266,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="14" value="99">Please Select</option>
                     <option class="14" value="<?=$url['BMA']['ind']?>"><?=$url['BMA']['name']?></option>
                     <option class="14" value="<?=$url['CCW']['ind']?>"><?=$url['CCW']['name']?></option>
-                    <option class="14" value="<?=$comba_ind_url?>">Colorado Mountain Bike Association (COMBA)</option>
+                    <option class="14" value="<?=$url['COMBA']['ind']?>"><?=$url['COMBA']['name']?></option>
                     <option class="14" value="<?=$url['GMBA']['ind']?>"><?=$url['GMBA']['name']?></option>
                     <option class="14" value="<?=$url['MWTA']['ind']?>"><?=$url['MWTA']['name']?></option>
                     <option class="14" value="<?=$url['RFMBA']['ind']?>"><?=$url['RFMBA']['name']?></option>
@@ -1304,25 +1274,25 @@ $state_list = array('AL'=>"Alabama",
                     <option class="14" value="<?=$url['SMBA']['ind']?>"><?=$url['SMBA']['name']?></option>
                     <option class="14" value="<?=$url['SSS']['ind']?>"><?=$url['SSS']['name']?></option>
                     <option class="14" value="<?=$url['SFTS']['ind']?>"><?=$url['SFTS']['name']?></option>
-                    <option class="14" value="<?=$vvmba_ind_url?>">Vail Valley Mountain Bike Association (VVMBA)</option>
+                    <option class="14" value="<?=$url['VVMBA']['ind']?>"><?=$url['VVMBA']['name']?></option>
                     <option class="14" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Colorado Retailer -->
                     <option class="15" value="99">Please Select</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Boulder Mountainbike Alliance (BMA)'?>">Boulder Mountainbike Alliance (BMA)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Cloud City Wheelers (CCW)'?>">Cloud City Wheelers (CCW)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Colorado Mountain Bike Association (COMBA)'?>">Colorado Mountain Bike Association (COMBA)</option>
-                    <option class="15" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Grand Mountain Bike Alliance (GMBA)'?>">Grand Mountain Bike Alliance (GMBA)</option>
+                    <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Grand Mountain Bike Alliance (GMBA)'?>">Grand Mountain Bike Alliance (GMBA)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Medicine Wheel Trail Advocates (MWTA)'?>">Medicine Wheel Trail Advocates (MWTA)</option>
-                    <option class="15" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Roaring Fork Mountain Bike Association (RFMBA)'?>">Roaring Fork Mountain Bike Association (RFMBA)</option>
+                    <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Roaring Fork Mountain Bike Association (RFMBA)'?>">Roaring Fork Mountain Bike Association (RFMBA)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=San Miguel Bike Alliance (SMBA)'?>">San Miguel Bike Alliance (SMBA)</option>
                     <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Silverton Singletrack Society (SSS)'?>">Silverton Singletrack Society (SSS)</option>
-                    <option class="15" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Routt County Riders (RCR)'?>">Routt County Riders (RCR)</option>
-                    <option class="15" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Summit Fat Tire Society (SFTS)'?>">Summit Fat Tire Society (SFTS)</option>
-                    <option class="15" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Vail Valley Mountain Bike Association (VVMBA)'?>">Vail Valley Mountain Bike Association (VVMBA)</option>
+                    <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Routt County Riders (RCR)'?>">Routt County Riders (RCR)</option>
+                    <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Summit Fat Tire Society (SFTS)'?>">Summit Fat Tire Society (SFTS)</option>
+                    <option class="15" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Vail Valley Mountain Bike Association (VVMBA)'?>">Vail Valley Mountain Bike Association (VVMBA)</option>
                     <option class="15" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Delaware -->
                     <option class="4" value="99">Please Select</option>
-                    <option class="4" value="<?=$dts_ind_url?>">Delaware Trail Spinners (DTS)</option>
+                    <option class="4" value="<?=$url['DTS']['ind']?>"><?=$url['DTS']['name']?></option>
                     <option class="4" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Delaware Retailer -->
                     <option class="5" value="99">Please Select</option>
@@ -1438,7 +1408,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="61" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Iowa -->
                     <option class="28" value="99">Please Select</option>
-                    <option class="28" value="<?=$cita_ind_url?>">Central Iowa Trail Association (CITA)</option>
+                    <option class="28" value="<?=$url['CITA']['ind']?>"><?=$url['CITA']['name']?></option>
                     <option class="28" value="<?=$url['LAMBA']['ind']?>"><?=$url['LAMBA']['name']?></option>
 			    	<option class="28" value="<?=$url['THOR']['ind']?>"><?=$url['THOR']['name']?></option>
                     <option class="28" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
@@ -1490,7 +1460,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="81" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Maryland -->
                     <option class="46" value="99">Please Select</option>
-                    <option class="46" value="<?=$dts_ind_url?>">Delaware Trail Spinners (DTS)</option>
+                    <option class="46" value="<?=$url['DTS']['ind']?>"><?=$url['DTS']['name']?></option>
                     <option class="46" value="<?=$url['ESIMBA']['ind']?>"><?=$url['ESIMBA']['name']?></option>
                     <option class="46" value="<?=$url['MORE']['ind']?>"><?=$url['MORE']['name']?></option>
                     <option class="46" value="<?=$url['SMMB']['ind']?>"><?=$url['SMMB']['name']?></option>
@@ -1504,7 +1474,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="47" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Michigan -->
                     <option class="32" value="99">Please Select</option>
-                    <option class="32" value="<?=$chtc_ind_url?>">Copper Harbor Trails Club (CTHC)</option>
+                    <option class="32" value="<?=$url['CTHC']['ind']?>"><?=$url['CTHC']['name']?></option>
                     <option class="32" value="<?=$url['CRAMBA']['ind']?>"><?=$url['CRAMBA']['name']?></option>
                     <option class="32" value="<?=$url['MEMBA']['ind']?>"><?=$url['MEMBA']['name']?></option>
                     <option class="32" value="<?=$url['MMMBA']['ind']?>"><?=$url['MMMBA']['name']?></option>
@@ -1541,7 +1511,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="2" value="<?=$url['GRIMBA']['ind']?>"><?=$url['GRIMBA']['name']?></option>
                     <option class="2" value="<?=$url['IROC']['ind']?>"><?=$url['IROC']['name']?></option>
                     <option class="2" value="<?=$url['MAMB']['ind']?>"><?=$url['MAMB']['name']?></option>
-                    <option class="2" value="<?=$morc_ind_url?>">Minnesota Off-Road Cyclists (MORC)</option>
+                    <option class="2" value="<?=$url['MORC-MN']['ind']?>"><?=$url['MORC-MN']['name']?></option>
                     <option class="2" value="<?=$url['RAMBO-MN']['ind']?>"><?=$url['RAMBO-MN']['name']?></option>
                     <option class="2" value="<?=$url['SCA']['ind']?>"><?=$url['SCA']['name']?></option>
                     <option class="2" value="<?=$url['WAMB']['ind']?>"><?=$url['WAMB']['name']?></option>
@@ -1613,15 +1583,15 @@ $state_list = array('AL'=>"Alabama",
                     <option class="34" value="<?=$url['DNMA']['ind']?>"><?=$url['DNMA']['name']?></option>
                     <option class="34" value="<?=$url['GT']['ind']?>"><?=$url['GT']['name']?></option>
                     <option class="34" value="<?=$url['LASA']['ind']?>"><?=$url['LASA']['name']?></option>
-                    <option class="34" value="<?=$sffts_ind_url?>">Santa Fe Fat Tire Society (SFFTS)</option>
+                    <option class="34" value="<?=$url['SFFTS']['ind']?>"><?=$url['SFFTS']['name']?></option>
                     <option class="34" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- New Mexico Retailer -->
                     <option class="35" value="99">Please Select</option>
-                    <option class="35" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Albuquerque Mountain Bike Association (AMBA)'?>">Albuquerque Mountain Bike Association (AMBA)</option>
+                    <option class="35" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Albuquerque Mountain Bike Association (AMBA)'?>">Albuquerque Mountain Bike Association (AMBA)</option>
                     <option class="35" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Del Norte MtB Alliance (DNMA)'?>">Del Norte MtB Alliance (DNMA)</option>
-                    <option class="35" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Gallup Trails (GT)'?>">Gallup Trails (GT)</option>
-                    <option class="35" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Los Alamos Tuff Riders (LATR)'?>">Los Alamos Tuff Riders (LATR)</option>
-                    <option class="35" value="<?=$retail_url . '&custom_76=Rockies&custom_77=Santa Fe Fat Tire Society (SFFTS)'?>">Santa Fe Fat Tire Society (SFFTS)</option>
+                    <option class="35" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Gallup Trails (GT)'?>">Gallup Trails (GT)</option>
+                    <option class="35" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Los Alamos Tuff Riders (LATR)'?>">Los Alamos Tuff Riders (LATR)</option>
+                    <option class="35" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Santa Fe Fat Tire Society (SFFTS)'?>">Santa Fe Fat Tire Society (SFFTS)</option>
                     <option class="35" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- New York -->
                     <option class="44" value="99">Please Select</option>
@@ -1646,7 +1616,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
                     <option class="20" value="<?=$url['GFTS']['ind']?>"><?=$url['GFTS']['name']?></option>
                     <option class="20" value="<?=$url['NAS']['ind']?>"><?=$url['NAS']['name']?></option>
-                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)'?>">Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)</option>
+                    <option class="20" value="<?=$url['NWNC-MTBA']['ind']?>"><?=$url['NWNC-MTBA']['name']?></option>
                     <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Pisgah Area SORBA (PAS)'?>">Pisgah Area SORBA (PAS)</option>
                     <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Triangle Off-Road Cyclists (TORC)'?>">Triangle Off-Road Cyclists (TORC)</option>
                     <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Tarheel Trailblazers'?>">Tarheel Trailblazers</option>
@@ -1690,10 +1660,10 @@ $state_list = array('AL'=>"Alabama",
                     <!-- Oregon -->
                     <option class="6" value="99">Please Select</option>
                     <option class="6" value="<?=$url['BMSTC']['ind']?>"><?=$url['BMSTC']['name']?></option>
-                    <option class="6" value="<?=$dod_ind_url?>">Disciples of Dirt (DOD)</option>
-                    <option class="6" value="<?=$goats_ind_url?>">Greater Oakridge Area Trail Stewards (GOATS)</option>
+                    <option class="6" value="<?=$url['DOD']['ind']?>"><?=$url['DOD']['name']?></option>
+                    <option class="6" value="<?=$url['GOATS']['ind']?>"><?=$url['GOATS']['name']?></option>
                     <option class="6" value="<?=$url['HRATS']['ind']?>"><?=$url['HRATS']['name']?></option>
-                    <option class="6" value="<?=$nwta_ind_url?>">Northwest Trail Alliance (NWTA)</option>
+                    <option class="6" value="<?=$url['NWTA']['ind']?>"><?=$url['NWTA']['name']?></option>
                     <option class="6" value="<?=$url['RVMBA']['ind']?>"><?=$url['RVMBA']['name']?></option>
                     <option class="6" value="<?=$url['SATA']['ind']?>"><?=$url['SATA']['name']?></option>
                     <option class="6" value="<?=$url['Team Dirt']['ind']?>"><?=$url['Team Dirt']['name']?></option>
@@ -1714,7 +1684,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="50" value="<?=$url['AMP']['ind']?>"><?=$url['AMP']['name']?></option>
                     <option class="50" value="<?=$url['BEMBA']['ind']?>"><?=$url['BEMBA']['name']?></option>
                     <option class="50" value="<?=$url['BAMBA-PA']['fam']?>"><?=$url['BAMBA-PA']['name']?></option>
-                    <option class="50" value="<?=$dts_ind_url?>">Delaware Trail Spinners (DTS)</option>
+                    <option class="50" value="<?=$url['DTS']['fam']?>"><?=$url['DTS']['name']?></option>
                     <option class="50" value="<?=$url['NAMBA']['ind']?>"><?=$url['NAMBA']['name']?></option>
                     <option class="50" value="<?=$url['PT']['ind']?>"><?=$url['PT']['name']?></option>
                     <option class="50" value="<?=$url['SEPTR']['ind']?>"><?=$url['SEPTR']['name']?></option>
@@ -1785,7 +1755,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="53" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Virginia -->
                     <option class="26" value="99">Please Select</option>
-                    <option class="26" value="<?=$cambc_ind_url?>">Charlottesville Area Mountain Bike Club (CAMBC)</option>
+                    <option class="26" value="<?=$url['CAMBC']['ind']?>"><?=$url['CAMBC']['name']?></option>
                     <option class="26" value="<?=$url['FATMUG']['ind']?>"><?=$url['FATMUG']['name']?></option>
                     <option class="26" value="<?=$url['GLOC']['ind']?>"><?=$url['GLOC']['name']?></option>
                     <option class="26" value="<?=$url['MORE']['ind']?>"><?=$url['MORE']['name']?></option>
@@ -1807,7 +1777,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="8" value="99">Please Select</option>
                     <option class="8" value="<?=$url['FTR']['ind']?>"><?=$url['FTR']['name']?></option>
                     <option class="8" value="<?=$url['HRATS']['ind']?>"><?=$url['HRATS']['name']?></option>
-                    <option class="8" value="<?=$nwta_ind_url?>">Northwest Trail Alliance (NWTA)</option>
+                    <option class="8" value="<?=$url['NWTA']['ind']?>"><?=$url['NWTA']['name']?></option>
                     <option class="8" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
                     <!-- Washington Retailer -->
                     <option class="9" value="99">Please Select</option>
