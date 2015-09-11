@@ -764,11 +764,35 @@ $url = array(
 					 'ind'    => 325,
 					 'region' => 'SORBA',
 					 'name'   => 'Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)'),
+	'ARR'	=> array(
+					 'fam'    => 326,
+					 'ind'    => 326,
+					 'region' => 'South Central',
+					 'name'   => 'Austin Ridge Riders (ARR)'),
+	'KMR'	=> array(
+					 'fam'    => 327,
+					 'ind'    => 327,
+					 'region' => 'None',
+					 'name'   => 'Kootenai Mountain Riders (KMR)'),
+	'ETXTA'	=> array(
+					 'fam'    => 329,
+					 'ind'    => 329,
+					 'region' => 'South Central',
+					 'name'   => 'East Texas Trail Advocacy (ETXTA)'),
+	'CNY-DIRT'	=> array(
+					 'fam'    => 330,
+					 'ind'    => 330,
+					 'region' => 'Mid-Atlantic',
+					 'name'   => 'CNY DIRT'),
+	'MTBM'	=> array(
+					 'fam'    => 332,
+					 'ind'    => 332,
+					 'region' => 'None',
+					 'name'   => 'MTB Missoula (MTBM)'),
 );
 
-
 foreach ($url as $key => $value) {
-	if ($url[$key]['fam'] == "23") {
+	if ($url[$key]['region'] == "SORBA") {
 		$url[$key]['fam'] = $contribute_url . $url[$key]['fam'] . "&custom_76=" . $url[$key]['region'] . "&custom_77=" . $url[$key]['name'] . $get_string;
 		$url[$key]['ind'] = $contribute_url . $url[$key]['ind'] . "&custom_76=" . $url[$key]['region'] . "&custom_77=" . $url[$key]['name'] . $get_string;
 	} else {
@@ -1309,6 +1333,7 @@ $state_list = array('AL'=>"Alabama",
             <!-- Flordia -->
                 <option class="18" value="99">Please Select</option>
                     <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Flagler Area Biking SORBA'?>">Flagler Area Biking SORBA</option>
+                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Florida Mudcutters (FMC)'?>">Florida Mudcutters (FMC)</option>
                     <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Jax'?>">SORBA Jax</option>
                     <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Orlando'?>">SORBA Orlando</option>
                     <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Tallahassee Mountain Bike Association (TMBA)'?>">Tallahassee Mountain Bike Association (TMBA)</option>
@@ -1316,6 +1341,7 @@ $state_list = array('AL'=>"Alabama",
             <!-- Flordia Retailer -->
                 <option class="19" value="99">Please Select</option>
                     <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Flagler Area Biking SORBA'?>">Flagler Area Biking SORBA</option>
+                    <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Florida Mudcutters (FMC)'?>">Florida Mudcutters (FMC)</option>
                     <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Jax'?>">SORBA Jax</option>
                     <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Orlando'?>">SORBA Orlando</option>
                     <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Tallahassee Mountain Bike Association (TMBA)'?>">Tallahassee Mountain Bike Association (TMBA)</option>
@@ -1368,6 +1394,7 @@ $state_list = array('AL'=>"Alabama",
                 <option class="42" value="99">Please Select</option>
                     <option class="42" value="<?=$url['BAMBA']['ind']?>"><?=$url['BAMBA']['name']?></option>
                     <option class="42" value="<?=$url['CIMBA']['ind']?>"><?=$url['CIMBA']['name']?></option>
+                    <option class="42" value="<?=$url['KMR']['ind']?>"><?=$url['KMR']['name']?></option>
                     <option class="42" value="<?=$url['MBT']['ind']?>"><?=$url['MBT']['name']?></option>
                     <option class="42" value="<?=$url['SIMBA']['ind']?>"><?=$url['SIMBA']['name']?></option>
                     <option class="42" value="<?=$url['WRBC']['ind']?>"><?=$url['WRBC']['name']?></option>
@@ -1376,6 +1403,7 @@ $state_list = array('AL'=>"Alabama",
                 <option class="43" value="99">Please Select</option>
                     <option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Boise Area Mountain Bike Association (BAMBA)'?>">Boise Area Mountain Bike Association (BAMBA)</option>
                     <option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Central Idaho Mountain Bike Association (CIMBA)'?>">Central Idaho Mountain Bike Association (CIMBA)</option>
+                    <option class="43" value="<?=$retail_url . '&custom_76=None&custom_77=Kootenai Mountain Riders (KMR)'?>">Kootenai Mountain Riders (KMR)</option>
                     <option class="43" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Mountain Bike the Tetons (MBT)'?>">Mountain Bike the Tetons (MBT)</option>
                     <option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Southern Idaho Mountain Biking Association (SIMBA)'?>">Southern Idaho Mountain Biking Association (SIMBA)</option>
                     <option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Wood River Bicycle Coalition (WRBC)'?>">Wood River Bicycle Coalition (WRBC)</option>
@@ -1552,11 +1580,15 @@ $state_list = array('AL'=>"Alabama",
             <!-- Montana -->
                 <option class="72" value="99">Please Select</option>
                     <option class="72" value="<?=$url['BBC']['ind']?>"><?=$url['BBC']['name']?></option>
+                    <option class="72" value="<?=$url['KMR']['ind']?>"><?=$url['KMR']['name']?></option>
+                    <option class="72" value="<?=$url['MTBM']['ind']?>"><?=$url['MTBM']['name']?></option>
                     <option class="72" value="<?=$url['PU']['ind']?>"><?=$url['PU']['name']?></option>
                 <option class="72" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Montana Retailer -->
                 <option class="73" value="99">Please Select</option>
                     <option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=Bitterroot Backcountry Cyclists (BBC)'?>">Bitterroot Backcountry Cyclists (BBC)</option>
+                    <option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=Kootenai Mountain Riders (KMR)'?>">Kootenai Mountain Riders (KMR)</option>
+                    <option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=MTB Missoula (MTBM)'?>">MTB Missoula (MTBM)</option>
                     <option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=Pedal United (PU)'?>">Pedal United (PU)</option>
                 <option class="73" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Nebraska -->
@@ -1596,6 +1628,7 @@ $state_list = array('AL'=>"Alabama",
             <!-- New York -->
                 <option class="44" value="99">Please Select</option>
                     <option class="44" value="<?=$url['CAMBA-NY']['ind']?>"><?=$url['CAMBA-NY']['name']?></option>
+                    <option class="44" value="<?=$url['CNY-DIRT']['ind']?>"><?=$url['CNY-DIRT']['name']?></option>
                     <option class="44" value="<?=$url['Cycle-CNY']['ind']?>"><?=$url['Cycle-CNY']['name']?></option>
                     <option class="44" value="<?=$url['FCBC']['ind']?>"><?=$url['FCBC']['name']?></option>
                     <option class="44" value="<?=$url['GROC']['ind']?>"><?=$url['GROC']['name']?></option>
@@ -1605,6 +1638,7 @@ $state_list = array('AL'=>"Alabama",
             <!-- New York Retailer -->
                 <option class="45" value="99">Please Select</option>
                     <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Central Adirondack Mountain Bike Association (CAMBA)'?>">Central Adirondack Mountain Bike Association (CAMBA)</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=CNY DIRT'?>">CNY DIRT</option>
                     <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Cycle-CNY'?>">Cycle-CNY</option>
                     <option class="45" value="<?=$retail_url . '&custom_76=Northeast&custom_77=Fats In The Cats (FCBC)'?>">Fats In The Cats (FCBC)</option>
                     <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Genesee Regional Off-Road Cyclists (GROC)'?>">Genesee Regional Off-Road Cyclists (GROC)</option>
@@ -1737,11 +1771,15 @@ $state_list = array('AL'=>"Alabama",
                 <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Texas -->
                 <option class="68" value="99">Please Select</option>
+                    <option class="68" value="<?=$url['ARR']['ind']?>"><?=$url['ARR']['name']?></option>
                     <option class="68" value="<?=$url['BMBA']['ind']?>"><?=$url['BMBA']['name']?></option>
+                    <option class="68" value="<?=$url['ETXTA']['ind']?>"><?=$url['ETXTA']['name']?></option>
                 <option class="68" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Texas Retailer -->
                 <option class="69" value="99">Please Select</option>
+                    <option class="69" value="<?=$retail_url . '&custom_76=South Central&custom_77=Austin Ridge Riders (ARR)'?>">Austin Ridge Riders (ARR)</option>
                     <option class="69" value="<?=$retail_url . '&custom_76=None&custom_77=Borderland Mountain Bike Association (BMBA)'?>">Borderland Mountain Bike Association (BMBA)</option>
+                    <option class="69" value="<?=$retail_url . '&custom_76=South Central&custom_77=East Texas Trail Advocacy (ETXTA)'?>">East Texas Trail Advocacy (ETXTA)</option>
                 <option class="69" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Utah -->
                 <option class="52" value="99">Please Select</option>
