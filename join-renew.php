@@ -1051,6 +1051,9 @@ $state_list = array('AL'=>"Alabama",
 			case 'KS':
 				$jump_url = 84;
 				break;
+			case 'NJ':
+				$jump_url = 86;
+				break;
 			default:
 				$jump_url = $imba_ind_url;
 		}
@@ -1187,6 +1190,9 @@ $state_list = array('AL'=>"Alabama",
 				break;
 			case 'KS':
 				$jump_url = 85;
+				break;
+			case 'NJ':
+				$jump_url = 87;
 				break;
 			default:
 				$jump_url = $retail_url;
@@ -1624,6 +1630,14 @@ $state_list = array('AL'=>"Alabama",
                     <option class="41" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Southern Nevada Mountain Bike Association (SNMBA)'?>">Southern Nevada Mountain Bike Association (SNMBA)</option>
 					<option class="41" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Susanville Area Bicycle Association (SABA)'?>">Susanville Area Bicycle Association (SABA)</option>
                 <option class="41" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
+            <!-- New Jersey -->
+                <option class="86" value="99">Please Select</option>
+                    <option class="86" value="<?=$url['PMTB']['ind']?>"><?=$url['PMTB']['name']?></option>
+                <option class="86" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
+            <!-- New Jersey Retailer -->
+                <option class="87" value="99">Please Select</option>
+                    <option class="87" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Palisades MTB (PMTB)'?>">Palisades MTB (PMTB)</option>
+                <option class="87" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- New Mexico -->
                 <option class="34" value="99">Please Select</option>
                     <option class="34" value="<?=$url['AMBA']['ind']?>"><?=$url['AMBA']['name']?></option>
