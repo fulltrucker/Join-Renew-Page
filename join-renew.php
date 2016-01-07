@@ -824,6 +824,11 @@ $url = array(
 					 'ind'    => 340,
 					 'region' => 'South Central',
 					 'name'   => 'Weatherford Mountain Bike Club (WMBC)'),
+	'Upstate SORBA'	=> array(
+					 'fam'    => 341,
+					 'ind'    => 341,
+					 'region' => 'SORBA',
+					 'name'   => 'Upstate SORBA'),
 );
 
 foreach ($url as $key => $value) {
@@ -1619,11 +1624,13 @@ $state_list = array('AL'=>"Alabama",
             <!-- Mississippi -->
                 <option class="78" value="99">Please Select</option>
                     <option class="78" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
                     <option class="78" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Tri-County Mountain Bike Association (TCMBA)'?>">Tri-County Mountain Bike Association (TCMBA)</option>
                 <option class="78" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Mississippi Retailer -->
                 <option class="79" value="99">Please Select</option>
                     <option class="79" value="<?=$retail_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="79" value="<?=$retail_url . '&custom_76=SORBA&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
                     <option class="79" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Tri-County Mountain Bike Association (TCMBA)'?>">Tri-County Mountain Bike Association (TCMBA)</option>
                 <option class="79" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Missouri -->
@@ -1814,7 +1821,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
                     <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Gainesville SORBA'?>">Gainesville SORBA</option>
                     <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Midlands SORBA'?>">Midlands SORBA</option>
-                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Upstate SORBA'?>">Upstate SORBA</option>
+                    <option class="24" value="<?=$url['Upstate SORBA']['ind']?>"><?=$url['Upstate SORBA']['name']?></option>
                 <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- South Carolina Retailer -->
                 <option class="25" value="99">Please Select</option>
