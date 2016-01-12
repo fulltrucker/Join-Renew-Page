@@ -11,8 +11,8 @@ $club_url		= $contribute_url . '8' . $get_string;
 $patroller_url	= $contribute_url . '10' . $get_string;
 $pgroup_url		= $contribute_url . '9' . $get_string;
 $corp_url		= 'https://www.imba.com/membership/corporate';
-$imba_ind_url	= $contribute_url . '1&custom_76=None&custom_77=Unassigned' . $get_string;
-$imba_fam_url	= $contribute_url . '2&custom_76=None&custom_77=Unassigned' . $get_string;
+$imba_ind_url	= $contribute_url . '1&custom_76=No Region&custom_77=Unassigned' . $get_string;
+$imba_fam_url	= $contribute_url . '2&custom_76=No Region&custom_77=Unassigned' . $get_string;
 $team_imba_url	= 'https://www.imba.com/team-imba' . $get_string;
 // SORBA
 $sorba_ind_url	= $contribute_url . '22' . $get_string;
@@ -26,19 +26,19 @@ $url = array(
 					 'name'   => 'Minnesota Off-Road Cyclists (MORC)'),
 	'MORCA' => array('fam'    => 54, 
 					 'ind'    => 55, 
-					 'region' => 'Northern California', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Monterey Off-Road Cyclists Association (MORCA)'),
 	'DTS' => array('fam'    => 18, 
 					 'ind'    => 17, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Delaware Trail Spinners (DTS)'),
 	'NWTA' => array('fam'    => 16, 
 					 'ind'    => 15, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Northwest Trail Alliance (NWTA)'),
 	'GOATS' => array('fam'    => 19, 
 					 'ind'    => 21, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Greater Oakridge Area Trail Stewards (GOATS) '),
 	'COMBA' => array('fam'    => 42, 
 					 'ind'    => 41, 
@@ -46,11 +46,11 @@ $url = array(
 					 'name'   => 'Colorado Mountain Bike Association (COMBA)'),
 	'CORBA' => array('fam'    => 52, 
 					 'ind'    => 53, 
-					 'region' => 'Southwest', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Concerned Off-Road Bicyclists Association (CORBA)'),
 	'DOD' => array('fam'    => 57, 
 					 'ind'    => 56, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Disciples of Dirt (DOD)'),
 	'CITA' => array('fam'    => 77,
 					 'ind'    => 78,
@@ -58,7 +58,7 @@ $url = array(
 					 'name'   => 'Central Iowa Trail Association (CITA)'),
 	'CTHC' => array('fam'    => 80,
 					 'ind'    => 79,
-					 'region' => 'Midwest',
+					 'region' => 'Great Lakes',
 					 'name'   => 'Copper Harbor Trails Club (CTHC)'),
 	'SFFTS' => array('fam'    => 82,
 					 'ind'    => 81,
@@ -70,15 +70,15 @@ $url = array(
 					 'name'   => 'Vail Valley Mountain Bike Association (VVMBA)'),
 	'CAMBC' => array('fam'    => 86, 
 					 'ind'    => 85,
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Charlottesville Area Mountain Bike Club (CAMBC)'),
 	'RVMBA' => array('fam'    => 88, 
 					 'ind'    => 89, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Rogue Valley Mountain Bike Association (RVMBA)'),
 	'SBMTV' => array('fam'    => 90, 
 					 'ind'    => 91, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Santa Barbara Mountain Bike Trail Volunteers (SBMTV)'),
 	'CORP'  => array('fam'    => 92, 
 					 'ind'    => 93, 
@@ -114,15 +114,15 @@ $url = array(
 					 'name'   => 'West Michigan Mountain Biking Alliance (WMMBA)'),
 	'GFTS'  => array('fam'    => 23, 
 					 'ind'    => 22, 
-					 'region' => 'SORBA', 
+					 'region' => 'Southeast', 
 					 'name'   => 'Greensboro Fat Tire Society (GFTS)'),
 	'NAS'   => array('fam'    => 23, 
 					 'ind'    => 22, 
-					 'region' => 'SORBA', 
+					 'region' => 'Southeast', 
 					 'name'   => 'Nantahala Area SORBA (NAS)'),
 	'SEGA'  => array('fam'    => 23, 
 					 'ind'    => 22, 
-					 'region' => 'SORBA', 
+					 'region' => 'Southeast', 
 					 'name'   => 'Southeast Georgia SORBA (SEGA SORBA)'),
 	'LASA'  => array('fam'    => 121, 
 					 'ind'    => 122, 
@@ -130,15 +130,15 @@ $url = array(
 					 'name'   => 'Los Alamos Tuff Riders (LATR)'),
 	'MWBA'  => array('fam'    => 123, 
 					 'ind'    => 124, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Mount Wilson Bicycling Association (MWBA)'),
 	'WRBC'  => array('fam'    => 117, 
 					 'ind'    => 118, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Wood River Bicycle Coalition (WRBC)'),
 	'BAMBA' => array('fam'    => 51, 
 					 'ind'    => 50, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Boise Area Mountain Bike Association (BAMBA)'),
 	'CAMBA' => array('fam'    => 119, 
 					 'ind'    => 120, 
@@ -147,12 +147,12 @@ $url = array(
 	'Cycle-CNY'	=> array(
 					 'fam'    => 143, 
 					 'ind'    => 144, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Cycle-CNY'),
 	'ESIMBA'	=> array(
 					 'fam'    => 131, 
 					 'ind'    => 132, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Eastern Shore IMBA (ESIMBA)'),
 	'AMBA'	=> array(
 					 'fam'    => 153, 
@@ -162,7 +162,7 @@ $url = array(
 	'HRATS'	=> array(
 					 'fam'    => 137, 
 					 'ind'    => 138, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Hood River Area Trail Stewards (HRATS)'),
 	'KORC'	=> array(
 					 'fam'    => 129, 
@@ -172,7 +172,7 @@ $url = array(
 	'MMBC'	=> array(
 					 'fam'    => 139, 
 					 'ind'    => 140, 
-					 'region' => 'Pacific', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Maui Mountain Bike Coalition (MMBC)'),
 	'Metro'	=> array(
 					 'fam'    => 155, 
@@ -182,17 +182,17 @@ $url = array(
 	'NYCMTB'	=> array(
 					 'fam'    => 133, 
 					 'ind'    => 134, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'New York City Mountain Bike Association (NYCMTB)'),
 	'NAMBA'	=> array(
 					 'fam'    => 151, 
 					 'ind'    => 152, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Northern Allegheny Mountain Bike Association (NAMBA)'),
 	'SEPTR'	=> array(
 					 'fam'    => 145, 
 					 'ind'    => 146, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Southeastern Pennsylvania Trail Riders (SEPTR)'),
 	'Poto MBA'	=> array(
 					 'fam'    => 115, 
@@ -202,12 +202,12 @@ $url = array(
 	'RIMBA'	=> array(
 					 'fam'    => 147, 
 					 'ind'    => 148, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Roanoke IMBA (RIMBA)'),
 	'SIMBA'	=> array(
 					 'fam'    => 135, 
 					 'ind'    => 136, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Southern Idaho Mountain Biking Association (SIMBA)'),
 	'SCA'	=> array(
 					 'fam'    => 141, 
@@ -237,7 +237,7 @@ $url = array(
 	'FATMUG'	=> array(
 					 'fam'    => 175, 
 					 'ind'    => 176, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Fredericksburg Area Trail Management and User Group (FATMUG)'),
 	'GMBA'	=> array(
 					 'fam'    => 185, 
@@ -247,7 +247,7 @@ $url = array(
 	'JMBA'	=> array(
 					 'fam'    => 165, 
 					 'ind'    => 166, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Jefferson Mountain Bike Association (JMBA)'),
 	'MVMBA'	=> array(
 					 'fam'    => 161, 
@@ -257,7 +257,7 @@ $url = array(
 	'SMMB'	=> array(
 					 'fam'    => 167, 
 					 'ind'    => 168, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Southern Maryland Mountain Biking (SMMB)'),
 	'SWMMBA'	=> array(
 					 'fam'    => 179, 
@@ -267,7 +267,7 @@ $url = array(
 	'WNYMBA'	=> array(
 					 'fam'    => 173, 
 					 'ind'    => 174, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Western New York Mountain Bicycling Association (WNYMBA)'),
 	'GT'	=> array(
 					 'fam'    => 181, 
@@ -297,12 +297,12 @@ $url = array(
 	'SHARE'	=> array(
 					 'fam'    => 193, 
 					 'ind'    => 194, 
-					 'region' => 'Southwest', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'SHARE Mountain Bike Club (SHARE)'),
 	'Team Dirt'	=> array(
 					 'fam'    => 205, 
 					 'ind'    => 206, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Team Dirt'),
 	'KyMBA Louisville'	=> array(
 					 'fam'    => 195, 
@@ -312,12 +312,12 @@ $url = array(
 	'CIMBA'	=> array(
 					 'fam'    => 191, 
 					 'ind'    => 192, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Central Idaho Mountain Bike Association (CIMBA)'),
 	'CAMP'	=> array(
 					 'fam'    => 23, 
 					 'ind'    => 22, 
-					 'region' => 'SORBA', 
+					 'region' => 'Southeast', 
 					 'name'   => 'Central Alabama Mountain Pedalers (CAMP)'),
 	'TOMMBA'	=> array(
 					 'fam'    => 203, 
@@ -347,17 +347,17 @@ $url = array(
 	'BAMBA-PA'	=> array(
 					 'fam'    => 210, 
 					 'ind'    => 210, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Berks Area Mountain Biking Association (BAMBA)'),
 	'CCCMB'	=> array(
 					 'fam'    => 209, 
 					 'ind'    => 209, 
-					 'region' => 'Southwest', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Central Coast Concerned Mountain Bikers (CCCMB)'),
 	'IDYLLWILD'	=> array(
 					 'fam'    => 211, 
 					 'ind'    => 211, 
-					 'region' => 'Southwest', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Idyllwild Cycling'),
 	'SKYMBA'	=> array(
 					 'fam'    => 212, 
@@ -367,7 +367,7 @@ $url = array(
 	'SAMBA'	=> array(
 					 'fam'    => 218, 
 					 'ind'    => 218, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Susquehanna Area Mountain Bike Association (SAMBA)'),
 	'NIMBA'	=> array(
 					 'fam'    => 215, 
@@ -397,7 +397,7 @@ $url = array(
 	'MSMBA'	=> array(
 					 'fam'    => 213, 
 					 'ind'    => 213, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Mount Shasta Mountain Bike Association (MSMBA)'),
 	'GRIMBA'	=> array(
 					 'fam'    => 227, 
@@ -412,7 +412,7 @@ $url = array(
 	'NRBU'	=> array(
 					 'fam'    => 225, 
 					 'ind'    => 225, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'New River Bicycle Union (NRBU)'),
 	'SFTS'	=> array(
 					 'fam'    => 230, 
@@ -432,12 +432,12 @@ $url = array(
 	'FTR'	=> array(
 					 'fam'    => 235, 
 					 'ind'    => 235, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Fidalgo Trail Riders (FTR)'),
 	'FCBC'	=> array(
 					 'fam'    => 233, 
 					 'ind'    => 233, 
-					 'region' => 'Northeast', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Fats In The Cats (FCBC)'),
 	'CILTA'	=> array(
 					 'fam'    => 234, 
@@ -447,7 +447,7 @@ $url = array(
 	'SDMBA'	=> array(
 					 'fam'    => 232, 
 					 'ind'    => 232, 
-					 'region' => 'Southwest', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'San Diego Mountain Biking Association (SDMBA)'),
 	'CORBA-WI'	=> array(
 					 'fam'    => 229, 
@@ -472,12 +472,12 @@ $url = array(
 	'GTH'	=> array(
 					 'fam'    => 238, 
 					 'ind'    => 238, 
-					 'region' => 'Northern California', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Groveland Trail Heads (GTH)'),
 	'MORE'	=> array(
 					 'fam'    => 239, 
 					 'ind'    => 239, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Mid-Atlantic Off-Road Enthusiasts (MORE)'),
 	'CRATA'	=> array(
 					 'fam'    => 244, 
@@ -492,12 +492,12 @@ $url = array(
 	'PT'	=> array(
 					 'fam'    => 241, 
 					 'ind'    => 241, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Pocahontas Trails (PT)'),
 	'RA-MORE'	=> array(
 					 'fam'    => 242, 
 					 'ind'    => 242, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'RVA MORE'),
 	'WAMB'	=> array(
 					 'fam'    => 243, 
@@ -507,7 +507,7 @@ $url = array(
 	'FATRAC'	=> array(
 					 'fam'    => 245, 
 					 'ind'    => 245, 
-					 'region' => 'Northern California', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Folsom Auburn Trail Riders Action Coalition (FATRAC)'),
 	'MMBA'	=> array(
 					 'fam'    => 246, 
@@ -517,32 +517,32 @@ $url = array(
 	'MBoSC'	=> array(
 					 'fam'    => 247, 
 					 'ind'    => 247, 
-					 'region' => 'Southwest', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Mountain Bikers of Santa Cruz (MBoSC)'),
 	'BMSTC'	=> array(
 					 'fam'    => 248, 
 					 'ind'    => 248, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Blue Mountain Singletrack Trails Club (BMSTC)'),
 	'SATA'	=> array(
 					 'fam'    => 249, 
 					 'ind'    => 249, 
-					 'region' => 'Pacific', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Salem Area Trail Alliance (SATA)'),
 	'SVMTB'	=> array(
 					 'fam'    => 250, 
 					 'ind'    => 250, 
-					 'region' => 'Pacific', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Silicon Valley Mountain Bikers (SVMTB)'),
 	'OMTBO'	=> array(
 					 'fam'    => 251, 
 					 'ind'    => 251, 
-					 'region' => 'Pacific', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Oahu Mountain Bike Ohana (OMTBO)'),
 	'BMBA'	=> array(
 					 'fam'    => 265, 
 					 'ind'    => 265, 
-					 'region' => 'None', 
+					 'region' => 'Southwest', 
 					 'name'   => 'Borderland Mountain Bike Association (BMBA)'),
 	'RFMBA'	=> array(
 					 'fam'    => 266, 
@@ -557,27 +557,27 @@ $url = array(
 	'AMP'	=> array(
 					 'fam'    => 268, 
 					 'ind'    => 268, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Anthracite Mountain Pedalers (AMP)'),
 	'LCTC'	=> array(
 					 'fam'    => 269, 
 					 'ind'    => 269, 
-					 'region' => 'Northern California', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Lake County Trails Coalition (LCTC)'),
 	'GROC'	=> array(
 					 'fam'    => 270, 
 					 'ind'    => 270, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Genesee Regional Off-Road Cyclists (GROC)'),
 	'CCORC'	=> array(
 					 'fam'    => 271, 
 					 'ind'    => 271, 
-					 'region' => 'Northern California', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Central California Off Road Cyclists (CCORC)'),
 	'GLOC'	=> array(
 					 'fam'    => 272, 
 					 'ind'    => 272, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Greater Lynchburg Off-Road Cyclists (GLOC)'),
 	'MWTA'	=> array(
 					 'fam'    => 273, 
@@ -587,7 +587,7 @@ $url = array(
 	'CAMBA-NY'	=> array(
 					 'fam'    => 274, 
 					 'ind'    => 274, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Central Adirondack Mountain Bike Association (CAMBA)'),
 	'MORC-MO'	=> array(
 					 'fam'    => 275, 
@@ -597,7 +597,7 @@ $url = array(
 	'BEMBA'	=> array(
 					 'fam'    => 276, 
 					 'ind'    => 276, 
-					 'region' => 'Mid-Atlantic', 
+					 'region' => 'Atlantic', 
 					 'name'   => 'Bald Eagle Mountain Bike Association (BEMBA)'),
 	'CATA'	=> array(
 					 'fam'    => 277, 
@@ -607,12 +607,12 @@ $url = array(
 	'BBC'	=> array(
 					 'fam'    => 289, 
 					 'ind'    => 289, 
-					 'region' => 'None', 
+					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Bitterroot Backcountry Cyclists (BBC)'),
 	'BONC'	=> array(
 					 'fam'    => 290, 
 					 'ind'    => 290, 
-					 'region' => 'Northern California', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Bicyclists of Nevada County (BONC)'),
 	'COMBO'	=> array(
 					 'fam'    => 291, 
@@ -632,17 +632,17 @@ $url = array(
 	'RCMBA'	=> array(
 					 'fam'    => 294, 
 					 'ind'    => 294, 
-					 'region' => 'Northern California', 
+					 'region' => 'California-Hawaii', 
 					 'name'   => 'Redwood Coast Mountain Bike Association (RCMBA)'),
 	'RAMBA'	=> array(
 					 'fam'    => 295, 
 					 'ind'    => 295, 
-					 'region' => 'Midwest', 
+					 'region' => 'Great Lakes', 
 					 'name'   => 'Range Area Mountain Bike Association (RAMBA)'),
 	'RAMBO'	=> array(
 					 'fam'    => 297, 
 					 'ind'    => 297, 
-					 'region' => 'SORBA', 
+					 'region' => 'Southeast', 
 					 'name'   => 'Roswell Alpharetta Mountain Bike Organization (RAMBO)'),
   	'CROCT'	=> array(
 					 'fam'    => 298,
@@ -657,7 +657,7 @@ $url = array(
 	'PU'	=> array(
 					 'fam'    => 300,
 					 'ind'    => 300,
-					 'region' => 'None',
+					 'region' => 'Pacific Northwest',
 					 'name'   => 'Pedal United (PU)'),
 	'FAST'	=> array(
 					 'fam'    => 302,
@@ -677,7 +677,7 @@ $url = array(
 	'SVVC'	=> array(
 					 'fam'    => 305,
 					 'ind'    => 305,
-					 'region' => 'Mid-Atlantic',
+					 'region' => 'Atlantic',
 					 'name'   => 'Susquehanna Valley Velo Club (SVVC)'),
 	'BMA'	=> array(
 					 'fam'    => 307,
@@ -697,12 +697,12 @@ $url = array(
 	'NMTA-ME'	=> array(
 					 'fam'    => 311,
 					 'ind'    => 311,
-					 'region' => 'None',
+					 'region' => 'Atlantic',
 					 'name'   => 'Northern Maine Trails Alliance (NMTA)'),
 	'SABA'	=> array(
 					 'fam'    => 312,
 					 'ind'    => 312,
-					 'region' => 'Northern California',
+					 'region' => 'California-Hawaii',
 					 'name'   => 'Susanville Area Bicycle Association (SABA)'),
 	'VVCC'	=> array(
 					 'fam'    => 313,
@@ -712,7 +712,7 @@ $url = array(
 	'IVMTB'	=> array(
 					 'fam'    => 314,
 					 'ind'    => 314,
-					 'region' => 'Southwest',
+					 'region' => 'California-Hawaii',
 					 'name'   => 'Inland Valley Mountain Bike Association (IVMTB)'),
 	'THOR'	=> array(
 					 'fam'    => 315,
@@ -722,7 +722,7 @@ $url = array(
 	'BBA'	=> array(
 					 'fam'    => 317,
 					 'ind'    => 317,
-					 'region' => 'Mid-Atlantic',
+					 'region' => 'Atlantic',
 					 'name'   => 'Blackwater Bicycle Association (BBA)'),
 	'CWTA'	=> array(
 					 'fam'    => 318,
@@ -752,17 +752,17 @@ $url = array(
 	'SVMBA'	=> array(
 					 'fam'    => 323,
 					 'ind'    => 323,
-					 'region' => 'Mid-Atlantic',
+					 'region' => 'Atlantic',
 					 'name'   => 'Southern Virginia Mountain Bike Association (SVMBA)'),
 	'TP'	=> array(
 					 'fam'    => 324,
 					 'ind'    => 324,
-					 'region' => 'Mid-Atlantic',
+					 'region' => 'Atlantic',
 					 'name'   => 'Trail Pittsburgh'),
 	'NWNC-MTBA'	=> array(
 					 'fam'    => 325,
 					 'ind'    => 325,
-					 'region' => 'SORBA',
+					 'region' => 'Southeast',
 					 'name'   => 'Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)'),
 	'ARR'	=> array(
 					 'fam'    => 326,
@@ -772,12 +772,12 @@ $url = array(
 	'KMR'	=> array(
 					 'fam'    => 327,
 					 'ind'    => 327,
-					 'region' => 'None',
+					 'region' => 'Pacific Northwest',
 					 'name'   => 'Kootenai Mountain Riders (KMR)'),
 	'VMB'	=> array(
 					 'fam'    => 328,
 					 'ind'    => 328,
-					 'region' => 'Mid-Atlantic',
+					 'region' => 'Atlantic',
 					 'name'   => 'Valley Mountain Bikers (VMB)'),
 	'ETXTA'	=> array(
 					 'fam'    => 329,
@@ -787,27 +787,27 @@ $url = array(
 	'CNY-DIRT'	=> array(
 					 'fam'    => 330,
 					 'ind'    => 330,
-					 'region' => 'Mid-Atlantic',
+					 'region' => 'Atlantic',
 					 'name'   => 'CNY DIRT'),
 	'NUMB'	=> array(
 					 'fam'    => 331,
 					 'ind'    => 331,
-					 'region' => 'None',
+					 'region' => 'Southwest',
 					 'name'   => 'Northeastern Utah Mountain Bikers (NUMB)'),
 	'MTBM'	=> array(
 					 'fam'    => 332,
 					 'ind'    => 332,
-					 'region' => 'None',
+					 'region' => 'Pacific Northwest',
 					 'name'   => 'MTB Missoula (MTBM)'),
 	'PMTB'	=> array(
 					 'fam'    => 333,
 					 'ind'    => 333,
-					 'region' => 'Mid-Atlantic',
+					 'region' => 'Atlantic',
 					 'name'   => 'Palisades MTB (PMTB)'),
 	'L49'	=> array(
 					 'fam'    => 337,
 					 'ind'    => 337,
-					 'region' => 'Pacific',
+					 'region' => 'Alaska',
 					 'name'   => 'Levitation 49 (L49)'),
 	'WVTA'	=> array(
 					 'fam'    => 338,
@@ -817,7 +817,7 @@ $url = array(
 	'SEMBA'	=> array(
 					 'fam'    => 339,
 					 'ind'    => 339,
-					 'region' => 'Northern California',
+					 'region' => 'California-Hawaii',
 					 'name'   => 'Sierra Eastside Mountain Bike Association (SEMBA)'),
 	'WMBC'	=> array(
 					 'fam'    => 340,
@@ -827,7 +827,7 @@ $url = array(
 	'Upstate SORBA'	=> array(
 					 'fam'    => 341,
 					 'ind'    => 341,
-					 'region' => 'SORBA',
+					 'region' => 'Southeast',
 					 'name'   => 'Upstate SORBA'),
 );
 
@@ -1238,33 +1238,33 @@ $state_list = array('AL'=>"Alabama",
                 <td><select name="chapter" id="chapter">
             <!-- Alabama -->
                 <option class="12" value="99">Please Select</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Birmingham Urban Mountain Pedalers (BUMP)'?>">Birmingham Urban Mountain Pedalers (BUMP)</option>
+                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Birmingham Urban Mountain Pedalers (BUMP)'?>">Birmingham Urban Mountain Pedalers (BUMP)</option>
                     <option class="12" value="<?=$url['CAMP']['ind']?>"><?=$url['CAMP']['name']?></option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Huntsville'?>">SORBA Huntsville</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Northeast Alabama Bicycle Association (NEABA)'?>">Northeast Alabama Bicycle Association (NEABA)</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Southeast Alabama Mountainbikers (SAM-SORBA)'?>">Southeast Alabama Mountainbikers (SAM-SORBA)</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=West Alabama Mountain Biking Association (WAMBA)'?>">West Alabama Mountain Biking Association (WAMBA)</option>
-                <option class="12" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Huntsville'?>">SORBA Huntsville</option>
+                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
+                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Northeast Alabama Bicycle Association (NEABA)'?>">Northeast Alabama Bicycle Association (NEABA)</option>
+                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
+                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Southeast Alabama Mountainbikers (SAM-SORBA)'?>">Southeast Alabama Mountainbikers (SAM-SORBA)</option>
+                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=West Alabama Mountain Biking Association (WAMBA)'?>">West Alabama Mountain Biking Association (WAMBA)</option>
+                <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Alabama Retailer -->
                 <option class="13" value="99">Please Select</option>
-                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Birmingham Urban Mountain Pedalers (BUMP)'?>">Birmingham Urban Mountain Pedalers (BUMP)</option>
-                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Central Alabama Mountain Pedalers (CAMP)'?>">Central Alabama Mountain Pedalers (CAMP)</option>
-                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Huntsville'?>">SORBA Huntsville</option>
-                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
-                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Northeast Alabama Bicycle Association (NEABA)'?>">Northeast Alabama Bicycle Association (NEABA)</option>
-                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
-                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Southeast Alabama Mountainbikers (SAM-SORBA)'?>">Southeast Alabama Mountainbikers (SAM-SORBA)</option>
-                    <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=West Alabama Mountain Biking Association (WAMBA)'?>">West Alabama Mountain Biking Association (WAMBA)</option>
-                <option class="13" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="13" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Birmingham Urban Mountain Pedalers (BUMP)'?>">Birmingham Urban Mountain Pedalers (BUMP)</option>
+                    <option class="13" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Central Alabama Mountain Pedalers (CAMP)'?>">Central Alabama Mountain Pedalers (CAMP)</option>
+                    <option class="13" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA Huntsville'?>">SORBA Huntsville</option>
+                    <option class="13" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
+                    <option class="13" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Northeast Alabama Bicycle Association (NEABA)'?>">Northeast Alabama Bicycle Association (NEABA)</option>
+                    <option class="13" value="<?=$retail_url . '&custom_76=Southeast&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
+                    <option class="13" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Southeast Alabama Mountainbikers (SAM-SORBA)'?>">Southeast Alabama Mountainbikers (SAM-SORBA)</option>
+                    <option class="13" value="<?=$retail_url . '&custom_76=Southeast&custom_77=West Alabama Mountain Biking Association (WAMBA)'?>">West Alabama Mountain Biking Association (WAMBA)</option>
+                <option class="13" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Alaska --> 
                 <option class="88" value="99">Please Select</option>
                     <option class="88" value="<?=$url['L49']['ind']?>"><?=$url['L49']['name']?></option>
                 <option class="88" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Alaska Retailer --> 
                 <option class="89" value="99">Please Select</option>
-                    <option class="89" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Levitation 49 (L49)'?>">Levitation 49 (L49)</option>
+                    <option class="89" value="<?=$retail_url . '&custom_76=Alaska&custom_77=Levitation 49 (L49)'?>">Levitation 49 (L49)</option>
                 <option class="89" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Arizona -->
                 <option class="30" value="99">Please Select</option>
@@ -1288,14 +1288,14 @@ $state_list = array('AL'=>"Alabama",
                 <option class="66" value="99">Please Select</option>
                     <option class="66" value="<?=$url['CATA']['ind']?>"><?=$url['CATA']['name']?></option>
                     <option class="66" value="<?=$url['FAST']['ind']?>"><?=$url['FAST']['name']?></option>
-                    <option class="66" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="66" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
                     <option class="66" value="<?=$url['OORC']['ind']?>"><?=$url['OORC']['name']?></option>
                 <option class="66" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Arkansas Retailer -->
                 <option class="67" value="99">Please Select</option>
                     <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Central Arkansas Trail Alliance (CATA)'?>">Central Arkansas Trail Alliance (CATA)</option>
                     <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Friends of Arkansas Singletrack (FAST)'?>">Friends of Arkansas Singletrack (FAST)</option>
-                    <option class="67" value="<?=$retail_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="67" value="<?=$retail_url . '&custom_76=Southeast&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
                     <option class="67" value="<?=$retail_url . '&custom_76=South Central&custom_77=Ozark Off Road Cyclists (OORC)'?>">Ozark Off Road Cyclists (OORC)</option>
                 <option class="67" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- California -->
@@ -1325,28 +1325,28 @@ $state_list = array('AL'=>"Alabama",
                 <option class="16" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- California Retailer -->
                 <option class="17" value="99">Please Select</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Bicyclists of Nevada County (BONC)'?>">Bicyclists of Nevada County (BONC)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Central California Off Road Cyclists (CCORC)'?>">Central California Off Road Cyclists (CCORC)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Central Coast Concerned Mountain Bikers (CCCMB)'?>">Central Coast Concerned Mountain Bikers (CCCMB)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Concerned Off-Road Bicyclists Association (CORBA)'?>">Concerned Off-Road Bicyclists Association (CORBA)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Bicyclists of Nevada County (BONC)'?>">Bicyclists of Nevada County (BONC)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Central California Off Road Cyclists (CCORC)'?>">Central California Off Road Cyclists (CCORC)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Central Coast Concerned Mountain Bikers (CCCMB)'?>">Central Coast Concerned Mountain Bikers (CCCMB)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Concerned Off-Road Bicyclists Association (CORBA)'?>">Concerned Off-Road Bicyclists Association (CORBA)</option>
                     <option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Colorado River Area Trail Alliance (CRATA)'?>">Colorado River Area Trail Alliance (CRATA)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Folsom Auburn Trail Riders Action Coalition (FATRAC)'?>">Folsom Auburn Trail Riders Action Coalition (FATRAC)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Groveland Trail Heads (GTH)'?>">Groveland Trail Heads (GTH)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Idyllwild Cycling'?>">Idyllwild Cycling</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Inland Valley Mountain Bike Association (IVMTB)'?>">Inland Valley Mountain Bike Association (IVMTB)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Jefferson Mountain Bike Association (JMBA)'?>">Jefferson Mountain Bike Association (JMBA)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Lake County Trails Coalition (LCTC)'?>">Lake County Trails Coalition (LCTC)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Monterey Off Road Cycling Association (MORCA)'?>">Monterey Off Road Cycling Association (MORCA)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Mount Shasta Mountain Bike Association (MSMBA)'?>">Mount Shasta Mountain Bike Association (MSMBA)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Mountain Bikers of Santa Cruz (MBoSC)'?>">Mountain Bikers of Santa Cruz (MBoSC)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Mount Wilson Bicycling Association (MWBA)'?>">Mount Wilson Bicycling Association (MWBA)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Redwood Coast Mountain Bike Association (RCMBA)'?>">Redwood Coast Mountain Bike Association (RCMBA)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=San Diego Mountain Biking Association (SDMBA)'?>">San Diego Mountain Biking Association (SDMBA)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Santa Barbara Mountain Bike Trail Volunteers (SBMTV)'?>">Santa Barbara Mountain Bike Trail Volunteers (SBMTV)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Southwest&custom_77=SHARE Mountain Bike Club (SHARE)'?>">SHARE Mountain Bike Club (SHARE)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Sierra Eastside Mountain Bike Association (SEMBA)'?>">Sierra Eastside Mountain Bike Association (SEMBA)</option>
-                    <option class="17" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Silicon Valley Mountain Bikers (SVMTB)'?>">Silicon Valley Mountain Bikers (SVMTB)</option>
-					<option class="17" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Susanville Area Bicycle Association (SABA)'?>">Susanville Area Bicycle Association (SABA)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Folsom Auburn Trail Riders Action Coalition (FATRAC)'?>">Folsom Auburn Trail Riders Action Coalition (FATRAC)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Groveland Trail Heads (GTH)'?>">Groveland Trail Heads (GTH)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Idyllwild Cycling'?>">Idyllwild Cycling</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Inland Valley Mountain Bike Association (IVMTB)'?>">Inland Valley Mountain Bike Association (IVMTB)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Jefferson Mountain Bike Association (JMBA)'?>">Jefferson Mountain Bike Association (JMBA)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Lake County Trails Coalition (LCTC)'?>">Lake County Trails Coalition (LCTC)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Monterey Off Road Cycling Association (MORCA)'?>">Monterey Off Road Cycling Association (MORCA)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Mount Shasta Mountain Bike Association (MSMBA)'?>">Mount Shasta Mountain Bike Association (MSMBA)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Mountain Bikers of Santa Cruz (MBoSC)'?>">Mountain Bikers of Santa Cruz (MBoSC)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Mount Wilson Bicycling Association (MWBA)'?>">Mount Wilson Bicycling Association (MWBA)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Redwood Coast Mountain Bike Association (RCMBA)'?>">Redwood Coast Mountain Bike Association (RCMBA)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=San Diego Mountain Biking Association (SDMBA)'?>">San Diego Mountain Biking Association (SDMBA)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Santa Barbara Mountain Bike Trail Volunteers (SBMTV)'?>">Santa Barbara Mountain Bike Trail Volunteers (SBMTV)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=SHARE Mountain Bike Club (SHARE)'?>">SHARE Mountain Bike Club (SHARE)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Sierra Eastside Mountain Bike Association (SEMBA)'?>">Sierra Eastside Mountain Bike Association (SEMBA)</option>
+                    <option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Silicon Valley Mountain Bikers (SVMTB)'?>">Silicon Valley Mountain Bikers (SVMTB)</option>
+					<option class="17" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Susanville Area Bicycle Association (SABA)'?>">Susanville Area Bicycle Association (SABA)</option>
                 <option class="17" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Colorado -->
                 <option class="14" value="99">Please Select</option>
@@ -1382,7 +1382,7 @@ $state_list = array('AL'=>"Alabama",
                 <option class="4" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Delaware Retailer -->
                 <option class="5" value="99">Please Select</option>
-                    <option class="5" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Delaware Trail Spinners (DTS)'?>">Delaware Trail Spinners (DTS)</option>
+                    <option class="5" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Delaware Trail Spinners (DTS)'?>">Delaware Trail Spinners (DTS)</option>
                 <option class="5" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- District of Columbia -->
                 <option class="64" value="99">Please Select</option>
@@ -1390,58 +1390,58 @@ $state_list = array('AL'=>"Alabama",
                 <option class="64" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- District of Columbia Retailer -->
                 <option class="65" value="99">Please Select</option>
-                    <option class="65" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Mid-Atlantic Off-Road Enthusiasts (MORE)'?>">Mid-Atlantic Off-Road Enthusiasts (MORE)</option>
+                    <option class="65" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Mid-Atlantic Off-Road Enthusiasts (MORE)'?>">Mid-Atlantic Off-Road Enthusiasts (MORE)</option>
                 <option class="65" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Flordia -->
                 <option class="18" value="99">Please Select</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Flagler Area Biking SORBA'?>">Flagler Area Biking SORBA</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Florida Mudcutters (FMC)'?>">Florida Mudcutters (FMC)</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Jax'?>">SORBA Jax</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Orlando'?>">SORBA Orlando</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Tallahassee Mountain Bike Association (TMBA)'?>">Tallahassee Mountain Bike Association (TMBA)</option>
-                <option class="18" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Flagler Area Biking SORBA'?>">Flagler Area Biking SORBA</option>
+                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Florida Mudcutters (FMC)'?>">Florida Mudcutters (FMC)</option>
+                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Jax'?>">SORBA Jax</option>
+                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Orlando'?>">SORBA Orlando</option>
+                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Tallahassee Mountain Bike Association (TMBA)'?>">Tallahassee Mountain Bike Association (TMBA)</option>
+                <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Flordia Retailer -->
                 <option class="19" value="99">Please Select</option>
-                    <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Flagler Area Biking SORBA'?>">Flagler Area Biking SORBA</option>
-                    <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Florida Mudcutters (FMC)'?>">Florida Mudcutters (FMC)</option>
-                    <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Jax'?>">SORBA Jax</option>
-                    <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Orlando'?>">SORBA Orlando</option>
-                    <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Tallahassee Mountain Bike Association (TMBA)'?>">Tallahassee Mountain Bike Association (TMBA)</option>
-                <option class="19" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="19" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Flagler Area Biking SORBA'?>">Flagler Area Biking SORBA</option>
+                    <option class="19" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Florida Mudcutters (FMC)'?>">Florida Mudcutters (FMC)</option>
+                    <option class="19" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA Jax'?>">SORBA Jax</option>
+                    <option class="19" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA Orlando'?>">SORBA Orlando</option>
+                    <option class="19" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Tallahassee Mountain Bike Association (TMBA)'?>">Tallahassee Mountain Bike Association (TMBA)</option>
+                <option class="19" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Georgia -->
                 <option class="22" value="99">Please Select</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Athens'?>">SORBA Athens</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Atlanta'?>">SORBA Atlanta</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Ellijay Mountain Bike Association (EMBA SORBA)'?>">Ellijay Mountain Bike Association (EMBA SORBA)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Flint River Mountain Bike Association (FRMBA)'?>">Flint River Mountain Bike Association (FRMBA)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Gwinnett Area Trail Riders (GATR)'?>">Gwinnett Area Trail Riders (GATR)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Ocmulgee Mountain Biking Association (OMBA Middle Georgia)'?>">Ocmulgee Mountain Biking Association (OMBA Middle Georgia)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Northeast Georgia SORBA'?>">Northeast Georgia SORBA</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Northwest Georgia SORBA'?>">Northwest Georgia SORBA</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Athens'?>">SORBA Athens</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Atlanta'?>">SORBA Atlanta</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Ellijay Mountain Bike Association (EMBA SORBA)'?>">Ellijay Mountain Bike Association (EMBA SORBA)</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Flint River Mountain Bike Association (FRMBA)'?>">Flint River Mountain Bike Association (FRMBA)</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Gwinnett Area Trail Riders (GATR)'?>">Gwinnett Area Trail Riders (GATR)</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Ocmulgee Mountain Biking Association (OMBA Middle Georgia)'?>">Ocmulgee Mountain Biking Association (OMBA Middle Georgia)</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Northeast Georgia SORBA'?>">Northeast Georgia SORBA</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Northwest Georgia SORBA'?>">Northwest Georgia SORBA</option>
                     <option class="22" value="<?=$url['RAMBO']['ind']?>"><?=$url['RAMBO']['name']?></option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA West Georgia'?>">SORBA West Georgia</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Woodstock'?>">SORBA Woodstock</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA West Georgia'?>">SORBA West Georgia</option>
+                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Woodstock'?>">SORBA Woodstock</option>
                     <option class="22" value="<?=$url['SEGA']['ind']?>"><?=$url['SEGA']['name']?></option>
-                <option class="22" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Georgia Retailer -->
                 <option class="23" value="99">Please Select</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Athens'?>">SORBA Athens</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Atlanta'?>">SORBA Atlanta</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Ellijay Mountain Bike Association (EMBA SORBA)'?>">Ellijay Mountain Bike Association (EMBA SORBA)</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Flint River Mountain Bike Association (FRMBA)'?>">Flint River Mountain Bike Association (FRMBA)</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Gwinnett Area Trail Riders (GATR)'?>">Gwinnett Area Trail Riders (GATR)</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Ocmulgee Mountain Biking Association (OMBA Middle Georgia)'?>">Ocmulgee Mountain Biking Association (OMBA Middle Georgia)</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Northeast Georgia SORBA'?>">Northeast Georgia SORBA</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Northwest Georgia SORBA'?>">Northwest Georgia SORBA</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Roswell Alpharetta Mountain Bike Organization (RAMBO)'?>">Roswell Alpharetta Mountain Bike Organization (RAMBO)</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA West Georgia'?>">SORBA West Georgia</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Woodstock'?>">SORBA Woodstock</option>
-                    <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Southeast Georgia SORBA (SEGA SORBA)'?>">Southeast Georgia SORBA (SEGA SORBA)</option>
-                <option class="23" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA Athens'?>">SORBA Athens</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA Atlanta'?>">SORBA Atlanta</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Ellijay Mountain Bike Association (EMBA SORBA)'?>">Ellijay Mountain Bike Association (EMBA SORBA)</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Flint River Mountain Bike Association (FRMBA)'?>">Flint River Mountain Bike Association (FRMBA)</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Gwinnett Area Trail Riders (GATR)'?>">Gwinnett Area Trail Riders (GATR)</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Ocmulgee Mountain Biking Association (OMBA Middle Georgia)'?>">Ocmulgee Mountain Biking Association (OMBA Middle Georgia)</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Northeast Georgia SORBA'?>">Northeast Georgia SORBA</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Northwest Georgia SORBA'?>">Northwest Georgia SORBA</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Roswell Alpharetta Mountain Bike Organization (RAMBO)'?>">Roswell Alpharetta Mountain Bike Organization (RAMBO)</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA West Georgia'?>">SORBA West Georgia</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA Woodstock'?>">SORBA Woodstock</option>
+                    <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Southeast Georgia SORBA (SEGA SORBA)'?>">Southeast Georgia SORBA (SEGA SORBA)</option>
+                <option class="23" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Hawaii -->
                 <option class="48" value="99">Please Select</option>
                     <option class="48" value="<?=$url['MMBC']['ind']?>"><?=$url['MMBC']['name']?></option>
@@ -1449,8 +1449,8 @@ $state_list = array('AL'=>"Alabama",
                 <option class="48" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Hawaii Retailer -->
                 <option class="49" value="99">Please Select</option>
-                    <option class="49" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Maui Mountain Bike Coalition (MMBC)'?>">Maui Mountain Bike Coalition (MMBC)</option>
-                    <option class="49" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Oahu Mountain Bike Ohana (OMTBO)'?>">Oahu Mountain Bike Ohana (OMTBO)</option>
+                    <option class="49" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Maui Mountain Bike Coalition (MMBC)'?>">Maui Mountain Bike Coalition (MMBC)</option>
+                    <option class="49" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Oahu Mountain Bike Ohana (OMTBO)'?>">Oahu Mountain Bike Ohana (OMTBO)</option>
                 <option class="49" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Idaho -->
                 <option class="42" value="99">Please Select</option>
@@ -1463,12 +1463,12 @@ $state_list = array('AL'=>"Alabama",
                 <option class="42" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Idaho Retailer -->
                 <option class="43" value="99">Please Select</option>
-                    <option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Boise Area Mountain Bike Association (BAMBA)'?>">Boise Area Mountain Bike Association (BAMBA)</option>
-                    <option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Central Idaho Mountain Bike Association (CIMBA)'?>">Central Idaho Mountain Bike Association (CIMBA)</option>
-                    <option class="43" value="<?=$retail_url . '&custom_76=None&custom_77=Kootenai Mountain Riders (KMR)'?>">Kootenai Mountain Riders (KMR)</option>
+                    <option class="43" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Boise Area Mountain Bike Association (BAMBA)'?>">Boise Area Mountain Bike Association (BAMBA)</option>
+                    <option class="43" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Central Idaho Mountain Bike Association (CIMBA)'?>">Central Idaho Mountain Bike Association (CIMBA)</option>
+                    <option class="43" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Kootenai Mountain Riders (KMR)'?>">Kootenai Mountain Riders (KMR)</option>
                     <option class="43" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Mountain Bike the Tetons (MBT)'?>">Mountain Bike the Tetons (MBT)</option>
-                    <option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Southern Idaho Mountain Biking Association (SIMBA)'?>">Southern Idaho Mountain Biking Association (SIMBA)</option>
-                    <option class="43" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Wood River Bicycle Coalition (WRBC)'?>">Wood River Bicycle Coalition (WRBC)</option>
+                    <option class="43" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Southern Idaho Mountain Biking Association (SIMBA)'?>">Southern Idaho Mountain Biking Association (SIMBA)</option>
+                    <option class="43" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Wood River Bicycle Coalition (WRBC)'?>">Wood River Bicycle Coalition (WRBC)</option>
                 <option class="43" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Indiana -->
                 <option class="38" value="99">Please Select</option>
@@ -1546,7 +1546,7 @@ $state_list = array('AL'=>"Alabama",
                 <option class="80" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Maine Retailer -->
                 <option class="81" value="99">Please Select</option>
-                    <option class="81" value="<?=$retail_url . '&custom_76=None&custom_77=Northern Maine Trails Alliance (NMTA)'?>">Northern Maine Trails Alliance (NMTA)</option>
+                    <option class="81" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Northern Maine Trails Alliance (NMTA)'?>">Northern Maine Trails Alliance (NMTA)</option>
                 <option class="81" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Maryland -->
                 <option class="46" value="99">Please Select</option>
@@ -1557,10 +1557,10 @@ $state_list = array('AL'=>"Alabama",
                 <option class="46" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Maryland Retailer -->
                 <option class="47" value="99">Please Select</option>
-                    <option class="47" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Delaware Trail Spinners (DTS)'?>">Delaware Trail Spinners (DTS)</option>
-                    <option class="47" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Eastern Shore IMBA (ESIMBA)'?>">Eastern Shore IMBA (ESIMBA)</option>
-                    <option class="47" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Mid-Atlantic Off-Road Enthusiasts (MORE)'?>">Mid-Atlantic Off-Road Enthusiasts (MORE)</option>
-                    <option class="47" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Southern Maryland Mountain Biking (SMMB)'?>">Southern Maryland Mountain Biking (SMMB)</option>
+                    <option class="47" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Delaware Trail Spinners (DTS)'?>">Delaware Trail Spinners (DTS)</option>
+                    <option class="47" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Eastern Shore IMBA (ESIMBA)'?>">Eastern Shore IMBA (ESIMBA)</option>
+                    <option class="47" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Mid-Atlantic Off-Road Enthusiasts (MORE)'?>">Mid-Atlantic Off-Road Enthusiasts (MORE)</option>
+                    <option class="47" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Southern Maryland Mountain Biking (SMMB)'?>">Southern Maryland Mountain Biking (SMMB)</option>
                 <option class="47" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Michigan -->
                 <option class="32" value="99">Please Select</option>
@@ -1579,7 +1579,6 @@ $state_list = array('AL'=>"Alabama",
                 <option class="32" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Michigan Retailer -->
                 <option class="33" value="99">Please Select</option>
-                    <option class="33" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=None'?>">No Chapter</option>
                     <option class="33" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Clinton River Area Mountain Bike Association (CRAMBA)'?>">Clinton River Area Mountain Bike Association (CRAMBA)</option>
                     <option class="33" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Copper Harbor Trails Club (CHTC)'?>">Copper Harbor Trails Club (CHTC)</option>
                     <option class="33" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Michigan&#039;s Edge Mountain Biking Association (MEMBA)'?>">Michigan&#039;s Edge Mountain Biking Association (MEMBA)</option>
@@ -1623,15 +1622,15 @@ $state_list = array('AL'=>"Alabama",
                 <option class="3" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Mississippi -->
                 <option class="78" value="99">Please Select</option>
-                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
-                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
-                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Tri-County Mountain Bike Association (TCMBA)'?>">Tri-County Mountain Bike Association (TCMBA)</option>
+                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
+                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Tri-County Mountain Bike Association (TCMBA)'?>">Tri-County Mountain Bike Association (TCMBA)</option>
                 <option class="78" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Mississippi Retailer -->
                 <option class="79" value="99">Please Select</option>
-                    <option class="79" value="<?=$retail_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
-                    <option class="79" value="<?=$retail_url . '&custom_76=SORBA&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
-                    <option class="79" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Tri-County Mountain Bike Association (TCMBA)'?>">Tri-County Mountain Bike Association (TCMBA)</option>
+                    <option class="79" value="<?=$retail_url . '&custom_76=Southeast&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="79" value="<?=$retail_url . '&custom_76=Southeast&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
+                    <option class="79" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Tri-County Mountain Bike Association (TCMBA)'?>">Tri-County Mountain Bike Association (TCMBA)</option>
                 <option class="79" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Missouri -->
                 <option class="70" value="99">Please Select</option>
@@ -1650,10 +1649,10 @@ $state_list = array('AL'=>"Alabama",
                 <option class="72" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Montana Retailer -->
                 <option class="73" value="99">Please Select</option>
-                    <option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=Bitterroot Backcountry Cyclists (BBC)'?>">Bitterroot Backcountry Cyclists (BBC)</option>
-                    <option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=Kootenai Mountain Riders (KMR)'?>">Kootenai Mountain Riders (KMR)</option>
-                    <option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=MTB Missoula (MTBM)'?>">MTB Missoula (MTBM)</option>
-                    <option class="73" value="<?=$retail_url . '&custom_76=None&custom_77=Pedal United (PU)'?>">Pedal United (PU)</option>
+                    <option class="73" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Bitterroot Backcountry Cyclists (BBC)'?>">Bitterroot Backcountry Cyclists (BBC)</option>
+                    <option class="73" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Kootenai Mountain Riders (KMR)'?>">Kootenai Mountain Riders (KMR)</option>
+                    <option class="73" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=MTB Missoula (MTBM)'?>">MTB Missoula (MTBM)</option>
+                    <option class="73" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Pedal United (PU)'?>">Pedal United (PU)</option>
                 <option class="73" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Nebraska -->
                 <option class="76" value="99">Please Select</option>
@@ -1671,7 +1670,7 @@ $state_list = array('AL'=>"Alabama",
             <!-- Nevada Retailer -->
                 <option class="41" value="99">Please Select</option>
                     <option class="41" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Southern Nevada Mountain Bike Association (SNMBA)'?>">Southern Nevada Mountain Bike Association (SNMBA)</option>
-					<option class="41" value="<?=$retail_url . '&custom_76=Northern California&custom_77=Susanville Area Bicycle Association (SABA)'?>">Susanville Area Bicycle Association (SABA)</option>
+					<option class="41" value="<?=$retail_url . '&custom_76=California-Hawaii&custom_77=Susanville Area Bicycle Association (SABA)'?>">Susanville Area Bicycle Association (SABA)</option>
                 <option class="41" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- New Jersey -->
                 <option class="86" value="99">Please Select</option>
@@ -1679,7 +1678,7 @@ $state_list = array('AL'=>"Alabama",
                 <option class="86" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- New Jersey Retailer -->
                 <option class="87" value="99">Please Select</option>
-                    <option class="87" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Palisades MTB (PMTB)'?>">Palisades MTB (PMTB)</option>
+                    <option class="87" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Palisades MTB (PMTB)'?>">Palisades MTB (PMTB)</option>
                 <option class="87" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- New Mexico -->
                 <option class="34" value="99">Please Select</option>
@@ -1710,35 +1709,35 @@ $state_list = array('AL'=>"Alabama",
                 <option class="44" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- New York Retailer -->
                 <option class="45" value="99">Please Select</option>
-                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Central Adirondack Mountain Bike Association (CAMBA)'?>">Central Adirondack Mountain Bike Association (CAMBA)</option>
-                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=CNY DIRT'?>">CNY DIRT</option>
-                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Cycle-CNY'?>">Cycle-CNY</option>
-                    <option class="45" value="<?=$retail_url . '&custom_76=Northeast&custom_77=Fats In The Cats (FCBC)'?>">Fats In The Cats (FCBC)</option>
-                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Genesee Regional Off-Road Cyclists (GROC)'?>">Genesee Regional Off-Road Cyclists (GROC)</option>
-                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=New York City Mountain Bike Association (NYCMTB)'?>">New York City Mountain Bike Association (NYCMTB)</option>
-                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Palisades MTB (PMTB)'?>">Palisades MTB (PMTB)</option>
-                    <option class="45" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Western New York Mountain Bicycling Association (WNYMBA)'?>">Western New York Mountain Bicycling Association (WNYMBA)</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Central Adirondack Mountain Bike Association (CAMBA)'?>">Central Adirondack Mountain Bike Association (CAMBA)</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=CNY DIRT'?>">CNY DIRT</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Cycle-CNY'?>">Cycle-CNY</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Fats In The Cats (FCBC)'?>">Fats In The Cats (FCBC)</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Genesee Regional Off-Road Cyclists (GROC)'?>">Genesee Regional Off-Road Cyclists (GROC)</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=New York City Mountain Bike Association (NYCMTB)'?>">New York City Mountain Bike Association (NYCMTB)</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Palisades MTB (PMTB)'?>">Palisades MTB (PMTB)</option>
+                    <option class="45" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Western New York Mountain Bicycling Association (WNYMBA)'?>">Western New York Mountain Bicycling Association (WNYMBA)</option>
                 <option class="45" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- North Carolina -->
                 <option class="20" value="99">Please Select</option>
-                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
+                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
                     <option class="20" value="<?=$url['GFTS']['ind']?>"><?=$url['GFTS']['name']?></option>
                     <option class="20" value="<?=$url['NAS']['ind']?>"><?=$url['NAS']['name']?></option>
                     <option class="20" value="<?=$url['NWNC-MTBA']['ind']?>"><?=$url['NWNC-MTBA']['name']?></option>
-                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Pisgah Area SORBA (PAS)'?>">Pisgah Area SORBA (PAS)</option>
-                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Triangle Off-Road Cyclists (TORC)'?>">Triangle Off-Road Cyclists (TORC)</option>
-                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Tarheel Trailblazers'?>">Tarheel Trailblazers</option>
-                <option class="20" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Pisgah Area SORBA (PAS)'?>">Pisgah Area SORBA (PAS)</option>
+                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Triangle Off-Road Cyclists (TORC)'?>">Triangle Off-Road Cyclists (TORC)</option>
+                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Tarheel Trailblazers'?>">Tarheel Trailblazers</option>
+                <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- North Carolina Retailer -->
                 <option class="21" value="99">Please Select</option>
-                    <option class="21" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
-                    <option class="21" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Greensboro Fat Tire Society (GFTS)'?>">Greensboro Fat Tire Society (GFTS)</option>
-                    <option class="21" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Nantahala Area SORBA (NAS)'?>">Nantahala Area SORBA (NAS)</option>
-                    <option class="21" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)'?>">Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)</option>
-                    <option class="21" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Pisgah Area SORBA (PAS)'?>">Pisgah Area SORBA (PAS)</option>
-                    <option class="21" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Triangle Off-Road Cyclists (TORC)'?>">Triangle Off-Road Cyclists (TORC)</option>
-                    <option class="21" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Tarheel Trailblazers'?>">Tarheel Trailblazers</option>
-                <option class="21" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="21" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
+                    <option class="21" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Greensboro Fat Tire Society (GFTS)'?>">Greensboro Fat Tire Society (GFTS)</option>
+                    <option class="21" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Nantahala Area SORBA (NAS)'?>">Nantahala Area SORBA (NAS)</option>
+                    <option class="21" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)'?>">Northwest North Carolina Mountain Bike Alliance (NWNC-MTBA)</option>
+                    <option class="21" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Pisgah Area SORBA (PAS)'?>">Pisgah Area SORBA (PAS)</option>
+                    <option class="21" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Triangle Off-Road Cyclists (TORC)'?>">Triangle Off-Road Cyclists (TORC)</option>
+                    <option class="21" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Tarheel Trailblazers'?>">Tarheel Trailblazers</option>
+                <option class="21" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Ohio -->
                 <option class="54" value="99">Please Select</option>
                     <option class="54" value="<?=$url['AOA']['fam']?>"><?=$url['AOA']['name']?></option>
@@ -1778,14 +1777,14 @@ $state_list = array('AL'=>"Alabama",
                 <option class="6" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Oregon Retailer -->
                 <option class="7" value="99">Please Select</option>
-                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Blue Mountain Singletrack Trails Club (BMSTC)'?>">Blue Mountain Singletrack Trails Club (BMSTC)</option>
-                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Disciples of Dirt (DOD)'?>">Disciples of Dirt (DOD)</option>
-                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Greater Oakridge Area Trail Stewards (GOATS)'?>">Greater Oakridge Area Trail Stewards (GOATS)</option>
-                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Hood River Area Trail Stewards (HRATS)'?>">Hood River Area Trail Stewards (HRATS)</option>
-                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Northwest Trail Alliance (NWTA)'?>">Northwest Trail Alliance (NWTA)</option>
-                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Rogue Valley Mountain Bike Association (RVMBA)'?>">Rogue Valley Mountain Bike Association (RVMBA)</option>
-                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Salem Area Trail Alliance (SATA)'?>">Salem Area Trail Alliance (SATA)</option>
-                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Team Dirt'?>">Team Dirt</option>
+                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Blue Mountain Singletrack Trails Club (BMSTC)'?>">Blue Mountain Singletrack Trails Club (BMSTC)</option>
+                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Disciples of Dirt (DOD)'?>">Disciples of Dirt (DOD)</option>
+                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Greater Oakridge Area Trail Stewards (GOATS)'?>">Greater Oakridge Area Trail Stewards (GOATS)</option>
+                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Hood River Area Trail Stewards (HRATS)'?>">Hood River Area Trail Stewards (HRATS)</option>
+                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Northwest Trail Alliance (NWTA)'?>">Northwest Trail Alliance (NWTA)</option>
+                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Rogue Valley Mountain Bike Association (RVMBA)'?>">Rogue Valley Mountain Bike Association (RVMBA)</option>
+                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Salem Area Trail Alliance (SATA)'?>">Salem Area Trail Alliance (SATA)</option>
+                    <option class="7" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Team Dirt'?>">Team Dirt</option>
                 <option class="7" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Pennsylvania -->
                 <option class="50" value="99">Please Select</option>
@@ -1803,50 +1802,50 @@ $state_list = array('AL'=>"Alabama",
                 <option class="50" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Pennsylvania Retailer -->
                 <option class="51" value="99">Please Select</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Anthracite Mountain Pedalers (AMP)'?>">Anthracite Mountain Pedalers (AMP)</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Bald Eagle Mountain Bike Association (BEMBA)'?>">Bald Eagle Mountain Bike Association (BEMBA)</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Berks Area Mountain Biking Association (BAMBA)'?>">Berks Area Mountain Biking Association (BAMBA)</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Delaware Trail Spinners (DTS)'?>">Delaware Trail Spinners (DTS)</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Northern Allegheny Mountain Bike Association (NAMBA)'?>">Northern Allegheny Mountain Bike Association (NAMBA)</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Pocahontas Trails (PT)'?>">Pocahontas Trails (PT)</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Southeastern Pennsylvania Trail Riders (SEPTR)'?>">Southeastern Pennsylvania Trail Riders (SEPTR)</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Susquehanna Area Mountain Bike Association (SAMBA)'?>">Susquehanna Area Mountain Bike Association (SAMBA)</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Susquehanna Valley Velo Club (SVVC)'?>">Susquehanna Valley Velo Club (SVVC)</option>
-                    <option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Valley Mountain Bikers (VMB)'?>">Valley Mountain Bikers (VMB)</option>
-					<option class="51" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Trail Pittsburgh'?>">Trail Pittsburgh</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Anthracite Mountain Pedalers (AMP)'?>">Anthracite Mountain Pedalers (AMP)</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Bald Eagle Mountain Bike Association (BEMBA)'?>">Bald Eagle Mountain Bike Association (BEMBA)</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Berks Area Mountain Biking Association (BAMBA)'?>">Berks Area Mountain Biking Association (BAMBA)</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Delaware Trail Spinners (DTS)'?>">Delaware Trail Spinners (DTS)</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Northern Allegheny Mountain Bike Association (NAMBA)'?>">Northern Allegheny Mountain Bike Association (NAMBA)</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Pocahontas Trails (PT)'?>">Pocahontas Trails (PT)</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Southeastern Pennsylvania Trail Riders (SEPTR)'?>">Southeastern Pennsylvania Trail Riders (SEPTR)</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Susquehanna Area Mountain Bike Association (SAMBA)'?>">Susquehanna Area Mountain Bike Association (SAMBA)</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Susquehanna Valley Velo Club (SVVC)'?>">Susquehanna Valley Velo Club (SVVC)</option>
+                    <option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Valley Mountain Bikers (VMB)'?>">Valley Mountain Bikers (VMB)</option>
+					<option class="51" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Trail Pittsburgh'?>">Trail Pittsburgh</option>
                 <option class="51" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- South Carolina -->
                 <option class="24" value="99">Please Select</option>
-                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
-                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
-                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Gainesville SORBA'?>">Gainesville SORBA</option>
-                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Midlands SORBA'?>">Midlands SORBA</option>
+                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
+                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
+                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Gainesville SORBA'?>">Gainesville SORBA</option>
+                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Midlands SORBA'?>">Midlands SORBA</option>
                     <option class="24" value="<?=$url['Upstate SORBA']['ind']?>"><?=$url['Upstate SORBA']['name']?></option>
-                <option class="24" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- South Carolina Retailer -->
                 <option class="25" value="99">Please Select</option>
-                    <option class="25" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
-                    <option class="25" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
-                    <option class="25" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Gainesville SORBA'?>">Gainesville SORBA</option>
-                    <option class="25" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Midlands SORBA'?>">Midlands SORBA</option>
-                    <option class="25" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Upstate SORBA'?>">Upstate SORBA</option>
-                <option class="25" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="25" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
+                    <option class="25" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
+                    <option class="25" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Gainesville SORBA'?>">Gainesville SORBA</option>
+                    <option class="25" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Midlands SORBA'?>">Midlands SORBA</option>
+                    <option class="25" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Upstate SORBA'?>">Upstate SORBA</option>
+                <option class="25" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Tennessee -->
                 <option class="0" value="99">Please Select</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Appalachian Mountain Bike Club (AMBC SORBA)'?>">Appalachian Mountain Bike Club (AMBC SORBA)</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Chattanooga (CASA)'?>">SORBA Chattanooga (CASA)</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Middle Tennessee'?>">SORBA Middle Tennessee</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=SORBA Tri-Cities'?>">SORBA Tri-Cities</option>
-                <option class="0" value="<?=$sorba_ind_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Appalachian Mountain Bike Club (AMBC SORBA)'?>">Appalachian Mountain Bike Club (AMBC SORBA)</option>
+                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Chattanooga (CASA)'?>">SORBA Chattanooga (CASA)</option>
+                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Middle Tennessee'?>">SORBA Middle Tennessee</option>
+                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Tri-Cities'?>">SORBA Tri-Cities</option>
+                <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Tennessee Retailer -->
                 <option class="90" value="99">Please Select</option>
-                    <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Appalachian Mountain Bike Club (AMBC SORBA)'?>">Appalachian Mountain Bike Club (AMBC SORBA)</option>
-                    <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
-                    <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Chattanooga (CASA)'?>">SORBA Chattanooga (CASA)</option>
-                    <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Middle Tennessee'?>">SORBA Middle Tennessee</option>
-                    <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=SORBA Tri-Cities'?>">SORBA Tri-Cities</option>
-                <option class="90" value="<?=$retail_url . '&custom_76=SORBA&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
+                    <option class="90" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Appalachian Mountain Bike Club (AMBC SORBA)'?>">Appalachian Mountain Bike Club (AMBC SORBA)</option>
+                    <option class="90" value="<?=$retail_url . '&custom_76=Southeast&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="90" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA Chattanooga (CASA)'?>">SORBA Chattanooga (CASA)</option>
+                    <option class="90" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA Middle Tennessee'?>">SORBA Middle Tennessee</option>
+                    <option class="90" value="<?=$retail_url . '&custom_76=Southeast&custom_77=SORBA Tri-Cities'?>">SORBA Tri-Cities</option>
+                <option class="90" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Texas -->
                 <option class="68" value="99">Please Select</option>
                     <option class="68" value="<?=$url['ARR']['ind']?>"><?=$url['ARR']['name']?></option>
@@ -1857,7 +1856,7 @@ $state_list = array('AL'=>"Alabama",
             <!-- Texas Retailer -->
                 <option class="69" value="99">Please Select</option>
                     <option class="69" value="<?=$retail_url . '&custom_76=South Central&custom_77=Austin Ridge Riders Mountain Bike Club (ARR)'?>">Austin Ridge Riders Mountain Bike Club (ARR)</option>
-                    <option class="69" value="<?=$retail_url . '&custom_76=None&custom_77=Borderland Mountain Bike Association (BMBA)'?>">Borderland Mountain Bike Association (BMBA)</option>
+                    <option class="69" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Borderland Mountain Bike Association (BMBA)'?>">Borderland Mountain Bike Association (BMBA)</option>
                     <option class="69" value="<?=$retail_url . '&custom_76=South Central&custom_77=East Texas Trail Advocacy (ETXTA)'?>">East Texas Trail Advocacy (ETXTA)</option>
                     <option class="69" value="<?=$retail_url . '&custom_76=South Central&custom_77=Weatherford Mountain Bike Club (WMBC)'?>">Weatherford Mountain Bike Club (WMBC)</option>
                 <option class="69" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
@@ -1871,7 +1870,7 @@ $state_list = array('AL'=>"Alabama",
                 <option class="53" value="99">Please Select</option>
                     <option class="53" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Dixie Mountain Bike Trails Association (DMBTA)'?>">Dixie Mountain Bike Trails Association (DMBTA)</option>
                     <option class="53" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Moab Mountain Bike Association (MMBA)'?>">Moab Mountain Bike Association (MMBA)</option>
-                    <option class="53" value="<?=$retail_url . '&custom_76=None&custom_77=Northeastern Utah Mountain Bikers (NUMB)'?>">Northeastern Utah Mountain Bikers (NUMB)</option>
+                    <option class="53" value="<?=$retail_url . '&custom_76=Southwest&custom_77=Northeastern Utah Mountain Bikers (NUMB)'?>">Northeastern Utah Mountain Bikers (NUMB)</option>
                 <option class="53" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Virginia -->
                 <option class="26" value="99">Please Select</option>
@@ -1885,13 +1884,13 @@ $state_list = array('AL'=>"Alabama",
                 <option class="26" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Virginia Retailer -->
                 <option class="27" value="99">Please Select</option>
-                    <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Charlottesville Area Mountain Bike Club (CAMBC)'?>">Charlottesville Area Mountain Bike Club (CAMBC)</option>
-                    <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Fredericksburg Area Trail Management and User Group (FATMUG)'?>">Fredericksburg Area Trail Management and User Group (FATMUG)</option>
-                    <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Greater Lynchburg Off-Road Cyclists (GLOC)'?>">Greater Lynchburg Off-Road Cyclists (GLOC)</option>
-                    <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Mid-Atlantic Off-Road Enthusiasts (MORE)'?>">Mid-Atlantic Off-Road Enthusiasts (MORE)</option>
-                    <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=RVA MORE'?>">RVA MORE</option>
-                    <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Roanoke IMBA (RIMBA)'?>">Roanoke IMBA (RIMBA)</option>
-                    <option class="27" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Southern Virginia Mountain Bike Association (SVMBA)'?>">Southern Virginia Mountain Bike Association (SVMBA)</option>
+                    <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Charlottesville Area Mountain Bike Club (CAMBC)'?>">Charlottesville Area Mountain Bike Club (CAMBC)</option>
+                    <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Fredericksburg Area Trail Management and User Group (FATMUG)'?>">Fredericksburg Area Trail Management and User Group (FATMUG)</option>
+                    <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Greater Lynchburg Off-Road Cyclists (GLOC)'?>">Greater Lynchburg Off-Road Cyclists (GLOC)</option>
+                    <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Mid-Atlantic Off-Road Enthusiasts (MORE)'?>">Mid-Atlantic Off-Road Enthusiasts (MORE)</option>
+                    <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=RVA MORE'?>">RVA MORE</option>
+                    <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Roanoke IMBA (RIMBA)'?>">Roanoke IMBA (RIMBA)</option>
+                    <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Southern Virginia Mountain Bike Association (SVMBA)'?>">Southern Virginia Mountain Bike Association (SVMBA)</option>
                 <option class="27" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Washington -->
                 <option class="8" value="99">Please Select</option>
@@ -1901,9 +1900,9 @@ $state_list = array('AL'=>"Alabama",
                 <option class="8" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Washington Retailer -->
                 <option class="9" value="99">Please Select</option>
-                    <option class="9" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Fidalgo Trail Riders (FTR)'?>">Fidalgo Trail Riders (FTR)</option>
-                    <option class="9" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Hood River Area Trail Stewards (HRATS)'?>">Hood River Area Trail Stewards (HRATS)</option>
-                    <option class="9" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Northwest Trail Alliance (NWTA)'?>">Northwest Trail Alliance (NWTA)</option>
+                    <option class="9" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Fidalgo Trail Riders (FTR)'?>">Fidalgo Trail Riders (FTR)</option>
+                    <option class="9" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Hood River Area Trail Stewards (HRATS)'?>">Hood River Area Trail Stewards (HRATS)</option>
+                    <option class="9" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Northwest Trail Alliance (NWTA)'?>">Northwest Trail Alliance (NWTA)</option>
                 <option class="9" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- West Virginia -->
                 <option class="58" value="99">Please Select</option>
@@ -1913,9 +1912,9 @@ $state_list = array('AL'=>"Alabama",
                 <option class="58" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- West Virginia Retailer -->
                 <option class="59" value="99">Please Select</option>
-					<option class="59" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Blackwater Bicycle Association (BBA)'?>">Blackwater Bicycle Association (BBA)</option>
-                    <option class="59" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=New River Bicycle Union (NRBU)'?>">New River Bicycle Union (NRBU)</option>
-                    <option class="59" value="<?=$retail_url . '&custom_76=Mid-Atlantic&custom_77=Pocahontas Trails (PT)'?>">Pocahontas Trails (PT)</option>
+					<option class="59" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Blackwater Bicycle Association (BBA)'?>">Blackwater Bicycle Association (BBA)</option>
+                    <option class="59" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=New River Bicycle Union (NRBU)'?>">New River Bicycle Union (NRBU)</option>
+                    <option class="59" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Pocahontas Trails (PT)'?>">Pocahontas Trails (PT)</option>
                 <option class="59" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Wisconsin -->
                 <option class="36" value="99">Please Select</option>
@@ -1955,7 +1954,7 @@ $state_list = array('AL'=>"Alabama",
                 <option class="63" value="99">Please Select</option>
 					<option class="63" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Central Wyoming Trails Alliance (CWTA)'?>">Central Wyoming Trails Alliance (CWTA)</option>
                     <option class="63" value="<?=$retail_url . '&custom_76=Colorado-Wyoming&custom_77=Mountain Bike the Tetons (MBT)'?>">Mountain Bike the Tetons (MBT)</option>
-                    <option class="63" value="<?=$retail_url . '&custom_76=Pacific&custom_77=Bomber Mountain Cycling Club (BMCC)'?>">Bomber Mountain Cycling Club (BMCC)</option>
+                    <option class="63" value="<?=$retail_url . '&custom_76=Pacific Northwest&custom_77=Bomber Mountain Cycling Club (BMCC)'?>">Bomber Mountain Cycling Club (BMCC)</option>
                 <option class="63" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
                   </select></td>
               </tr>
