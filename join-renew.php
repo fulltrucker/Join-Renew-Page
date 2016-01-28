@@ -284,11 +284,11 @@ $url = array(
 					 'ind'    => 178, 
 					 'region' => 'Midwest', 
 					 'name'   => 'Woolly Bike Club (WBC)'),
-	'SKMCI'	=> array(
+	'SEWTA'	=> array(
 					 'fam'    => 171, 
 					 'ind'    => 172, 
 					 'region' => 'Midwest', 
-					 'name'   => 'Southern Kettle Moraine Chapter of IMBA (SKMCI)'),
+					 'name'   => 'Southeast Wisconsin Trails Alliance (SEWTA)'),
 	'LAMBA'	=> array(
 					 'fam'    => 199, 
 					 'ind'    => 200, 
@@ -1926,7 +1926,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="36" value="<?=$url['KORC']['ind']?>"><?=$url['KORC']['name']?></option>
                     <option class="36" value="<?=$url['Metro']['ind']?>"><?=$url['Metro']['name']?></option>
                     <option class="36" value="<?=$url['NEWT']['ind']?>"><?=$url['NEWT']['name']?></option>
-                    <option class="36" value="<?=$url['SKMCI']['ind']?>"><?=$url['SKMCI']['name']?></option>
+                    <option class="36" value="<?=$url['SEWTA']['ind']?>"><?=$url['SEWTA']['name']?></option>
                     <option class="36" value="<?=$url['WAMB']['ind']?>"><?=$url['WAMB']['name']?></option>
                     <option class="36" value="<?=$url['WBC']['ind']?>"><?=$url['WBC']['name']?></option>
                 <option class="36" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
@@ -1940,7 +1940,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Kinnickinnic Off-Road Cyclists (KORC)'?>">Kinnickinnic Off-Road Cyclists (KORC)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Metro Mountain Bikers, Milwaukee (Metro)'?>">Metro Mountain Bikers, Milwaukee (Metro)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=North East Wisconsin Trails (NEWT)'?>">North East Wisconsin Trails (NEWT)</option>
-                    <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Southern Kettle Moraine Chapter of IMBA (SKMCI)'?>">Southern Kettle Moraine Chapter of IMBA (SKMCI)</option>
+                    <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Southeast Wisconsin Trails Alliance (SEWTA)'?>">Southeast Wisconsin Trails Alliance (SEWTA)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Winona Area Mountain Bikers (WAMB)'?>">Winona Area Mountain Bikers (WAMB)</option>
                     <option class="37" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Woolly Bike Club (WBC)'?>">Woolly Bike Club (WBC)</option>
                 <option class="37" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
