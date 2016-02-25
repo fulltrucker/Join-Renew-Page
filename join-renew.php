@@ -112,18 +112,6 @@ $url = array(
 					 'ind'    => 107, 
 					 'region' => 'Great Lakes', 
 					 'name'   => 'West Michigan Mountain Biking Alliance (WMMBA)'),
-	'GFTS'  => array('fam'    => 23, 
-					 'ind'    => 22, 
-					 'region' => 'Southeast', 
-					 'name'   => 'Greensboro Fat Tire Society (GFTS)'),
-	'NAS'   => array('fam'    => 23, 
-					 'ind'    => 22, 
-					 'region' => 'Southeast', 
-					 'name'   => 'Nantahala Area SORBA (NAS)'),
-	'SEGA'  => array('fam'    => 23, 
-					 'ind'    => 22, 
-					 'region' => 'Southeast', 
-					 'name'   => 'Southeast Georgia SORBA (SEGA SORBA)'),
 	'LASA'  => array('fam'    => 121, 
 					 'ind'    => 122, 
 					 'region' => 'Colorado-Wyoming', 
@@ -314,11 +302,6 @@ $url = array(
 					 'ind'    => 192, 
 					 'region' => 'Pacific Northwest', 
 					 'name'   => 'Central Idaho Mountain Bike Association (CIMBA)'),
-	'CAMP'	=> array(
-					 'fam'    => 23, 
-					 'ind'    => 22, 
-					 'region' => 'Southeast', 
-					 'name'   => 'Central Alabama Mountain Pedalers (CAMP)'),
 	'TOMMBA'	=> array(
 					 'fam'    => 203, 
 					 'ind'    => 204, 
@@ -829,6 +812,196 @@ $url = array(
 					 'ind'    => 341,
 					 'region' => 'Southeast',
 					 'name'   => 'Upstate SORBA'),
+	'SAMBA'	=> array(
+					 'fam'    => 218,
+					 'ind'    => 218,
+					 'region' => 'Southeast',
+					 'name'   => 'South Alabama Mountain Bike Association (SAMBA)'),
+	'Tarheel Trailblazers'	=> array(
+					 'fam'    => 342,
+					 'ind'    => 342,
+					 'region' => 'Southeast',
+					 'name'   => 'Tarheel Trailblazers'),
+	'TMBA'	=> array(
+					 'fam'    => 343,
+					 'ind'    => 343,
+					 'region' => 'Southeast',
+					 'name'   => 'Tallahassee Mountain Bike Association (TMBA)'),
+	'BUMP'	=> array(
+					 'fam'    => 344,
+					 'ind'    => 344,
+					 'region' => 'Southeast',
+					 'name'   => 'Birmingham Urban Mountain Pedalers (BUMP)'),
+	'GFTS'	=> array(
+					 'fam'    => 345,
+					 'ind'    => 345,
+					 'region' => 'Southeast',
+					 'name'   => 'Greensboro Fat Tire Society (GFTS)'),
+	'SORBA Tri-Cities'	=> array(
+					 'fam'    => 346,
+					 'ind'    => 346,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA Tri-Cities'),
+	'TORC'	=> array(
+					 'fam'    => 347,
+					 'ind'    => 347,
+					 'region' => 'Southeast',
+					 'name'   => 'Triangle Off-Road Cyclists (TORC)'),
+	'EMBA SORBA'	=> array(
+					 'fam'    => 350,
+					 'ind'    => 350,
+					 'region' => 'Southeast',
+					 'name'   => 'Ellijay Mountain Bike Association (EMBA SORBA)'),
+	'SORBA Athens'	=> array(
+					 'fam'    => 351,
+					 'ind'    => 351,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA Athens'),
+	'Northwest Georgia SORBA'	=> array(
+					 'fam'    => 352,
+					 'ind'    => 352,
+					 'region' => 'Southeast',
+					 'name'   => 'Northwest Georgia SORBA'),
+	'SORBA Atlanta'	=> array(
+					 'fam'    => 353,
+					 'ind'    => 353,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA Atlanta'),
+	'OMBA Middle Georgia'	=> array(
+					 'fam'    => 354,
+					 'ind'    => 354,
+					 'region' => 'Southeast',
+					 'name'   => 'Ocmulgee Mountain Biking Association (OMBA Middle Georgia)'),
+	'CSRA'	=> array(
+					 'fam'    => 355,
+					 'ind'    => 355,
+					 'region' => 'Southeast',
+					 'name'   => 'Augusta-GA and Aiken-SC (CSRA)'),
+	'SORBA Middle Tennessee'	=> array(
+					 'fam'    => 356,
+					 'ind'    => 356,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA Middle Tennessee'),
+	'SORBA Huntsville'	=> array(
+					 'fam'    => 357,
+					 'ind'    => 357,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA Huntsville'),
+	'SORBA Woodstock'	=> array(
+					 'fam'    => 358,
+					 'ind'    => 358,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA Woodstock'),
+	'CVA'	=> array(
+					 'fam'    => 359,
+					 'ind'    => 359,
+					 'region' => 'Southeast',
+					 'name'   => 'Chattahoochee Valley Area SORBA (CVA)'),
+	'CASA'	=> array(
+					 'fam'    => 360,
+					 'ind'    => 360,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA Chattanooga (CASA)'),
+	'SORBA West Georgia'	=> array(
+					 'fam'    => 361,
+					 'ind'    => 361,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA West Georgia'),
+	'GATR'	=> array(
+					 'fam'    => 362,
+					 'ind'    => 362,
+					 'region' => 'Southeast',
+					 'name'   => 'Gwinnett Area Trail Riders (GATR)'),
+	'AMBC SORBA'	=> array(
+					 'fam'    => 363,
+					 'ind'    => 363,
+					 'region' => 'Southeast',
+					 'name'   => 'Appalachian Mountain Bike Club (AMBC SORBA)'),
+	'Cape Fear SORBA'	=> array(
+					 'fam'    => 364,
+					 'ind'    => 364,
+					 'region' => 'Southeast',
+					 'name'   => 'Cape Fear SORBA'),
+	'WAMBA'	=> array(
+					 'fam'    => 365,
+					 'ind'    => 365,
+					 'region' => 'Southeast',
+					 'name'   => 'West Alabama Mountain Biking Association (WAMBA)'),
+	'NEABA'	=> array(
+					 'fam'    => 366,
+					 'ind'    => 366,
+					 'region' => 'Southeast',
+					 'name'   => 'Northeast Alabama Bicycle Association (NEABA)'),
+	'SORBA Jax'	=> array(
+					 'fam'    => 367,
+					 'ind'    => 367,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA Jax'),
+	'Midlands SORBA'	=> array(
+					 'fam'    => 368,
+					 'ind'    => 368,
+					 'region' => 'Southeast',
+					 'name'   => 'Midlands SORBA'),
+	'Flagler Area Biking SORBA'	=> array(
+					 'fam'    => 369,
+					 'ind'    => 369,
+					 'region' => 'Southeast',
+					 'name'   => 'Flagler Area Biking SORBA'),
+	'CAMP'	=> array(
+					 'fam'    => 370,
+					 'ind'    => 370,
+					 'region' => 'Southeast',
+					 'name'   => 'Central Alabama Mountain Pedalers (CAMP)'),
+	'SORBA Orlando'	=> array(
+					 'fam'    => 371,
+					 'ind'    => 371,
+					 'region' => 'Southeast',
+					 'name'   => 'SORBA Orlando'),
+	'SEGA SORBA'	=> array(
+					 'fam'    => 372,
+					 'ind'    => 372,
+					 'region' => 'Southeast',
+					 'name'   => 'Southeast Georgia SORBA (SEGA SORBA)'),
+	'NAS'	=> array(
+					 'fam'    => 373,
+					 'ind'    => 373,
+					 'region' => 'Southeast',
+					 'name'   => 'Nantahala Area SORBA (NAS)'),
+	'FRMBA'	=> array(
+					 'fam'    => 374,
+					 'ind'    => 374,
+					 'region' => 'Southeast',
+					 'name'   => 'Flint River Mountain Bike Association (FRMBA)'),
+	'NMTA'	=> array(
+					 'fam'    => 375,
+					 'ind'    => 375,
+					 'region' => 'Southeast',
+					 'name'   => 'North Mississippi Trail Alliance (NMTA)'),
+	'SAM-SORBA'	=> array(
+					 'fam'    => 376,
+					 'ind'    => 376,
+					 'region' => 'Southeast',
+					 'name'   => 'Southeast Alabama Mountainbikers (SAM-SORBA)'),
+	'Northeast Georgia SORBA'	=> array(
+					 'fam'    => 377,
+					 'ind'    => 377,
+					 'region' => 'Southeast',
+					 'name'   => 'Northeast Georgia SORBA'),
+	'FMC'	=> array(
+					 'fam'    => 382,
+					 'ind'    => 382,
+					 'region' => 'Southeast',
+					 'name'   => 'Florida Mudcutters (FMC)'),
+	'PAS'	=> array(
+					 'fam'    => 383,
+					 'ind'    => 383,
+					 'region' => 'Southeast',
+					 'name'   => 'Pisgah Area SORBA (PAS)'),
+	'TCMBA'	=> array(
+					 'fam'    => 384,
+					 'ind'    => 384,
+					 'region' => 'Southeast',
+					 'name'   => 'Tri-County Mountain Bike Association (TCMBA)'),
 );
 
 foreach ($url as $key => $value) {
@@ -1238,14 +1411,14 @@ $state_list = array('AL'=>"Alabama",
                 <td><select name="chapter" id="chapter">
             <!-- Alabama -->
                 <option class="12" value="99">Please Select</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Birmingham Urban Mountain Pedalers (BUMP)'?>">Birmingham Urban Mountain Pedalers (BUMP)</option>
+                    <option class="12" value="<?=$url['BUMP']['ind']?>"><?=$url['BUMP']['name']?></option>
                     <option class="12" value="<?=$url['CAMP']['ind']?>"><?=$url['CAMP']['name']?></option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Huntsville'?>">SORBA Huntsville</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Northeast Alabama Bicycle Association (NEABA)'?>">Northeast Alabama Bicycle Association (NEABA)</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Southeast Alabama Mountainbikers (SAM-SORBA)'?>">Southeast Alabama Mountainbikers (SAM-SORBA)</option>
-                    <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=West Alabama Mountain Biking Association (WAMBA)'?>">West Alabama Mountain Biking Association (WAMBA)</option>
+                    <option class="12" value="<?=$url['SORBA Huntsville']['ind']?>"><?=$url['SORBA Huntsville']['name']?></option>
+                    <option class="12" value="<?=$url['CVA']['ind']?>"><?=$url['CVA']['name']?></option>
+                    <option class="12" value="<?=$url['NEABA']['ind']?>"><?=$url['NEABA']['name']?></option>
+                    <option class="12" value="<?=$url['SAMBA']['ind']?>"><?=$url['SAMBA']['name']?></option>
+                    <option class="12" value="<?=$url['SAM-SORBA']['ind']?>"><?=$url['SAM-SORBA']['name']?></option>
+                    <option class="12" value="<?=$url['WAMBA']['ind']?>"><?=$url['WAMBA']['name']?></option>
                 <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Alabama Retailer -->
                 <option class="13" value="99">Please Select</option>
@@ -1288,7 +1461,7 @@ $state_list = array('AL'=>"Alabama",
                 <option class="66" value="99">Please Select</option>
                     <option class="66" value="<?=$url['CATA']['ind']?>"><?=$url['CATA']['name']?></option>
                     <option class="66" value="<?=$url['FAST']['ind']?>"><?=$url['FAST']['name']?></option>
-                    <option class="66" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
+                    <option class="66" value="<?=$url['NMTA']['ind']?>"><?=$url['NMTA']['name']?></option>
                     <option class="66" value="<?=$url['OORC']['ind']?>"><?=$url['OORC']['name']?></option>
                 <option class="66" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Arkansas Retailer -->
@@ -1392,15 +1565,15 @@ $state_list = array('AL'=>"Alabama",
                 <option class="65" value="99">Please Select</option>
                     <option class="65" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Mid-Atlantic Off-Road Enthusiasts (MORE)'?>">Mid-Atlantic Off-Road Enthusiasts (MORE)</option>
                 <option class="65" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
-            <!-- Flordia -->
+            <!-- Florida -->
                 <option class="18" value="99">Please Select</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Flagler Area Biking SORBA'?>">Flagler Area Biking SORBA</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Florida Mudcutters (FMC)'?>">Florida Mudcutters (FMC)</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Jax'?>">SORBA Jax</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Orlando'?>">SORBA Orlando</option>
-                    <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Tallahassee Mountain Bike Association (TMBA)'?>">Tallahassee Mountain Bike Association (TMBA)</option>
+                    <option class="18" value="<?=$url['Flagler Area Biking SORBA']['ind']?>"><?=$url['Flagler Area Biking SORBA']['name']?></option>
+                    <option class="18" value="<?=$url['FMC']['ind']?>"><?=$url['FMC']['name']?></option>
+                    <option class="18" value="<?=$url['SORBA Jax']['ind']?>"><?=$url['SORBA Jax']['name']?></option>
+                    <option class="18" value="<?=$url['SORBA Orlando']['ind']?>"><?=$url['SORBA Orlando']['name']?></option>
+                    <option class="18" value="<?=$url['TMBA']['ind']?>"><?=$url['TMBA']['name']?></option>
                 <option class="18" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
-            <!-- Flordia Retailer -->
+            <!-- Florida Retailer -->
                 <option class="19" value="99">Please Select</option>
                     <option class="19" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Flagler Area Biking SORBA'?>">Flagler Area Biking SORBA</option>
                     <option class="19" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Florida Mudcutters (FMC)'?>">Florida Mudcutters (FMC)</option>
@@ -1410,19 +1583,19 @@ $state_list = array('AL'=>"Alabama",
                 <option class="19" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Georgia -->
                 <option class="22" value="99">Please Select</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Athens'?>">SORBA Athens</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Atlanta'?>">SORBA Atlanta</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Ellijay Mountain Bike Association (EMBA SORBA)'?>">Ellijay Mountain Bike Association (EMBA SORBA)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Flint River Mountain Bike Association (FRMBA)'?>">Flint River Mountain Bike Association (FRMBA)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Gwinnett Area Trail Riders (GATR)'?>">Gwinnett Area Trail Riders (GATR)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Chattahoochee Valley Area SORBA (CVA)'?>">Chattahoochee Valley Area SORBA (CVA)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Ocmulgee Mountain Biking Association (OMBA Middle Georgia)'?>">Ocmulgee Mountain Biking Association (OMBA Middle Georgia)</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Northeast Georgia SORBA'?>">Northeast Georgia SORBA</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Northwest Georgia SORBA'?>">Northwest Georgia SORBA</option>
+                    <option class="22" value="<?=$url['CSRA']['ind']?>"><?=$url['CSRA']['name']?></option>
+                    <option class="22" value="<?=$url['SORBA Athens']['ind']?>"><?=$url['SORBA Athens']['name']?></option>
+                    <option class="22" value="<?=$url['SORBA Atlanta']['ind']?>"><?=$url['SORBA Atlanta']['name']?></option>
+                    <option class="22" value="<?=$url['EMBA SORBA']['ind']?>"><?=$url['EMBA SORBA']['name']?></option>
+                    <option class="22" value="<?=$url['FRMBA']['ind']?>"><?=$url['FRMBA']['name']?></option>
+                    <option class="22" value="<?=$url['GATR']['ind']?>"><?=$url['GATR']['name']?></option>
+                    <option class="22" value="<?=$url['CVA']['ind']?>"><?=$url['CVA']['name']?></option>
+                    <option class="22" value="<?=$url['OMBA Middle Georgia']['ind']?>"><?=$url['OMBA Middle Georgia']['name']?></option>
+                    <option class="22" value="<?=$url['Northwest Georgia SORBA']['ind']?>"><?=$url['Northwest Georgia SORBA']['name']?></option>
+                    <option class="22" value="<?=$url['Northwest Georgia SORBA']['ind']?>"><?=$url['Northwest Georgia SORBA']['name']?></option>
                     <option class="22" value="<?=$url['RAMBO']['ind']?>"><?=$url['RAMBO']['name']?></option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA West Georgia'?>">SORBA West Georgia</option>
-                    <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Woodstock'?>">SORBA Woodstock</option>
+                    <option class="22" value="<?=$url['SORBA West Georgia']['ind']?>"><?=$url['SORBA West Georgia']['name']?></option>
+                    <option class="22" value="<?=$url['SORBA Woodstock']['ind']?>"><?=$url['SORBA Woodstock']['name']?></option>
                     <option class="22" value="<?=$url['SEGA']['ind']?>"><?=$url['SEGA']['name']?></option>
                 <option class="22" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Georgia Retailer -->
@@ -1622,9 +1795,9 @@ $state_list = array('AL'=>"Alabama",
                 <option class="3" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Mississippi -->
                 <option class="78" value="99">Please Select</option>
-                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
-                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=South Alabama Mountain Bike Association (SAMBA)'?>">South Alabama Mountain Bike Association (SAMBA)</option>
-                    <option class="78" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Tri-County Mountain Bike Association (TCMBA)'?>">Tri-County Mountain Bike Association (TCMBA)</option>
+                    <option class="78" value="<?=$url['NMTA']['ind']?>"><?=$url['NMTA']['name']?></option>
+                    <option class="78" value="<?=$url['SAMBA']['ind']?>"><?=$url['SAMBA']['name']?></option>
+                    <option class="78" value="<?=$url['TCMBA']['ind']?>"><?=$url['TCMBA']['name']?></option>
                 <option class="78" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Mississippi Retailer -->
                 <option class="79" value="99">Please Select</option>
@@ -1720,13 +1893,13 @@ $state_list = array('AL'=>"Alabama",
                 <option class="45" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- North Carolina -->
                 <option class="20" value="99">Please Select</option>
-                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
+                    <option class="20" value="<?=$url['Cape Fear SORBA']['ind']?>"><?=$url['Cape Fear SORBA']['name']?></option>
                     <option class="20" value="<?=$url['GFTS']['ind']?>"><?=$url['GFTS']['name']?></option>
                     <option class="20" value="<?=$url['NAS']['ind']?>"><?=$url['NAS']['name']?></option>
                     <option class="20" value="<?=$url['NWNC-MTBA']['ind']?>"><?=$url['NWNC-MTBA']['name']?></option>
-                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Pisgah Area SORBA (PAS)'?>">Pisgah Area SORBA (PAS)</option>
-                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Triangle Off-Road Cyclists (TORC)'?>">Triangle Off-Road Cyclists (TORC)</option>
-                    <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Tarheel Trailblazers'?>">Tarheel Trailblazers</option>
+                    <option class="20" value="<?=$url['PAS']['ind']?>"><?=$url['PAS']['name']?></option>
+                    <option class="20" value="<?=$url['TORC']['ind']?>"><?=$url['TORC']['name']?></option>
+                    <option class="20" value="<?=$url['Tarheel Trailblazers']['ind']?>"><?=$url['Tarheel Trailblazers']['name']?></option>
                 <option class="20" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- North Carolina Retailer -->
                 <option class="21" value="99">Please Select</option>
@@ -1816,10 +1989,10 @@ $state_list = array('AL'=>"Alabama",
                 <option class="51" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- South Carolina -->
                 <option class="24" value="99">Please Select</option>
-                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Augusta-GA and Aiken-SC (CSRA)'?>">Augusta-GA and Aiken-SC (CSRA)</option>
-                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Cape Fear SORBA'?>">Cape Fear SORBA</option>
+                    <option class="24" value="<?=$url['CSRA']['ind']?>"><?=$url['CSRA']['name']?></option>
+                    <option class="24" value="<?=$url['Cape Fear SORBA']['ind']?>"><?=$url['Cape Fear SORBA']['name']?></option>
                     <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Gainesville SORBA'?>">Gainesville SORBA</option>
-                    <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Midlands SORBA'?>">Midlands SORBA</option>
+                    <option class="24" value="<?=$url['Midlands SORBA']['ind']?>"><?=$url['Midlands SORBA']['name']?></option>
                     <option class="24" value="<?=$url['Upstate SORBA']['ind']?>"><?=$url['Upstate SORBA']['name']?></option>
                 <option class="24" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- South Carolina Retailer -->
@@ -1832,11 +2005,11 @@ $state_list = array('AL'=>"Alabama",
                 <option class="25" value="<?=$retail_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Tennessee -->
                 <option class="0" value="99">Please Select</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Appalachian Mountain Bike Club (AMBC SORBA)'?>">Appalachian Mountain Bike Club (AMBC SORBA)</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=North Mississippi Trail Alliance (NMTA)'?>">North Mississippi Trail Alliance (NMTA)</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Chattanooga (CASA)'?>">SORBA Chattanooga (CASA)</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Middle Tennessee'?>">SORBA Middle Tennessee</option>
-                    <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=SORBA Tri-Cities'?>">SORBA Tri-Cities</option>
+                    <option class="0" value="<?=$url['AMBC SORBA']['ind']?>"><?=$url['AMBC SORBA']['name']?></option>
+                    <option class="0" value="<?=$url['NMTA']['ind']?>"><?=$url['NMTA']['name']?></option>
+                    <option class="0" value="<?=$url['CASA']['ind']?>"><?=$url['CASA']['name']?></option>
+                    <option class="0" value="<?=$url['SORBA Middle Tennessee']['ind']?>"><?=$url['SORBA Middle Tennessee']['name']?></option>
+                    <option class="0" value="<?=$url['SORBA Tri-Cities']['ind']?>"><?=$url['SORBA Tri-Cities']['name']?></option>
                 <option class="0" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
             <!-- Tennessee Retailer -->
                 <option class="90" value="99">Please Select</option>
