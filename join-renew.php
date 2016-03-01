@@ -957,7 +957,7 @@ $url = array(
 					 'ind'    => 371,
 					 'region' => 'Southeast',
 					 'name'   => 'SORBA Orlando'),
-	'SEGA SORBA'	=> array(
+	'SEGA'	=> array(
 					 'fam'    => 372,
 					 'ind'    => 372,
 					 'region' => 'Southeast',
@@ -1591,6 +1591,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="22" value="<?=$url['GATR']['ind']?>"><?=$url['GATR']['name']?></option>
                     <option class="22" value="<?=$url['CVA']['ind']?>"><?=$url['CVA']['name']?></option>
                     <option class="22" value="<?=$url['OMBA Middle Georgia']['ind']?>"><?=$url['OMBA Middle Georgia']['name']?></option>
+                    <option class="22" value="<?=$url['Northeast Georgia SORBA']['ind']?>"><?=$url['Northeast Georgia SORBA']['name']?></option>
                     <option class="22" value="<?=$url['Northwest Georgia SORBA']['ind']?>"><?=$url['Northwest Georgia SORBA']['name']?></option>
                     <option class="22" value="<?=$url['RAMBO']['ind']?>"><?=$url['RAMBO']['name']?></option>
                     <option class="22" value="<?=$url['SORBA West Georgia']['ind']?>"><?=$url['SORBA West Georgia']['name']?></option>
