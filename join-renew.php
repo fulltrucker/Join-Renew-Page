@@ -187,11 +187,11 @@ $url = array(
 					 'ind'    => 116, 
 					 'region' => 'Great Lakes', 
 					 'name'   => 'Potawatomi Mountain Bike Association (Poto MBA)'),
-	'RIMBA'	=> array(
+	'RKE IMBA'	=> array(
 					 'fam'    => 147, 
 					 'ind'    => 148, 
 					 'region' => 'Atlantic', 
-					 'name'   => 'Roanoke IMBA (RIMBA)'),
+					 'name'   => 'Roanoke IMBA (RKE IMBA)'),
 	'SIMBA'	=> array(
 					 'fam'    => 135, 
 					 'ind'    => 136, 
@@ -2084,7 +2084,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="26" value="<?=$url['GLOC']['ind']?>"><?=$url['GLOC']['name']?></option>
                     <option class="26" value="<?=$url['MORE']['ind']?>"><?=$url['MORE']['name']?></option>
                     <option class="26" value="<?=$url['RA-MORE']['ind']?>"><?=$url['RA-MORE']['name']?></option>
-                    <option class="26" value="<?=$url['RIMBA']['ind']?>"><?=$url['RIMBA']['name']?></option>
+                    <option class="26" value="<?=$url['RKE IMBA']['ind']?>"><?=$url['RKE IMBA']['name']?></option>
                     <option class="26" value="<?=$url['SVMBA']['ind']?>"><?=$url['SVMBA']['name']?></option>
                 <option class="26" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Virginia Retailer -->
@@ -2094,7 +2094,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Greater Lynchburg Off-Road Cyclists (GLOC)'?>">Greater Lynchburg Off-Road Cyclists (GLOC)</option>
                     <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Mid-Atlantic Off-Road Enthusiasts (MORE)'?>">Mid-Atlantic Off-Road Enthusiasts (MORE)</option>
                     <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=RVA MORE'?>">RVA MORE</option>
-                    <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Roanoke IMBA (RIMBA)'?>">Roanoke IMBA (RIMBA)</option>
+                    <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Roanoke IMBA (RKE IMBA)'?>">Roanoke IMBA (RKE IMBA)</option>
                     <option class="27" value="<?=$retail_url . '&custom_76=Atlantic&custom_77=Southern Virginia Mountain Bike Association (SVMBA)'?>">Southern Virginia Mountain Bike Association (SVMBA)</option>
                 <option class="27" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Washington -->
