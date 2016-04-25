@@ -1692,12 +1692,14 @@ $state_list = array('AL'=>"Alabama",
                     <option class="60" value="<?=$url['CILTA']['ind']?>"><?=$url['CILTA']['name']?></option>
                     <option class="60" value="<?=$url['CAMBr']['ind']?>"><?=$url['CAMBr']['name']?></option>
                     <option class="60" value="<?=$url['RAMBA-IL']['ind']?>"><?=$url['RAMBA-IL']['name']?></option>
+                    <option class="60" value="<?=$url['SEWTA']['ind']?>"><?=$url['SEWTA']['name']?></option>
                 <option class="60" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Illinois Retailer -->
                 <option class="61" value="99">Please Select</option>
                     <option class="61" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Central Illinois Trails Association (CILTA)'?>">Central Illinois Trails Association (CILTA)</option>
                     <option class="61" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Chicago Area Mountain Bikers (CAMBr)'?>">Chicago Area Mountain Bikers (CAMBr)</option>
                     <option class="61" value="<?=$retail_url . '&custom_76=Great Lakes&custom_77=Rockford Area Mountain Biking Alliance (RAMBA)'?>">Rockford Area Mountain Biking Alliance (RAMBA)</option>
+                    <option class="61" value="<?=$retail_url . '&custom_76=Midwest&custom_77=Southeast Wisconsin Trails Alliance (SEWTA)'?>">Southeast Wisconsin Trails Alliance (SEWTA)</option>
                 <option class="61" value="<?=$retail_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Iowa -->
                 <option class="28" value="99">Please Select</option>
