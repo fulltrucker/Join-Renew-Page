@@ -812,7 +812,7 @@ $url = array(
 					 'ind'    => 341,
 					 'region' => 'Southeast',
 					 'name'   => 'Upstate SORBA'),
-	'SAMBA'	=> array(
+	'SAMBA-AL'	=> array(
 					 'fam'    => 389,
 					 'ind'    => 389,
 					 'region' => 'Southeast',
@@ -1438,7 +1438,7 @@ $state_list = array('AL'=>"Alabama",
                     <option class="12" value="<?=$url['SORBA Huntsville']['ind']?>"><?=$url['SORBA Huntsville']['name']?></option>
                     <option class="12" value="<?=$url['CVA']['ind']?>"><?=$url['CVA']['name']?></option>
                     <option class="12" value="<?=$url['NEABA']['ind']?>"><?=$url['NEABA']['name']?></option>
-                    <option class="12" value="<?=$url['SAMBA']['ind']?>"><?=$url['SAMBA']['name']?></option>
+                    <option class="12" value="<?=$url['SAMBA-AL']['ind']?>"><?=$url['SAMBA-AL']['name']?></option>
                     <option class="12" value="<?=$url['SAM-SORBA']['ind']?>"><?=$url['SAM-SORBA']['name']?></option>
                     <option class="12" value="<?=$url['WAMBA']['ind']?>"><?=$url['WAMBA']['name']?></option>
                 <option class="12" value="<?=$sorba_ind_url . '&custom_76=Southeast&custom_77=Unassigned'?>">I don't have a local chapter or my club is not listed</option>
@@ -1828,7 +1828,7 @@ $state_list = array('AL'=>"Alabama",
             <!-- Mississippi -->
                 <option class="78" value="99">Please Select</option>
                     <option class="78" value="<?=$url['NMTA']['ind']?>"><?=$url['NMTA']['name']?></option>
-                    <option class="78" value="<?=$url['SAMBA']['ind']?>"><?=$url['SAMBA']['name']?></option>
+                    <option class="78" value="<?=$url['SAMBA-AL']['ind']?>"><?=$url['SAMBA-AL']['name']?></option>
                     <option class="78" value="<?=$url['TCMBA']['ind']?>"><?=$url['TCMBA']['name']?></option>
                 <option class="78" value="<?=$imba_ind_url?>">I don't have a local chapter or my club is not listed</option>
             <!-- Mississippi Retailer -->
